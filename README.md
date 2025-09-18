@@ -16,3 +16,4 @@ This project predicts the likelihood of heart disease using machine learning.
 conda create -n heart_ml python=3.10 -y
 conda activate heart_ml
 pip install -r requirements.txt
+
