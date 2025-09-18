@@ -1,0 +1,602 @@
+{
+  "name": "lark",
+  "version": "1.2.2",
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "lark-1.2.2-pyhd8ed1ab_1.conda",
+  "md5": "3a8063b25e603999188ed4bbf3485404",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/lark-1.2.2-pyhd8ed1ab_1.conda",
+  "sha256": "637a9c32e15a4333f1f9c91e0a506dbab4a6dab7ee83e126951159c916c81c99",
+  "depends": [
+    "python >=3.9"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "MIT",
+  "package_type": "noarch_python",
+  "timestamp": 1734709450000,
+  "size": 92093,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\lark-1.2.2-pyhd8ed1ab_1.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\lark-1.2.2-pyhd8ed1ab_1",
+  "files": [
+    "Lib/site-packages/lark-1.2.2.dist-info/INSTALLER",
+    "Lib/site-packages/lark-1.2.2.dist-info/LICENSE",
+    "Lib/site-packages/lark-1.2.2.dist-info/METADATA",
+    "Lib/site-packages/lark-1.2.2.dist-info/RECORD",
+    "Lib/site-packages/lark-1.2.2.dist-info/REQUESTED",
+    "Lib/site-packages/lark-1.2.2.dist-info/WHEEL",
+    "Lib/site-packages/lark-1.2.2.dist-info/direct_url.json",
+    "Lib/site-packages/lark-1.2.2.dist-info/entry_points.txt",
+    "Lib/site-packages/lark-1.2.2.dist-info/top_level.txt",
+    "Lib/site-packages/lark/__init__.py",
+    "Lib/site-packages/lark/__pyinstaller/__init__.py",
+    "Lib/site-packages/lark/__pyinstaller/hook-lark.py",
+    "Lib/site-packages/lark/ast_utils.py",
+    "Lib/site-packages/lark/common.py",
+    "Lib/site-packages/lark/exceptions.py",
+    "Lib/site-packages/lark/grammar.py",
+    "Lib/site-packages/lark/grammars/__init__.py",
+    "Lib/site-packages/lark/grammars/common.lark",
+    "Lib/site-packages/lark/grammars/lark.lark",
+    "Lib/site-packages/lark/grammars/python.lark",
+    "Lib/site-packages/lark/grammars/unicode.lark",
+    "Lib/site-packages/lark/indenter.py",
+    "Lib/site-packages/lark/lark.py",
+    "Lib/site-packages/lark/lexer.py",
+    "Lib/site-packages/lark/load_grammar.py",
+    "Lib/site-packages/lark/parse_tree_builder.py",
+    "Lib/site-packages/lark/parser_frontends.py",
+    "Lib/site-packages/lark/parsers/__init__.py",
+    "Lib/site-packages/lark/parsers/cyk.py",
+    "Lib/site-packages/lark/parsers/earley.py",
+    "Lib/site-packages/lark/parsers/earley_common.py",
+    "Lib/site-packages/lark/parsers/earley_forest.py",
+    "Lib/site-packages/lark/parsers/grammar_analysis.py",
+    "Lib/site-packages/lark/parsers/lalr_analysis.py",
+    "Lib/site-packages/lark/parsers/lalr_interactive_parser.py",
+    "Lib/site-packages/lark/parsers/lalr_parser.py",
+    "Lib/site-packages/lark/parsers/lalr_parser_state.py",
+    "Lib/site-packages/lark/parsers/xearley.py",
+    "Lib/site-packages/lark/py.typed",
+    "Lib/site-packages/lark/reconstruct.py",
+    "Lib/site-packages/lark/tools/__init__.py",
+    "Lib/site-packages/lark/tools/nearley.py",
+    "Lib/site-packages/lark/tools/serialize.py",
+    "Lib/site-packages/lark/tools/standalone.py",
+    "Lib/site-packages/lark/tree.py",
+    "Lib/site-packages/lark/tree_matcher.py",
+    "Lib/site-packages/lark/tree_templates.py",
+    "Lib/site-packages/lark/utils.py",
+    "Lib/site-packages/lark/visitors.py",
+    "Lib/site-packages/lark/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/lark/__pyinstaller/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/lark/__pyinstaller/__pycache__/hook-lark.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/ast_utils.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/common.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/exceptions.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/grammar.cpython-310.pyc",
+    "Lib/site-packages/lark/grammars/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/indenter.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/lark.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/lexer.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/load_grammar.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/parse_tree_builder.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/parser_frontends.cpython-310.pyc",
+    "Lib/site-packages/lark/parsers/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/lark/parsers/__pycache__/cyk.cpython-310.pyc",
+    "Lib/site-packages/lark/parsers/__pycache__/earley.cpython-310.pyc",
+    "Lib/site-packages/lark/parsers/__pycache__/earley_common.cpython-310.pyc",
+    "Lib/site-packages/lark/parsers/__pycache__/earley_forest.cpython-310.pyc",
+    "Lib/site-packages/lark/parsers/__pycache__/grammar_analysis.cpython-310.pyc",
+    "Lib/site-packages/lark/parsers/__pycache__/lalr_analysis.cpython-310.pyc",
+    "Lib/site-packages/lark/parsers/__pycache__/lalr_interactive_parser.cpython-310.pyc",
+    "Lib/site-packages/lark/parsers/__pycache__/lalr_parser.cpython-310.pyc",
+    "Lib/site-packages/lark/parsers/__pycache__/lalr_parser_state.cpython-310.pyc",
+    "Lib/site-packages/lark/parsers/__pycache__/xearley.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/reconstruct.cpython-310.pyc",
+    "Lib/site-packages/lark/tools/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/lark/tools/__pycache__/nearley.cpython-310.pyc",
+    "Lib/site-packages/lark/tools/__pycache__/serialize.cpython-310.pyc",
+    "Lib/site-packages/lark/tools/__pycache__/standalone.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/tree.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/tree_matcher.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/tree_templates.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/utils.cpython-310.pyc",
+    "Lib/site-packages/lark/__pycache__/visitors.cpython-310.pyc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/lark-1.2.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "site-packages/lark-1.2.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "2eee60f52d4e11357bf89e72b034d050e285e47fda1361e5662fb322ee27d771",
+        "size_in_bytes": 1055,
+        "sha256_in_prefix": "2eee60f52d4e11357bf89e72b034d050e285e47fda1361e5662fb322ee27d771"
+      },
+      {
+        "_path": "site-packages/lark-1.2.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3642e1760191d9208c0670044fb2583347713474ed73d4283c47d345eeb253e6",
+        "size_in_bytes": 1826,
+        "sha256_in_prefix": "3642e1760191d9208c0670044fb2583347713474ed73d4283c47d345eeb253e6"
+      },
+      {
+        "_path": "site-packages/lark-1.2.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "fdb0b1edc71147cbe86d0d3412fd6f54ef1f2e32ae9a0154299cd0a653e6d15a",
+        "size_in_bytes": 5690,
+        "sha256_in_prefix": "fdb0b1edc71147cbe86d0d3412fd6f54ef1f2e32ae9a0154299cd0a653e6d15a"
+      },
+      {
+        "_path": "site-packages/lark-1.2.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/lark-1.2.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5"
+      },
+      {
+        "_path": "site-packages/lark-1.2.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "186e5e7a11325cea375021fb57f32fe02f73c844508c7c93b5cae241ec22fbde",
+        "size_in_bytes": 100,
+        "sha256_in_prefix": "186e5e7a11325cea375021fb57f32fe02f73c844508c7c93b5cae241ec22fbde"
+      },
+      {
+        "_path": "site-packages/lark-1.2.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "597620fee0947459714033d48658b71c56a1dfb6cd34541f5cb7730aab1a7062",
+        "size_in_bytes": 61,
+        "sha256_in_prefix": "597620fee0947459714033d48658b71c56a1dfb6cd34541f5cb7730aab1a7062"
+      },
+      {
+        "_path": "site-packages/lark-1.2.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7724ba8e0f210871e45d6bec7dc20c3bcae396ffdb773031884d25924cc9e619",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "7724ba8e0f210871e45d6bec7dc20c3bcae396ffdb773031884d25924cc9e619"
+      },
+      {
+        "_path": "site-packages/lark/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6dcd2d2bb87b5f01c0f98e2f55e268348a92300f8c1d54e286af32cbbf79597a",
+        "size_in_bytes": 744,
+        "sha256_in_prefix": "6dcd2d2bb87b5f01c0f98e2f55e268348a92300f8c1d54e286af32cbbf79597a"
+      },
+      {
+        "_path": "site-packages/lark/__pyinstaller/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fcfa459b8e1ffe6c07942a6f620bfd660b9b2df3437373e578f562af8b3145f2",
+        "size_in_bytes": 182,
+        "sha256_in_prefix": "fcfa459b8e1ffe6c07942a6f620bfd660b9b2df3437373e578f562af8b3145f2"
+      },
+      {
+        "_path": "site-packages/lark/__pyinstaller/hook-lark.py",
+        "path_type": "hardlink",
+        "sha256": "e5a1478995951cf45d1d3f2a9dbe245b82523aa9791aeb07a1d1d1db9feaf6c5",
+        "size_in_bytes": 599,
+        "sha256_in_prefix": "e5a1478995951cf45d1d3f2a9dbe245b82523aa9791aeb07a1d1d1db9feaf6c5"
+      },
+      {
+        "_path": "site-packages/lark/ast_utils.py",
+        "path_type": "hardlink",
+        "sha256": "8f09f8e2870d4216466df705b04667c22fe01af3db360ce343ed11b84b700f32",
+        "size_in_bytes": 2117,
+        "sha256_in_prefix": "8f09f8e2870d4216466df705b04667c22fe01af3db360ce343ed11b84b700f32"
+      },
+      {
+        "_path": "site-packages/lark/common.py",
+        "path_type": "hardlink",
+        "sha256": "33df8214050fdfef8e91fb72c968e47be29cd7ea5031ccd3d4c96e1c2170772e",
+        "size_in_bytes": 3008,
+        "sha256_in_prefix": "33df8214050fdfef8e91fb72c968e47be29cd7ea5031ccd3d4c96e1c2170772e"
+      },
+      {
+        "_path": "site-packages/lark/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "83beb280c3df48c97aba42aa140655a51d840094ce39dc9f27f00b5dcfcc091f",
+        "size_in_bytes": 10939,
+        "sha256_in_prefix": "83beb280c3df48c97aba42aa140655a51d840094ce39dc9f27f00b5dcfcc091f"
+      },
+      {
+        "_path": "site-packages/lark/grammar.py",
+        "path_type": "hardlink",
+        "sha256": "0d1d7b4122d228246130eab1d94421e27f98c2ee020fec23750c6db8cf0e1e46",
+        "size_in_bytes": 3665,
+        "sha256_in_prefix": "0d1d7b4122d228246130eab1d94421e27f98c2ee020fec23750c6db8cf0e1e46"
+      },
+      {
+        "_path": "site-packages/lark/grammars/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/lark/grammars/common.lark",
+        "path_type": "hardlink",
+        "sha256": "155f711883e23ea1d133850b0313fa8c0a5745356c4b06ce7baf7b23db3b0cbb",
+        "size_in_bytes": 885,
+        "sha256_in_prefix": "155f711883e23ea1d133850b0313fa8c0a5745356c4b06ce7baf7b23db3b0cbb"
+      },
+      {
+        "_path": "site-packages/lark/grammars/lark.lark",
+        "path_type": "hardlink",
+        "sha256": "9ead4d4d962a9bf0cf2369a344896977765cc4f8c685aa40e0653391c7c14d0b",
+        "size_in_bytes": 1541,
+        "sha256_in_prefix": "9ead4d4d962a9bf0cf2369a344896977765cc4f8c685aa40e0653391c7c14d0b"
+      },
+      {
+        "_path": "site-packages/lark/grammars/python.lark",
+        "path_type": "hardlink",
+        "sha256": "58c6a44e4a730aa39dd2352360e348dcb3a74b2d8a44df4da0bf6916d0196022",
+        "size_in_bytes": 10641,
+        "sha256_in_prefix": "58c6a44e4a730aa39dd2352360e348dcb3a74b2d8a44df4da0bf6916d0196022"
+      },
+      {
+        "_path": "site-packages/lark/grammars/unicode.lark",
+        "path_type": "hardlink",
+        "sha256": "77d602cf45d68a6765e05f0ce580a9b5abc17051bd0f9f1877868cc318d8b442",
+        "size_in_bytes": 96,
+        "sha256_in_prefix": "77d602cf45d68a6765e05f0ce580a9b5abc17051bd0f9f1877868cc318d8b442"
+      },
+      {
+        "_path": "site-packages/lark/indenter.py",
+        "path_type": "hardlink",
+        "sha256": "2f9b8d0d850c36b93865358a996d13bbe1fedc6184acb387ca0302df637fb701",
+        "size_in_bytes": 4221,
+        "sha256_in_prefix": "2f9b8d0d850c36b93865358a996d13bbe1fedc6184acb387ca0302df637fb701"
+      },
+      {
+        "_path": "site-packages/lark/lark.py",
+        "path_type": "hardlink",
+        "sha256": "fc81d6993c6de3791f77d79856dc31e7ccc459648502af7f80a1fb39ebb93d9b",
+        "size_in_bytes": 28184,
+        "sha256_in_prefix": "fc81d6993c6de3791f77d79856dc31e7ccc459648502af7f80a1fb39ebb93d9b"
+      },
+      {
+        "_path": "site-packages/lark/lexer.py",
+        "path_type": "hardlink",
+        "sha256": "3b08103c2a50faf522fb669e673b6cc9d7780cb9048026d97ae72f10fbc7162e",
+        "size_in_bytes": 24037,
+        "sha256_in_prefix": "3b08103c2a50faf522fb669e673b6cc9d7780cb9048026d97ae72f10fbc7162e"
+      },
+      {
+        "_path": "site-packages/lark/load_grammar.py",
+        "path_type": "hardlink",
+        "sha256": "598643c723baa26840f0d2b232349c91f00cc152ae20c1779628985c4ffe907a",
+        "size_in_bytes": 53946,
+        "sha256_in_prefix": "598643c723baa26840f0d2b232349c91f00cc152ae20c1779628985c4ffe907a"
+      },
+      {
+        "_path": "site-packages/lark/parse_tree_builder.py",
+        "path_type": "hardlink",
+        "sha256": "8d3ff78021240466684d70164a784c9f5911b8920b581f84ed791472260d1c8e",
+        "size_in_bytes": 14412,
+        "sha256_in_prefix": "8d3ff78021240466684d70164a784c9f5911b8920b581f84ed791472260d1c8e"
+      },
+      {
+        "_path": "site-packages/lark/parser_frontends.py",
+        "path_type": "hardlink",
+        "sha256": "9b1317c6ec768647d37c4f39f70b95a78f85af59e8e9854452df2da038c474f4",
+        "size_in_bytes": 10165,
+        "sha256_in_prefix": "9b1317c6ec768647d37c4f39f70b95a78f85af59e8e9854452df2da038c474f4"
+      },
+      {
+        "_path": "site-packages/lark/parsers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/lark/parsers/cyk.py",
+        "path_type": "hardlink",
+        "sha256": "73718b93792adb75f06fc32a50e8ef8afc0fe3cf0a258e8d516831a9e479f7cd",
+        "size_in_bytes": 12192,
+        "sha256_in_prefix": "73718b93792adb75f06fc32a50e8ef8afc0fe3cf0a258e8d516831a9e479f7cd"
+      },
+      {
+        "_path": "site-packages/lark/parsers/earley.py",
+        "path_type": "hardlink",
+        "sha256": "d37b16f6f7c191c1f8351ef6101b7c1e49dd0ca495487dc87519c3ba55d6cb6e",
+        "size_in_bytes": 15117,
+        "sha256_in_prefix": "d37b16f6f7c191c1f8351ef6101b7c1e49dd0ca495487dc87519c3ba55d6cb6e"
+      },
+      {
+        "_path": "site-packages/lark/parsers/earley_common.py",
+        "path_type": "hardlink",
+        "sha256": "7b67ba36b36e730f96322355f07a90fd3a46c7a3fbbff4bc7f9684705d1392aa",
+        "size_in_bytes": 1620,
+        "sha256_in_prefix": "7b67ba36b36e730f96322355f07a90fd3a46c7a3fbbff4bc7f9684705d1392aa"
+      },
+      {
+        "_path": "site-packages/lark/parsers/earley_forest.py",
+        "path_type": "hardlink",
+        "sha256": "c382536f8b5531ec2e7bc74bfa008ef7af94a34c1de016d051f49f221afbb716",
+        "size_in_bytes": 31332,
+        "sha256_in_prefix": "c382536f8b5531ec2e7bc74bfa008ef7af94a34c1de016d051f49f221afbb716"
+      },
+      {
+        "_path": "site-packages/lark/parsers/grammar_analysis.py",
+        "path_type": "hardlink",
+        "sha256": "ad0e129fd10ff208d719365712258b5b4281c8f3e978aa4de6148841980d9772",
+        "size_in_bytes": 7141,
+        "sha256_in_prefix": "ad0e129fd10ff208d719365712258b5b4281c8f3e978aa4de6148841980d9772"
+      },
+      {
+        "_path": "site-packages/lark/parsers/lalr_analysis.py",
+        "path_type": "hardlink",
+        "sha256": "0c61c5936b4896e23278511515fb0c454efb0d56dde7df082675143973b4e32a",
+        "size_in_bytes": 12207,
+        "sha256_in_prefix": "0c61c5936b4896e23278511515fb0c454efb0d56dde7df082675143973b4e32a"
+      },
+      {
+        "_path": "site-packages/lark/parsers/lalr_interactive_parser.py",
+        "path_type": "hardlink",
+        "sha256": "2ec81f4f581d9def295c74c2b0de9b97acc3e8f761d9d0eaa75ac858ece9ed8c",
+        "size_in_bytes": 5757,
+        "sha256_in_prefix": "2ec81f4f581d9def295c74c2b0de9b97acc3e8f761d9d0eaa75ac858ece9ed8c"
+      },
+      {
+        "_path": "site-packages/lark/parsers/lalr_parser.py",
+        "path_type": "hardlink",
+        "sha256": "e94f233f502552cb86c6024158cab5e56b86bb26a896c2cf7af71ff0767fcd99",
+        "size_in_bytes": 4586,
+        "sha256_in_prefix": "e94f233f502552cb86c6024158cab5e56b86bb26a896c2cf7af71ff0767fcd99"
+      },
+      {
+        "_path": "site-packages/lark/parsers/lalr_parser_state.py",
+        "path_type": "hardlink",
+        "sha256": "419d76a780adbdcbc5008288aa4783049620114de7b509650490d85dbe35f65b",
+        "size_in_bytes": 3793,
+        "sha256_in_prefix": "419d76a780adbdcbc5008288aa4783049620114de7b509650490d85dbe35f65b"
+      },
+      {
+        "_path": "site-packages/lark/parsers/xearley.py",
+        "path_type": "hardlink",
+        "sha256": "0dba1730db6e3741be497aeb0e6e738140d47a4cfce61d118a1d8f46f71fd4b3",
+        "size_in_bytes": 7825,
+        "sha256_in_prefix": "0dba1730db6e3741be497aeb0e6e738140d47a4cfce61d118a1d8f46f71fd4b3"
+      },
+      {
+        "_path": "site-packages/lark/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/lark/reconstruct.py",
+        "path_type": "hardlink",
+        "sha256": "b3b09ebc15dc8541bf7deda8b5d0084f121a4970842224a3cb849b879402d21b",
+        "size_in_bytes": 3763,
+        "sha256_in_prefix": "b3b09ebc15dc8541bf7deda8b5d0084f121a4970842224a3cb849b879402d21b"
+      },
+      {
+        "_path": "site-packages/lark/tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "15e2989955235d2b7ebe5426da4b725a473168e0933a46671c3fe43945a352e0",
+        "size_in_bytes": 2469,
+        "sha256_in_prefix": "15e2989955235d2b7ebe5426da4b725a473168e0933a46671c3fe43945a352e0"
+      },
+      {
+        "_path": "site-packages/lark/tools/nearley.py",
+        "path_type": "hardlink",
+        "sha256": "41a2d8756ea6610743abc24a322b15de5bcfab3174c0f82ef2af01b6c480df78",
+        "size_in_bytes": 6265,
+        "sha256_in_prefix": "41a2d8756ea6610743abc24a322b15de5bcfab3174c0f82ef2af01b6c480df78"
+      },
+      {
+        "_path": "site-packages/lark/tools/serialize.py",
+        "path_type": "hardlink",
+        "sha256": "9f0b78e8b3719039b44ff521f64db04b87dc7e0bd9436772e3e602fda2a14d09",
+        "size_in_bytes": 965,
+        "sha256_in_prefix": "9f0b78e8b3719039b44ff521f64db04b87dc7e0bd9436772e3e602fda2a14d09"
+      },
+      {
+        "_path": "site-packages/lark/tools/standalone.py",
+        "path_type": "hardlink",
+        "sha256": "e9e5c3a81bb3652a44e411999bf161e97e7246100f631355ca5d9a514dc00730",
+        "size_in_bytes": 5627,
+        "sha256_in_prefix": "e9e5c3a81bb3652a44e411999bf161e97e7246100f631355ca5d9a514dc00730"
+      },
+      {
+        "_path": "site-packages/lark/tree.py",
+        "path_type": "hardlink",
+        "sha256": "69658731ace277c6db25a9e19828caf572b68d1149e8de969a5c172464eccf6f",
+        "size_in_bytes": 8522,
+        "sha256_in_prefix": "69658731ace277c6db25a9e19828caf572b68d1149e8de969a5c172464eccf6f"
+      },
+      {
+        "_path": "site-packages/lark/tree_matcher.py",
+        "path_type": "hardlink",
+        "sha256": "8c7759260827e34e525e63e919ff54f472ebaec7cfe1e34d65a8f6ebb513074d",
+        "size_in_bytes": 6003,
+        "sha256_in_prefix": "8c7759260827e34e525e63e919ff54f472ebaec7cfe1e34d65a8f6ebb513074d"
+      },
+      {
+        "_path": "site-packages/lark/tree_templates.py",
+        "path_type": "hardlink",
+        "sha256": "b129dfc359bcb7102424e621710ae8a06ef16a357256996e9f34e736cc58ef6d",
+        "size_in_bytes": 6139,
+        "sha256_in_prefix": "b129dfc359bcb7102424e621710ae8a06ef16a357256996e9f34e736cc58ef6d"
+      },
+      {
+        "_path": "site-packages/lark/utils.py",
+        "path_type": "hardlink",
+        "sha256": "dea775f9cd1880762496fc75840dbca85ecdfd3cb5673e936ed08533341a9cd9",
+        "size_in_bytes": 11270,
+        "sha256_in_prefix": "dea775f9cd1880762496fc75840dbca85ecdfd3cb5673e936ed08533341a9cd9"
+      },
+      {
+        "_path": "site-packages/lark/visitors.py",
+        "path_type": "hardlink",
+        "sha256": "549dd3d66f29efc3305c9a2da4e02f9f4ea6604a8acae22586c005e7553e6b7c",
+        "size_in_bytes": 21422,
+        "sha256_in_prefix": "549dd3d66f29efc3305c9a2da4e02f9f4ea6604a8acae22586c005e7553e6b7c"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pyinstaller/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pyinstaller/__pycache__/hook-lark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/ast_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/common.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/exceptions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/grammar.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/grammars/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/indenter.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/lark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/lexer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/load_grammar.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/parse_tree_builder.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/parser_frontends.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/parsers/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/parsers/__pycache__/cyk.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/parsers/__pycache__/earley.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/parsers/__pycache__/earley_common.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/parsers/__pycache__/earley_forest.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/parsers/__pycache__/grammar_analysis.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/parsers/__pycache__/lalr_analysis.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/parsers/__pycache__/lalr_interactive_parser.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/parsers/__pycache__/lalr_parser.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/parsers/__pycache__/lalr_parser_state.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/parsers/__pycache__/xearley.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/reconstruct.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/tools/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/tools/__pycache__/nearley.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/tools/__pycache__/serialize.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/tools/__pycache__/standalone.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/tree.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/tree_matcher.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/tree_templates.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/lark/__pycache__/visitors.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\lark-1.2.2-pyhd8ed1ab_1",
+    "type": 1
+  }
+}

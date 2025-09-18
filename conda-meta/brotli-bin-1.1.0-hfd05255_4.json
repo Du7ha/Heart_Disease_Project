@@ -1,0 +1,45 @@
+{
+  "name": "brotli-bin",
+  "version": "1.1.0",
+  "build": "hfd05255_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "win-64",
+  "fn": "brotli-bin-1.1.0-hfd05255_4.conda",
+  "md5": "ef022c8941d7dcc420c8533b0e419733",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/brotli-bin-1.1.0-hfd05255_4.conda",
+  "sha256": "e92c783502d95743b49b650c9276e9c56c7264da55429a5e45655150a6d1b0cf",
+  "depends": [
+    "libbrotlidec 1.1.0 hfd05255_4",
+    "libbrotlienc 1.1.0 hfd05255_4",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1756599802000,
+  "size": 21425,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\brotli-bin-1.1.0-hfd05255_4.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\brotli-bin-1.1.0-hfd05255_4",
+  "files": [
+    "Library/bin/brotli.exe"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/brotli.exe",
+        "path_type": "hardlink",
+        "sha256": "4b1a00b9844a592cb0004fa2f8a846822d6a6440b05e6337ea004840eb7adc43",
+        "size_in_bytes": 28672,
+        "sha256_in_prefix": "4b1a00b9844a592cb0004fa2f8a846822d6a6440b05e6337ea004840eb7adc43"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\brotli-bin-1.1.0-hfd05255_4",
+    "type": 1
+  }
+}

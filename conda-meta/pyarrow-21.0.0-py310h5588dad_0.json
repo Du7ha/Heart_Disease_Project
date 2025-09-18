@@ -1,0 +1,37 @@
+{
+  "name": "pyarrow",
+  "version": "21.0.0",
+  "build": "py310h5588dad_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "win-64",
+  "fn": "pyarrow-21.0.0-py310h5588dad_0.conda",
+  "md5": "ae787cb8f3c48d930f1b9673eb290b3b",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pyarrow-21.0.0-py310h5588dad_0.conda",
+  "sha256": "b6e11384d412f480303e95082e73f0651a1cdb93a67b89167c0698453a901dc9",
+  "depends": [
+    "libarrow-acero 21.0.0.*",
+    "libarrow-dataset 21.0.0.*",
+    "libarrow-substrait 21.0.0.*",
+    "libparquet 21.0.0.*",
+    "pyarrow-core 21.0.0 *_0_*",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1753372495000,
+  "size": 26493,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\pyarrow-21.0.0-py310h5588dad_0.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\pyarrow-21.0.0-py310h5588dad_0",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\pyarrow-21.0.0-py310h5588dad_0",
+    "type": 1
+  }
+}

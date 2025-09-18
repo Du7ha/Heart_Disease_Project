@@ -1,0 +1,144 @@
+{
+  "name": "zstandard",
+  "version": "0.25.0",
+  "build": "py310h1637853_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "win-64",
+  "fn": "zstandard-0.25.0-py310h1637853_0.conda",
+  "md5": "b45df16a296e7127a14dd9362103b80b",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/zstandard-0.25.0-py310h1637853_0.conda",
+  "sha256": "1bc80de45c577d2a80afb056a52b873f795ce3ed3d131d44a7320dd82835b8f0",
+  "depends": [
+    "python",
+    "cffi >=1.11",
+    "zstd >=1.5.7,<1.5.8.0a0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208",
+    "ucrt >=10.0.20348.0",
+    "python_abi 3.10.* *_cp310",
+    "zstd >=1.5.7,<1.6.0a0"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1757930140000,
+  "size": 364179,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\zstandard-0.25.0-py310h1637853_0.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\zstandard-0.25.0-py310h1637853_0",
+  "files": [
+    "Lib/site-packages/zstandard/__init__.py",
+    "Lib/site-packages/zstandard/__init__.pyi",
+    "Lib/site-packages/zstandard/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/zstandard/__pycache__/backend_cffi.cpython-310.pyc",
+    "Lib/site-packages/zstandard/_cffi.cp310-win_amd64.pyd",
+    "Lib/site-packages/zstandard/backend_c.cp310-win_amd64.pyd",
+    "Lib/site-packages/zstandard/backend_cffi.py",
+    "Lib/site-packages/zstandard/py.typed",
+    "Lib/site-packages/zstandard-0.25.0-py3.10.egg-info/PKG-INFO",
+    "Lib/site-packages/zstandard-0.25.0-py3.10.egg-info/SOURCES.txt",
+    "Lib/site-packages/zstandard-0.25.0-py3.10.egg-info/dependency_links.txt",
+    "Lib/site-packages/zstandard-0.25.0-py3.10.egg-info/requires.txt",
+    "Lib/site-packages/zstandard-0.25.0-py3.10.egg-info/top_level.txt"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/zstandard/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5dd909e0b60a946a0b08deaf57545d17dc044f5df4040beec55f7ef6c6fecd11",
+        "size_in_bytes": 7235,
+        "sha256_in_prefix": "5dd909e0b60a946a0b08deaf57545d17dc044f5df4040beec55f7ef6c6fecd11"
+      },
+      {
+        "_path": "Lib/site-packages/zstandard/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "8f9f3d95bde368d7483c73a28c24fadc14df69673f145703346d3d327ac8a030",
+        "size_in_bytes": 13973,
+        "sha256_in_prefix": "8f9f3d95bde368d7483c73a28c24fadc14df69673f145703346d3d327ac8a030"
+      },
+      {
+        "_path": "Lib/site-packages/zstandard/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4abebf90ae7b167548add95f7b90025f66fccdd168d3a8b898038f4277bd2816",
+        "size_in_bytes": 5156,
+        "sha256_in_prefix": "4abebf90ae7b167548add95f7b90025f66fccdd168d3a8b898038f4277bd2816"
+      },
+      {
+        "_path": "Lib/site-packages/zstandard/__pycache__/backend_cffi.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa1def672d3469244fe0796e3438a8c5c77130dbddba44f90329159ea5a52e92",
+        "size_in_bytes": 125005,
+        "sha256_in_prefix": "aa1def672d3469244fe0796e3438a8c5c77130dbddba44f90329159ea5a52e92"
+      },
+      {
+        "_path": "Lib/site-packages/zstandard/_cffi.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "f51061fc88d19953d49544adfb3acb25bea4cc06de621910e1464164deb4415f",
+        "size_in_bytes": 667136,
+        "sha256_in_prefix": "f51061fc88d19953d49544adfb3acb25bea4cc06de621910e1464164deb4415f"
+      },
+      {
+        "_path": "Lib/site-packages/zstandard/backend_c.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "ee6f1538d9e87c966887dd8c281da3576f5eaf873ced640cb10c279c98037471",
+        "size_in_bytes": 524288,
+        "sha256_in_prefix": "ee6f1538d9e87c966887dd8c281da3576f5eaf873ced640cb10c279c98037471"
+      },
+      {
+        "_path": "Lib/site-packages/zstandard/backend_cffi.py",
+        "path_type": "hardlink",
+        "sha256": "0b268ae515d511531f1c6e76068123efb8f725b4f62484aa11e887fadc1975ce",
+        "size_in_bytes": 152627,
+        "sha256_in_prefix": "0b268ae515d511531f1c6e76068123efb8f725b4f62484aa11e887fadc1975ce"
+      },
+      {
+        "_path": "Lib/site-packages/zstandard/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/zstandard-0.25.0-py3.10.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "bbf8cb63171274854c72777372376d31d7b52447359a538c1c2b47aae49c2b3c",
+        "size_in_bytes": 3339,
+        "sha256_in_prefix": "bbf8cb63171274854c72777372376d31d7b52447359a538c1c2b47aae49c2b3c"
+      },
+      {
+        "_path": "Lib/site-packages/zstandard-0.25.0-py3.10.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "2902c4078db8dc1081804d32ed07d8472efcde5971844f7a10624f60a8224299",
+        "size_in_bytes": 2739,
+        "sha256_in_prefix": "2902c4078db8dc1081804d32ed07d8472efcde5971844f7a10624f60a8224299"
+      },
+      {
+        "_path": "Lib/site-packages/zstandard-0.25.0-py3.10.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1,
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "_path": "Lib/site-packages/zstandard-0.25.0-py3.10.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "fe92236aa62893134f8bc2970b6fbb1bd3cf028a6975c87909d831b7a8a7ae06",
+        "size_in_bytes": 187,
+        "sha256_in_prefix": "fe92236aa62893134f8bc2970b6fbb1bd3cf028a6975c87909d831b7a8a7ae06"
+      },
+      {
+        "_path": "Lib/site-packages/zstandard-0.25.0-py3.10.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "27ec23f78a4f69d6388a915a6a7ad8065acc6e53927a01184bca3f2dda20ae95",
+        "size_in_bytes": 10,
+        "sha256_in_prefix": "27ec23f78a4f69d6388a915a6a7ad8065acc6e53927a01184bca3f2dda20ae95"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\zstandard-0.25.0-py310h1637853_0",
+    "type": 1
+  }
+}

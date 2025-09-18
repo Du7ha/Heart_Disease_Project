@@ -1,0 +1,34 @@
+{
+  "name": "bleach-with-css",
+  "version": "6.2.0",
+  "build": "h82add2a_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "bleach-with-css-6.2.0-h82add2a_4.conda",
+  "md5": "a30e9406c873940383555af4c873220d",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/bleach-with-css-6.2.0-h82add2a_4.conda",
+  "sha256": "0aba699344275b3972bd751f9403316edea2ceb942db12f9f493b63c74774a46",
+  "depends": [
+    "bleach ==6.2.0 pyh29332c3_4",
+    "tinycss2"
+  ],
+  "constrains": [],
+  "noarch": "generic",
+  "license": "Apache-2.0 AND MIT",
+  "package_type": "noarch_generic",
+  "timestamp": 1737382993000,
+  "size": 4213,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\bleach-with-css-6.2.0-h82add2a_4.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\bleach-with-css-6.2.0-h82add2a_4",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\bleach-with-css-6.2.0-h82add2a_4",
+    "type": 1
+  }
+}

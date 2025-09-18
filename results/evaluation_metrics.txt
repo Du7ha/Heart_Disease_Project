@@ -1,0 +1,47 @@
+
+--- Feature Selection ---
+Top 10 RF features: ['thal_3.0', 'thalach', 'oldpeak', 'cp_4.0', 'ca_0.0', 'age', 'thal_7.0', 'chol', 'trestbps', 'exang_1.0']
+RFE selected: ['oldpeak', 'cp_3.0', 'cp_4.0', 'restecg_0.0', 'slope_1.0', 'ca_0.0', 'ca_1.0', 'ca_2.0', 'thal_3.0', 'thal_7.0']
+Chi2 selected: ['cp_3.0', 'cp_4.0', 'exang_0.0', 'exang_1.0', 'slope_1.0', 'slope_2.0', 'ca_0.0', 'ca_2.0', 'thal_3.0', 'thal_7.0']
+
+--- Supervised Learning ---
+
+Logistic Regression
+AUC: 0.941
+                   0          1  accuracy  macro avg  weighted avg
+precision   0.783784   0.869565  0.816667   0.826675      0.823815
+recall      0.906250   0.714286  0.816667   0.810268      0.816667
+f1-score    0.840580   0.784314  0.816667   0.812447      0.814322
+support    32.000000  28.000000  0.816667  60.000000     60.000000
+
+Decision Tree
+AUC: 0.763
+                   0          1  accuracy  macro avg  weighted avg
+precision   0.764706   0.769231  0.766667   0.766968      0.766817
+recall      0.812500   0.714286  0.766667   0.763393      0.766667
+f1-score    0.787879   0.740741  0.766667   0.764310      0.765881
+support    32.000000  28.000000  0.766667  60.000000     60.000000
+
+Random Forest
+AUC: 0.934
+                   0          1  accuracy  macro avg  weighted avg
+precision   0.823529   0.846154  0.833333   0.834842      0.834087
+recall      0.875000   0.785714  0.833333   0.830357      0.833333
+f1-score    0.848485   0.814815  0.833333   0.831650      0.832772
+support    32.000000  28.000000  0.833333  60.000000     60.000000
+
+SVM
+AUC: 0.952
+                   0          1  accuracy  macro avg  weighted avg
+precision   0.828571   0.880000      0.85   0.854286      0.852571
+recall      0.906250   0.785714      0.85   0.845982      0.850000
+f1-score    0.865672   0.830189      0.85   0.847930      0.849113
+support    32.000000  28.000000      0.85  60.000000     60.000000
+
+--- Unsupervised Learning ---
+KMeans ARI: 0.263
+KMeans Silhouette: 0.164
+
+--- Hyperparameter Tuning ---
+Best Params: {'clf__max_depth': None, 'clf__min_samples_leaf': 2, 'clf__min_samples_split': 10, 'clf__n_estimators': 100}
+Best CV AUC: 0.911

@@ -1,0 +1,97 @@
+{
+  "name": "libarrow-dataset",
+  "version": "21.0.0",
+  "build": "h7d8d6a5_3_cpu",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "win-64",
+  "fn": "libarrow-dataset-21.0.0-h7d8d6a5_3_cpu.conda",
+  "md5": "85a7def5661c48df0cc58669881c1a79",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libarrow-dataset-21.0.0-h7d8d6a5_3_cpu.conda",
+  "sha256": "2bca7af04919a22a4f93934883ba710395ad07f01ff258f94238e0cac687f442",
+  "depends": [
+    "libarrow 21.0.0 hb0fdb7d_3_cpu",
+    "libarrow-acero 21.0.0 h7d8d6a5_3_cpu",
+    "libarrow-compute 21.0.0 h2db994a_3_cpu",
+    "libparquet 21.0.0 h24c48c9_3_cpu",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1757792849000,
+  "size": 443006,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\libarrow-dataset-21.0.0-h7d8d6a5_3_cpu.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\libarrow-dataset-21.0.0-h7d8d6a5_3_cpu",
+  "files": [
+    "Library/bin/arrow_dataset.dll",
+    "Library/lib/arrow_dataset.lib",
+    "Library/lib/cmake/ArrowDataset/ArrowDatasetConfig.cmake",
+    "Library/lib/cmake/ArrowDataset/ArrowDatasetConfigVersion.cmake",
+    "Library/lib/cmake/ArrowDataset/ArrowDatasetTargets-release.cmake",
+    "Library/lib/cmake/ArrowDataset/ArrowDatasetTargets.cmake",
+    "Library/lib/pkgconfig/arrow-dataset.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/arrow_dataset.dll",
+        "path_type": "hardlink",
+        "sha256": "8769349206ccf399d50268ad5097a39e50f0006578c1c2f8e4336620b89f310a",
+        "size_in_bytes": 1347584,
+        "sha256_in_prefix": "8769349206ccf399d50268ad5097a39e50f0006578c1c2f8e4336620b89f310a"
+      },
+      {
+        "_path": "Library/lib/arrow_dataset.lib",
+        "path_type": "hardlink",
+        "sha256": "df60a904fcbc1647e3cfbb66f21743fd2156dc0075dcac4067ee88323ff7a6f6",
+        "size_in_bytes": 413512,
+        "sha256_in_prefix": "df60a904fcbc1647e3cfbb66f21743fd2156dc0075dcac4067ee88323ff7a6f6"
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowDataset/ArrowDatasetConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "8e48a28a1466851ef93501feacac15d200a476896f3177cfbc1e631be2f377c6",
+        "size_in_bytes": 2864,
+        "sha256_in_prefix": "8e48a28a1466851ef93501feacac15d200a476896f3177cfbc1e631be2f377c6"
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowDataset/ArrowDatasetConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "2615c61906248bb0814e668e0d1c50fd7b428683774777f8d7df49ef0b926788",
+        "size_in_bytes": 2830,
+        "sha256_in_prefix": "2615c61906248bb0814e668e0d1c50fd7b428683774777f8d7df49ef0b926788"
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowDataset/ArrowDatasetTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "931f40725bf9467b81959de1e849ca11d643261d91668ba53749e38df43df90a",
+        "size_in_bytes": 1034,
+        "sha256_in_prefix": "931f40725bf9467b81959de1e849ca11d643261d91668ba53749e38df43df90a"
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowDataset/ArrowDatasetTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "698a2c7ddcf8035975576853e14087500c23e4f37c2716f1a176b6f2f754ca36",
+        "size_in_bytes": 4397,
+        "sha256_in_prefix": "698a2c7ddcf8035975576853e14087500c23e4f37c2716f1a176b6f2f754ca36"
+      },
+      {
+        "_path": "Library/lib/pkgconfig/arrow-dataset.pc",
+        "prefix_placeholder": "C:/bld/apache-arrow_1757786675044/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "6b6f5773a083915d8b92067a36f4c1e3e8ff3e061e1b469d63034e0008763786",
+        "size_in_bytes": 1195,
+        "sha256_in_prefix": "633322b504bf74b573fcbc814f3f29a857561e8057164e3ea6c79f0ca2f66bc7"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\libarrow-dataset-21.0.0-h7d8d6a5_3_cpu",
+    "type": 1
+  }
+}

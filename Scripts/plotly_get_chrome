@@ -1,0 +1,9 @@
+#!/bin/sh
+'''exec' C:/Users/moham/miniconda3/envs/heart_ml/bin/python "$0" "$@"
+' '''
+import sys
+from plotly.io._kaleido import plotly_get_chrome
+if __name__ == '__main__':
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(plotly_get_chrome())

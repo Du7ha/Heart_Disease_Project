@@ -1,0 +1,35 @@
+{
+  "name": "matplotlib",
+  "version": "3.10.6",
+  "build": "py310h5588dad_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "win-64",
+  "fn": "matplotlib-3.10.6-py310h5588dad_1.conda",
+  "md5": "b63cfa192326a4c54143fe52901a6512",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/matplotlib-3.10.6-py310h5588dad_1.conda",
+  "sha256": "16e11b5c681f68ed8b47f5e75c975b73320081365b4df30ee749110fd5bae618",
+  "depends": [
+    "matplotlib-base >=3.10.6,<3.10.7.0a0",
+    "pyside6 >=6.7.2",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "tornado >=5"
+  ],
+  "constrains": [],
+  "license": "PSF-2.0",
+  "timestamp": 1756870365000,
+  "size": 17810,
+  "requested_spec": "matplotlib",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\matplotlib-3.10.6-py310h5588dad_1.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\matplotlib-3.10.6-py310h5588dad_1",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\matplotlib-3.10.6-py310h5588dad_1",
+    "type": 1
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "name": "libutf8proc",
+  "version": "2.11.0",
+  "build": "h0b34c2f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "win-64",
+  "fn": "libutf8proc-2.11.0-h0b34c2f_0.conda",
+  "md5": "0abd9826c6444cea1313424d9046c0c8",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libutf8proc-2.11.0-h0b34c2f_0.conda",
+  "sha256": "3f006d2736a1d9ba7c195f39674c098753b19f6d05458ec5dc0333ded634d3a2",
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1757743049000,
+  "size": 89218,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\libutf8proc-2.11.0-h0b34c2f_0.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\libutf8proc-2.11.0-h0b34c2f_0",
+  "files": [
+    "Library/bin/utf8proc.dll",
+    "Library/include/utf8proc.h",
+    "Library/lib/cmake/utf8proc/utf8proc-config-version.cmake",
+    "Library/lib/cmake/utf8proc/utf8proc-config.cmake",
+    "Library/lib/cmake/utf8proc/utf8proc-targets-release.cmake",
+    "Library/lib/cmake/utf8proc/utf8proc-targets.cmake",
+    "Library/lib/pkgconfig/libutf8proc.pc",
+    "Library/lib/utf8proc.lib"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/utf8proc.dll",
+        "path_type": "hardlink",
+        "sha256": "a402c1d76a396c2a2e0b00e1fb2938ee88b8d40f41be7693b377ef9bd0cc4205",
+        "size_in_bytes": 355328,
+        "sha256_in_prefix": "a402c1d76a396c2a2e0b00e1fb2938ee88b8d40f41be7693b377ef9bd0cc4205"
+      },
+      {
+        "_path": "Library/include/utf8proc.h",
+        "path_type": "hardlink",
+        "sha256": "3ec0d5c70b1171b236815a437b319163e6ada1570f4f9115bbdc497075b1b014",
+        "size_in_bytes": 33793,
+        "sha256_in_prefix": "3ec0d5c70b1171b236815a437b319163e6ada1570f4f9115bbdc497075b1b014"
+      },
+      {
+        "_path": "Library/lib/cmake/utf8proc/utf8proc-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "010a8ea1bf30d54d18917c07f6f57f9bf81411d47ee4ce70f7d2c6dd50e76d9c",
+        "size_in_bytes": 2830,
+        "sha256_in_prefix": "010a8ea1bf30d54d18917c07f6f57f9bf81411d47ee4ce70f7d2c6dd50e76d9c"
+      },
+      {
+        "_path": "Library/lib/cmake/utf8proc/utf8proc-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "a401945675d546fdb49cce47ee5b2bbc1491b11e56d765470c168ad167f5bcf0",
+        "size_in_bytes": 926,
+        "sha256_in_prefix": "a401945675d546fdb49cce47ee5b2bbc1491b11e56d765470c168ad167f5bcf0"
+      },
+      {
+        "_path": "Library/lib/cmake/utf8proc/utf8proc-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "43af0d5ba45975e65ee58b393d851385603631155000728565492179f4a3d162",
+        "size_in_bytes": 934,
+        "sha256_in_prefix": "43af0d5ba45975e65ee58b393d851385603631155000728565492179f4a3d162"
+      },
+      {
+        "_path": "Library/lib/cmake/utf8proc/utf8proc-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "6a0e9260579fd2a1799e45517d62e97b966bde1e5b744ec271ab884a009bd624",
+        "size_in_bytes": 4241,
+        "sha256_in_prefix": "6a0e9260579fd2a1799e45517d62e97b966bde1e5b744ec271ab884a009bd624"
+      },
+      {
+        "_path": "Library/lib/pkgconfig/libutf8proc.pc",
+        "prefix_placeholder": "D:/bld/libutf8proc_1757742709766/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "a6715b147333706dfe698321deb72069783c3c7e1b977ccd1303ba718e65d72d",
+        "size_in_bytes": 391,
+        "sha256_in_prefix": "10c1069d835b8f1106a60f1de11398e67eb0bd427f028cee7013b12ae65a14af"
+      },
+      {
+        "_path": "Library/lib/utf8proc.lib",
+        "path_type": "hardlink",
+        "sha256": "d5eea566ebe4d7aefaee2f218903ea9d4c331b5343d45fe061aaca654b3c2b7d",
+        "size_in_bytes": 8352,
+        "sha256_in_prefix": "d5eea566ebe4d7aefaee2f218903ea9d4c331b5343d45fe061aaca654b3c2b7d"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\libutf8proc-2.11.0-h0b34c2f_0",
+    "type": 1
+  }
+}

@@ -1,0 +1,547 @@
+{
+  "name": "watchdog",
+  "version": "6.0.0",
+  "build": "py310h5588dad_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "win-64",
+  "fn": "watchdog-6.0.0-py310h5588dad_1.conda",
+  "md5": "5df1364f70e4114ebb5d4157d492d17c",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/watchdog-6.0.0-py310h5588dad_1.conda",
+  "sha256": "1dab87f1e0cce4b9a42fc8cd0bef71e5c878de5b10ea34d1d998c179f0647c51",
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "pyyaml >=3.10"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1756135516000,
+  "size": 141890,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\watchdog-6.0.0-py310h5588dad_1.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\watchdog-6.0.0-py310h5588dad_1",
+  "files": [
+    "Lib/site-packages/watchdog-6.0.0.dist-info/INSTALLER",
+    "Lib/site-packages/watchdog-6.0.0.dist-info/METADATA",
+    "Lib/site-packages/watchdog-6.0.0.dist-info/RECORD",
+    "Lib/site-packages/watchdog-6.0.0.dist-info/REQUESTED",
+    "Lib/site-packages/watchdog-6.0.0.dist-info/WHEEL",
+    "Lib/site-packages/watchdog-6.0.0.dist-info/direct_url.json",
+    "Lib/site-packages/watchdog-6.0.0.dist-info/entry_points.txt",
+    "Lib/site-packages/watchdog-6.0.0.dist-info/licenses/AUTHORS",
+    "Lib/site-packages/watchdog-6.0.0.dist-info/licenses/COPYING",
+    "Lib/site-packages/watchdog-6.0.0.dist-info/licenses/LICENSE",
+    "Lib/site-packages/watchdog-6.0.0.dist-info/top_level.txt",
+    "Lib/site-packages/watchdog/__init__.py",
+    "Lib/site-packages/watchdog/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/watchdog/__pycache__/events.cpython-310.pyc",
+    "Lib/site-packages/watchdog/__pycache__/version.cpython-310.pyc",
+    "Lib/site-packages/watchdog/__pycache__/watchmedo.cpython-310.pyc",
+    "Lib/site-packages/watchdog/events.py",
+    "Lib/site-packages/watchdog/observers/__init__.py",
+    "Lib/site-packages/watchdog/observers/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/watchdog/observers/__pycache__/api.cpython-310.pyc",
+    "Lib/site-packages/watchdog/observers/__pycache__/fsevents.cpython-310.pyc",
+    "Lib/site-packages/watchdog/observers/__pycache__/fsevents2.cpython-310.pyc",
+    "Lib/site-packages/watchdog/observers/__pycache__/inotify.cpython-310.pyc",
+    "Lib/site-packages/watchdog/observers/__pycache__/inotify_buffer.cpython-310.pyc",
+    "Lib/site-packages/watchdog/observers/__pycache__/inotify_c.cpython-310.pyc",
+    "Lib/site-packages/watchdog/observers/__pycache__/kqueue.cpython-310.pyc",
+    "Lib/site-packages/watchdog/observers/__pycache__/polling.cpython-310.pyc",
+    "Lib/site-packages/watchdog/observers/__pycache__/read_directory_changes.cpython-310.pyc",
+    "Lib/site-packages/watchdog/observers/__pycache__/winapi.cpython-310.pyc",
+    "Lib/site-packages/watchdog/observers/api.py",
+    "Lib/site-packages/watchdog/observers/fsevents.py",
+    "Lib/site-packages/watchdog/observers/fsevents2.py",
+    "Lib/site-packages/watchdog/observers/inotify.py",
+    "Lib/site-packages/watchdog/observers/inotify_buffer.py",
+    "Lib/site-packages/watchdog/observers/inotify_c.py",
+    "Lib/site-packages/watchdog/observers/kqueue.py",
+    "Lib/site-packages/watchdog/observers/polling.py",
+    "Lib/site-packages/watchdog/observers/read_directory_changes.py",
+    "Lib/site-packages/watchdog/observers/winapi.py",
+    "Lib/site-packages/watchdog/py.typed",
+    "Lib/site-packages/watchdog/tricks/__init__.py",
+    "Lib/site-packages/watchdog/tricks/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/watchdog/utils/__init__.py",
+    "Lib/site-packages/watchdog/utils/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/watchdog/utils/__pycache__/bricks.cpython-310.pyc",
+    "Lib/site-packages/watchdog/utils/__pycache__/delayed_queue.cpython-310.pyc",
+    "Lib/site-packages/watchdog/utils/__pycache__/dirsnapshot.cpython-310.pyc",
+    "Lib/site-packages/watchdog/utils/__pycache__/echo.cpython-310.pyc",
+    "Lib/site-packages/watchdog/utils/__pycache__/event_debouncer.cpython-310.pyc",
+    "Lib/site-packages/watchdog/utils/__pycache__/patterns.cpython-310.pyc",
+    "Lib/site-packages/watchdog/utils/__pycache__/platform.cpython-310.pyc",
+    "Lib/site-packages/watchdog/utils/__pycache__/process_watcher.cpython-310.pyc",
+    "Lib/site-packages/watchdog/utils/bricks.py",
+    "Lib/site-packages/watchdog/utils/delayed_queue.py",
+    "Lib/site-packages/watchdog/utils/dirsnapshot.py",
+    "Lib/site-packages/watchdog/utils/echo.py",
+    "Lib/site-packages/watchdog/utils/event_debouncer.py",
+    "Lib/site-packages/watchdog/utils/patterns.py",
+    "Lib/site-packages/watchdog/utils/platform.py",
+    "Lib/site-packages/watchdog/utils/process_watcher.py",
+    "Lib/site-packages/watchdog/version.py",
+    "Lib/site-packages/watchdog/watchmedo.py",
+    "Scripts/watchmedo-script.py",
+    "Scripts/watchmedo.exe"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/watchdog-6.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog-6.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "41318aafbbd2e4b5c4470ffbbc61eba50fc67792a4c84d3bee2ef53e69a4a14a",
+        "size_in_bytes": 45437,
+        "sha256_in_prefix": "41318aafbbd2e4b5c4470ffbbc61eba50fc67792a4c84d3bee2ef53e69a4a14a"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog-6.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f26c4a968eee03408aaa57b908a205a1ab717a8be2cc244b9b9dcd43c85db3d4",
+        "size_in_bytes": 4703,
+        "sha256_in_prefix": "f26c4a968eee03408aaa57b908a205a1ab717a8be2cc244b9b9dcd43c85db3d4"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog-6.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog-6.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog-6.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d2ad76940acb60f03838f2eec7d12bf15a68f875d93bc4d3cc52e6797ecc391b",
+        "size_in_bytes": 69,
+        "sha256_in_prefix": "d2ad76940acb60f03838f2eec7d12bf15a68f875d93bc4d3cc52e6797ecc391b"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog-6.0.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "aadfce7b65396657f3ecb340dcf1e2a67dffd7395f453a7d764df04d2dc8bdbf",
+        "size_in_bytes": 66,
+        "sha256_in_prefix": "aadfce7b65396657f3ecb340dcf1e2a67dffd7395f453a7d764df04d2dc8bdbf"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog-6.0.0.dist-info/licenses/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "253e0275f6117f5574320f516cd69a18ae8bc8ff69ced12c251e9b43e31f686f",
+        "size_in_bytes": 2928,
+        "sha256_in_prefix": "253e0275f6117f5574320f516cd69a18ae8bc8ff69ced12c251e9b43e31f686f"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog-6.0.0.dist-info/licenses/COPYING",
+        "path_type": "hardlink",
+        "sha256": "39f081828db6f94c70123fa4fb30c1bce3e215a8fdece53a49991fe076a69c08",
+        "size_in_bytes": 703,
+        "sha256_in_prefix": "39f081828db6f94c70123fa4fb30c1bce3e215a8fdece53a49991fe076a69c08"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog-6.0.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358,
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog-6.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "395751ec690f1996a4a3cb11b55b8cd0d8acf99204971de17b784a14f6274c68",
+        "size_in_bytes": 9,
+        "sha256_in_prefix": "395751ec690f1996a4a3cb11b55b8cd0d8acf99204971de17b784a14f6274c68"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef17de12871965ba30e5814182b1ffccd9cda120e842e25c29181ad61f580ddd",
+        "size_in_bytes": 131,
+        "sha256_in_prefix": "ef17de12871965ba30e5814182b1ffccd9cda120e842e25c29181ad61f580ddd"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/__pycache__/events.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a324988b12fb3f1030326158ca89f7ebda00659c95d2ac277c3e49b9df1a35e",
+        "size_in_bytes": 17827,
+        "sha256_in_prefix": "6a324988b12fb3f1030326158ca89f7ebda00659c95d2ac277c3e49b9df1a35e"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/__pycache__/version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2993108e1a3876591528ba330d8bff6be04ad62506653975b98fc728017f4b9d",
+        "size_in_bytes": 330,
+        "sha256_in_prefix": "2993108e1a3876591528ba330d8bff6be04ad62506653975b98fc728017f4b9d"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/__pycache__/watchmedo.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "61ebf9ae32172f27ebfd7f2e05d2fac93a8355b9c920bb0696d437fad8973a06",
+        "size_in_bytes": 18480,
+        "sha256_in_prefix": "61ebf9ae32172f27ebfd7f2e05d2fac93a8355b9c920bb0696d437fad8973a06"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/events.py",
+        "path_type": "hardlink",
+        "sha256": "8a0e2808d726fa649eeab2b92cfb0851c30eddd7eaf4429e81f33d2384b056ff",
+        "size_in_bytes": 16323,
+        "sha256_in_prefix": "8a0e2808d726fa649eeab2b92cfb0851c30eddd7eaf4429e81f33d2384b056ff"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0665ca2f55975a724ff3e591ae13f892618ad3880d00387589f25ecde66ce21b",
+        "size_in_bytes": 3256,
+        "sha256_in_prefix": "0665ca2f55975a724ff3e591ae13f892618ad3880d00387589f25ecde66ce21b"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ab83c940db39eaf6fd1a996c3c976dc613e7fe2e74d8e98ee11673656a94190",
+        "size_in_bytes": 3440,
+        "sha256_in_prefix": "1ab83c940db39eaf6fd1a996c3c976dc613e7fe2e74d8e98ee11673656a94190"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/__pycache__/api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e66d505746039a1726a2aa7ca0b07a6b5c5b04d43ef5c622b99cbf3880ff68d",
+        "size_in_bytes": 15571,
+        "sha256_in_prefix": "8e66d505746039a1726a2aa7ca0b07a6b5c5b04d43ef5c622b99cbf3880ff68d"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/__pycache__/fsevents.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0b5aacac2aa8001e314d30b7fa92f23d7560e865d41edac9ff0483c829ecebd",
+        "size_in_bytes": 10101,
+        "sha256_in_prefix": "f0b5aacac2aa8001e314d30b7fa92f23d7560e865d41edac9ff0483c829ecebd"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/__pycache__/fsevents2.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "37fd63163329d35a3e854fd69bfff5dbdb94f23889256231c9ab5f362f0f0c88",
+        "size_in_bytes": 8121,
+        "sha256_in_prefix": "37fd63163329d35a3e854fd69bfff5dbdb94f23889256231c9ab5f362f0f0c88"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/__pycache__/inotify.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4bb98a5da8043585201872a2af96bef5cae7cc311d664c3e02a58c12782d8ec9",
+        "size_in_bytes": 8858,
+        "sha256_in_prefix": "4bb98a5da8043585201872a2af96bef5cae7cc311d664c3e02a58c12782d8ec9"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/__pycache__/inotify_buffer.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "93e92df4102c2fc8b493f6b97d773273089bee98b2c3a7afd02a168909824a39",
+        "size_in_bytes": 3774,
+        "sha256_in_prefix": "93e92df4102c2fc8b493f6b97d773273089bee98b2c3a7afd02a168909824a39"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/__pycache__/inotify_c.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6086eb3a242635e9cbeed0e83ff0d986bab41f8aa7490edd8a61391e1756958f",
+        "size_in_bytes": 17490,
+        "sha256_in_prefix": "6086eb3a242635e9cbeed0e83ff0d986bab41f8aa7490edd8a61391e1756958f"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/__pycache__/kqueue.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f2ef939d918acb8b38b44a3e145bcb302ce2581d9fddaa296a710549ddc623d",
+        "size_in_bytes": 21586,
+        "sha256_in_prefix": "9f2ef939d918acb8b38b44a3e145bcb302ce2581d9fddaa296a710549ddc623d"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/__pycache__/polling.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "743c6cd03e760b7424af3698a9a37cedcb61dcc415a2b490eeadb7f15bbd88d3",
+        "size_in_bytes": 4937,
+        "sha256_in_prefix": "743c6cd03e760b7424af3698a9a37cedcb61dcc415a2b490eeadb7f15bbd88d3"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/__pycache__/read_directory_changes.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "39589b079fe3f4e7c85ab32302c7db4955c232c590343a4dec3451f4269910cb",
+        "size_in_bytes": 4140,
+        "sha256_in_prefix": "39589b079fe3f4e7c85ab32302c7db4955c232c590343a4dec3451f4269910cb"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/__pycache__/winapi.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "183a878f2426e542ed949486ea4646d3ceea854579e03544e119236838c4ed73",
+        "size_in_bytes": 8363,
+        "sha256_in_prefix": "183a878f2426e542ed949486ea4646d3ceea854579e03544e119236838c4ed73"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/api.py",
+        "path_type": "hardlink",
+        "sha256": "b723e1a83873876a6f784902551476079d52697943b2b72997c5baa22750b94b",
+        "size_in_bytes": 13802,
+        "sha256_in_prefix": "b723e1a83873876a6f784902551476079d52697943b2b72997c5baa22750b94b"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/fsevents.py",
+        "path_type": "hardlink",
+        "sha256": "ea1a37b20050b7a86cabfd45e9e260b68af90a3655d3d4daa13d35c5e1cd81de",
+        "size_in_bytes": 14284,
+        "sha256_in_prefix": "ea1a37b20050b7a86cabfd45e9e260b68af90a3655d3d4daa13d35c5e1cd81de"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/fsevents2.py",
+        "path_type": "hardlink",
+        "sha256": "7d9f0eef3a2696d060bee70306550764858a444167e0c281df44f98848ac3ec7",
+        "size_in_bytes": 9439,
+        "sha256_in_prefix": "7d9f0eef3a2696d060bee70306550764858a444167e0c281df44f98848ac3ec7"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/inotify.py",
+        "path_type": "hardlink",
+        "sha256": "8b4ef900f1c8c0851d885adf7687296d8b1e754be1feedc0b4ba94ddbaa58051",
+        "size_in_bytes": 10649,
+        "sha256_in_prefix": "8b4ef900f1c8c0851d885adf7687296d8b1e754be1feedc0b4ba94ddbaa58051"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/inotify_buffer.py",
+        "path_type": "hardlink",
+        "sha256": "5565ae95e15045a24bfd93348db7001a319d8f59195169948a00b85926cf9b24",
+        "size_in_bytes": 4434,
+        "sha256_in_prefix": "5565ae95e15045a24bfd93348db7001a319d8f59195169948a00b85926cf9b24"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/inotify_c.py",
+        "path_type": "hardlink",
+        "sha256": "cace8dad511bc366cf650524cec858e651a57c3653e27cf9f159a7e00e3d7a65",
+        "size_in_bytes": 21129,
+        "sha256_in_prefix": "cace8dad511bc366cf650524cec858e651a57c3653e27cf9f159a7e00e3d7a65"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/kqueue.py",
+        "path_type": "hardlink",
+        "sha256": "1d8011cdd17f365bbbdaf4da2016c8be1e5efcded139ddf7543b5973501bda87",
+        "size_in_bytes": 24425,
+        "sha256_in_prefix": "1d8011cdd17f365bbbdaf4da2016c8be1e5efcded139ddf7543b5973501bda87"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/polling.py",
+        "path_type": "hardlink",
+        "sha256": "07c83212dce44621e64927fc75c63fd0ff81bb45398be55641a9c1a885714ecd",
+        "size_in_bytes": 4932,
+        "sha256_in_prefix": "07c83212dce44621e64927fc75c63fd0ff81bb45398be55641a9c1a885714ecd"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/read_directory_changes.py",
+        "path_type": "hardlink",
+        "sha256": "98a1d921f528a42014d1a7bba04f53b6482093b2df4dbf25c2070c24798e5b91",
+        "size_in_bytes": 4167,
+        "sha256_in_prefix": "98a1d921f528a42014d1a7bba04f53b6482093b2df4dbf25c2070c24798e5b91"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/observers/winapi.py",
+        "path_type": "hardlink",
+        "sha256": "ab69d36762589dbb845220724dc4a6a5bc388a22a1b4d43a51083d0963c85316",
+        "size_in_bytes": 11635,
+        "sha256_in_prefix": "ab69d36762589dbb845220724dc4a6a5bc388a22a1b4d43a51083d0963c85316"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/tricks/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ccb16965f5cdfc0de35e51f4d0e9344a96ed5b13f65b0c2cc46ef0d8f5e4c4ff",
+        "size_in_bytes": 9492,
+        "sha256_in_prefix": "ccb16965f5cdfc0de35e51f4d0e9344a96ed5b13f65b0c2cc46ef0d8f5e4c4ff"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/tricks/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "effe464fb1829853580bd14def6c9362dc75abaa818d2a402fc8fbbeaa033a1a",
+        "size_in_bytes": 8324,
+        "sha256_in_prefix": "effe464fb1829853580bd14def6c9362dc75abaa818d2a402fc8fbbeaa033a1a"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f6aef01195bbca5f350dbd4270b050277df167662b1b0cb3b0ada0ccd082fa51",
+        "size_in_bytes": 3513,
+        "sha256_in_prefix": "f6aef01195bbca5f350dbd4270b050277df167662b1b0cb3b0ada0ccd082fa51"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "850efd355b31f171e44a1b277de2ef7894d42ef045fcc2bbeb3e54d52055e3ac",
+        "size_in_bytes": 4480,
+        "sha256_in_prefix": "850efd355b31f171e44a1b277de2ef7894d42ef045fcc2bbeb3e54d52055e3ac"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/__pycache__/bricks.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d7b0e884abea05662ef56608e79f20419d6bdbda49608eede1e2912edf9341f9",
+        "size_in_bytes": 3160,
+        "sha256_in_prefix": "d7b0e884abea05662ef56608e79f20419d6bdbda49608eede1e2912edf9341f9"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/__pycache__/delayed_queue.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "814bf0191eed808636ae1c3251a154bfdf5cbd572f8bf1f3103f97b372a06c2b",
+        "size_in_bytes": 2671,
+        "sha256_in_prefix": "814bf0191eed808636ae1c3251a154bfdf5cbd572f8bf1f3103f97b372a06c2b"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/__pycache__/dirsnapshot.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ef430054136dbed0a02f5179be00d46113614b5f92c552385e2812abc552e4e",
+        "size_in_bytes": 15561,
+        "sha256_in_prefix": "2ef430054136dbed0a02f5179be00d46113614b5f92c552385e2812abc552e4e"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/__pycache__/echo.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d649f32c2be9f60d91c17d265e2ee7e89bcd544ffb63f4114d3337a6b22f3063",
+        "size_in_bytes": 2328,
+        "sha256_in_prefix": "d649f32c2be9f60d91c17d265e2ee7e89bcd544ffb63f4114d3337a6b22f3063"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/__pycache__/event_debouncer.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7617041b405aaa152c313ee4b52c7014c4e3f36018d4f72342b43480e8f901d8",
+        "size_in_bytes": 2267,
+        "sha256_in_prefix": "7617041b405aaa152c313ee4b52c7014c4e3f36018d4f72342b43480e8f901d8"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/__pycache__/patterns.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0989665e8d48abe736950a3ae026b268781f69f7e9470b26eeaace50a11ea566",
+        "size_in_bytes": 3192,
+        "sha256_in_prefix": "0989665e8d48abe736950a3ae026b268781f69f7e9470b26eeaace50a11ea566"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/__pycache__/platform.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1674a5654918e81014492f5a0d9d807dade894fe61de8516f215042d31c1cce7",
+        "size_in_bytes": 1157,
+        "sha256_in_prefix": "1674a5654918e81014492f5a0d9d807dade894fe61de8516f215042d31c1cce7"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/__pycache__/process_watcher.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "835474d06c5342f00dd64d83cbb9d6895bb0aec84af7a8031e8261bdf28bdd7e",
+        "size_in_bytes": 1303,
+        "sha256_in_prefix": "835474d06c5342f00dd64d83cbb9d6895bb0aec84af7a8031e8261bdf28bdd7e"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/bricks.py",
+        "path_type": "hardlink",
+        "sha256": "719080e13f5ed625afaf7c98e05386b8ecc8a5d3f8738361c748a97e0ca1067a",
+        "size_in_bytes": 2545,
+        "sha256_in_prefix": "719080e13f5ed625afaf7c98e05386b8ecc8a5d3f8738361c748a97e0ca1067a"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/delayed_queue.py",
+        "path_type": "hardlink",
+        "sha256": "5eff91728d746fad95b782e72c4999c65a6bf7731e055d995fe536fbe9c74b90",
+        "size_in_bytes": 2615,
+        "sha256_in_prefix": "5eff91728d746fad95b782e72c4999c65a6bf7731e055d995fe536fbe9c74b90"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/dirsnapshot.py",
+        "path_type": "hardlink",
+        "sha256": "49a1a7c6ad268996f12d972925c48e8f9b04f2286e9ea8dbe7e9bcc30f45d5a0",
+        "size_in_bytes": 14740,
+        "sha256_in_prefix": "49a1a7c6ad268996f12d972925c48e8f9b04f2286e9ea8dbe7e9bcc30f45d5a0"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/echo.py",
+        "path_type": "hardlink",
+        "sha256": "1802e0528b7dcd75403313302cde429074487639a2a355f7be9a554b5e0ff9e3",
+        "size_in_bytes": 2210,
+        "sha256_in_prefix": "1802e0528b7dcd75403313302cde429074487639a2a355f7be9a554b5e0ff9e3"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/event_debouncer.py",
+        "path_type": "hardlink",
+        "sha256": "a1589f76de743e33a25789fed16d4e64e08d3b88faf3d0514558021ab26f1f41",
+        "size_in_bytes": 2079,
+        "sha256_in_prefix": "a1589f76de743e33a25789fed16d4e64e08d3b88faf3d0514558021ab26f1f41"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/patterns.py",
+        "path_type": "hardlink",
+        "sha256": "7e3cbc87f5da52e464a21e3ab852efdfb2738239a62b6573b756556cc35ad1c1",
+        "size_in_bytes": 3672,
+        "sha256_in_prefix": "7e3cbc87f5da52e464a21e3ab852efdfb2738239a62b6573b756556cc35ad1c1"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/platform.py",
+        "path_type": "hardlink",
+        "sha256": "552378e58da4034352d4dce59abe521c1e02b74c6a2b6291972f63971ec31d28",
+        "size_in_bytes": 885,
+        "sha256_in_prefix": "552378e58da4034352d4dce59abe521c1e02b74c6a2b6291972f63971ec31d28"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/utils/process_watcher.py",
+        "path_type": "hardlink",
+        "sha256": "aa02ed1192e160b8e92fe1996b02048d5fa9fcf9cc91afe10461ffd6fc57fa09",
+        "size_in_bytes": 925,
+        "sha256_in_prefix": "aa02ed1192e160b8e92fe1996b02048d5fa9fcf9cc91afe10461ffd6fc57fa09"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/version.py",
+        "path_type": "hardlink",
+        "sha256": "82ebd033bf7cdc2b99d92e76cc4b5d86c4bf764aa16d8de6a7e190bd53380d1d",
+        "size_in_bytes": 349,
+        "sha256_in_prefix": "82ebd033bf7cdc2b99d92e76cc4b5d86c4bf764aa16d8de6a7e190bd53380d1d"
+      },
+      {
+        "_path": "Lib/site-packages/watchdog/watchmedo.py",
+        "path_type": "hardlink",
+        "sha256": "00c4d4a4d4a542602ac5fe4486d7ca2a1e5e6223d9a03620526d467fcc43dfe8",
+        "size_in_bytes": 25452,
+        "sha256_in_prefix": "00c4d4a4d4a542602ac5fe4486d7ca2a1e5e6223d9a03620526d467fcc43dfe8"
+      },
+      {
+        "_path": "Scripts/watchmedo-script.py",
+        "path_type": "hardlink",
+        "sha256": "52131bcd8735b7408a1cd903430ab9e851c436990b7133501df22d5645bcd485",
+        "size_in_bytes": 212,
+        "sha256_in_prefix": "52131bcd8735b7408a1cd903430ab9e851c436990b7133501df22d5645bcd485"
+      },
+      {
+        "_path": "Scripts/watchmedo.exe",
+        "path_type": "hardlink",
+        "sha256": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+        "size_in_bytes": 54032,
+        "sha256_in_prefix": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\watchdog-6.0.0-py310h5588dad_1",
+    "type": 1
+  }
+}

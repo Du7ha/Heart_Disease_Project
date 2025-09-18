@@ -1,0 +1,3508 @@
+{
+  "name": "pyside6",
+  "version": "6.9.2",
+  "build": "py310h2d19612_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "win-64",
+  "fn": "pyside6-6.9.2-py310h2d19612_1.conda",
+  "md5": "9af2adfe8fd544348e181cb17dde009d",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pyside6-6.9.2-py310h2d19612_1.conda",
+  "sha256": "8232a27dbf003e6249f36d3441d7fb72252d7a306a83a5b494835fb139723956",
+  "depends": [
+    "libclang13 >=21.1.0",
+    "libxml2 >=2.13.8,<2.14.0a0",
+    "libxslt >=1.1.43,<2.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "qt6-main 6.9.2.*",
+    "qt6-main >=6.9.2,<6.10.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "LGPL-3.0-only",
+  "timestamp": 1756674240000,
+  "size": 8869503,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\pyside6-6.9.2-py310h2d19612_1.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\pyside6-6.9.2-py310h2d19612_1",
+  "files": [
+    "Lib/site-packages/PySide6-6.9.2.dist-info/METADATA",
+    "Lib/site-packages/PySide6/Qt3DAnimation.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/Qt3DAnimation.pyi",
+    "Lib/site-packages/PySide6/Qt3DCore.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/Qt3DCore.pyi",
+    "Lib/site-packages/PySide6/Qt3DExtras.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/Qt3DExtras.pyi",
+    "Lib/site-packages/PySide6/Qt3DInput.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/Qt3DInput.pyi",
+    "Lib/site-packages/PySide6/Qt3DLogic.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/Qt3DLogic.pyi",
+    "Lib/site-packages/PySide6/Qt3DRender.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/Qt3DRender.pyi",
+    "Lib/site-packages/PySide6/QtAsyncio/__init__.py",
+    "Lib/site-packages/PySide6/QtAsyncio/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/PySide6/QtAsyncio/__pycache__/events.cpython-310.pyc",
+    "Lib/site-packages/PySide6/QtAsyncio/__pycache__/futures.cpython-310.pyc",
+    "Lib/site-packages/PySide6/QtAsyncio/__pycache__/tasks.cpython-310.pyc",
+    "Lib/site-packages/PySide6/QtAsyncio/events.py",
+    "Lib/site-packages/PySide6/QtAsyncio/futures.py",
+    "Lib/site-packages/PySide6/QtAsyncio/tasks.py",
+    "Lib/site-packages/PySide6/QtAxContainer.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtAxContainer.pyi",
+    "Lib/site-packages/PySide6/QtCharts.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtCharts.pyi",
+    "Lib/site-packages/PySide6/QtConcurrent.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtConcurrent.pyi",
+    "Lib/site-packages/PySide6/QtCore.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtCore.pyi",
+    "Lib/site-packages/PySide6/QtDBus.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtDBus.pyi",
+    "Lib/site-packages/PySide6/QtDataVisualization.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtDataVisualization.pyi",
+    "Lib/site-packages/PySide6/QtDesigner.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtDesigner.pyi",
+    "Lib/site-packages/PySide6/QtExampleIcons.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtGraphs.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtGraphs.pyi",
+    "Lib/site-packages/PySide6/QtGraphsWidgets.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtGraphsWidgets.pyi",
+    "Lib/site-packages/PySide6/QtGui.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtGui.pyi",
+    "Lib/site-packages/PySide6/QtHelp.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtHelp.pyi",
+    "Lib/site-packages/PySide6/QtMultimedia.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtMultimedia.pyi",
+    "Lib/site-packages/PySide6/QtMultimediaWidgets.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtMultimediaWidgets.pyi",
+    "Lib/site-packages/PySide6/QtNetwork.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtNetwork.pyi",
+    "Lib/site-packages/PySide6/QtOpenGL.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtOpenGL.pyi",
+    "Lib/site-packages/PySide6/QtOpenGLWidgets.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtOpenGLWidgets.pyi",
+    "Lib/site-packages/PySide6/QtPrintSupport.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtPrintSupport.pyi",
+    "Lib/site-packages/PySide6/QtQml.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtQml.pyi",
+    "Lib/site-packages/PySide6/QtQuick.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtQuick.pyi",
+    "Lib/site-packages/PySide6/QtQuick3D.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtQuick3D.pyi",
+    "Lib/site-packages/PySide6/QtQuickControls2.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtQuickControls2.pyi",
+    "Lib/site-packages/PySide6/QtQuickTest.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtQuickTest.pyi",
+    "Lib/site-packages/PySide6/QtQuickWidgets.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtQuickWidgets.pyi",
+    "Lib/site-packages/PySide6/QtSpatialAudio.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtSpatialAudio.pyi",
+    "Lib/site-packages/PySide6/QtSql.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtSql.pyi",
+    "Lib/site-packages/PySide6/QtSvg.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtSvg.pyi",
+    "Lib/site-packages/PySide6/QtSvgWidgets.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtSvgWidgets.pyi",
+    "Lib/site-packages/PySide6/QtTest.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtTest.pyi",
+    "Lib/site-packages/PySide6/QtUiTools.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtUiTools.pyi",
+    "Lib/site-packages/PySide6/QtWebChannel.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtWebChannel.pyi",
+    "Lib/site-packages/PySide6/QtWebSockets.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtWebSockets.pyi",
+    "Lib/site-packages/PySide6/QtWidgets.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtWidgets.pyi",
+    "Lib/site-packages/PySide6/QtXml.cp310-win_amd64.pyd",
+    "Lib/site-packages/PySide6/QtXml.pyi",
+    "Lib/site-packages/PySide6/__init__.py",
+    "Lib/site-packages/PySide6/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/PySide6/__pycache__/_config.cpython-310.pyc",
+    "Lib/site-packages/PySide6/__pycache__/_git_pyside_version.cpython-310.pyc",
+    "Lib/site-packages/PySide6/_config.py",
+    "Lib/site-packages/PySide6/_git_pyside_version.py",
+    "Lib/site-packages/PySide6/scripts/__init__.py",
+    "Lib/site-packages/PySide6/scripts/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/PySide6/scripts/__pycache__/pyside_tool.cpython-310.pyc",
+    "Lib/site-packages/PySide6/scripts/pyside_tool.py",
+    "Lib/site-packages/PySide6/support/__init__.py",
+    "Lib/site-packages/PySide6/support/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/PySide6/support/__pycache__/deprecated.cpython-310.pyc",
+    "Lib/site-packages/PySide6/support/__pycache__/generate_pyi.cpython-310.pyc",
+    "Lib/site-packages/PySide6/support/deprecated.py",
+    "Lib/site-packages/PySide6/support/generate_pyi.py",
+    "Lib/site-packages/shiboken6-6.9.2.dist-info/METADATA",
+    "Lib/site-packages/shiboken6/Shiboken.cp310-win_amd64.pyd",
+    "Lib/site-packages/shiboken6/Shiboken.pyi",
+    "Lib/site-packages/shiboken6/__init__.py",
+    "Lib/site-packages/shiboken6/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/shiboken6/__pycache__/_config.cpython-310.pyc",
+    "Lib/site-packages/shiboken6/__pycache__/_git_shiboken_module_version.cpython-310.pyc",
+    "Lib/site-packages/shiboken6/_config.py",
+    "Lib/site-packages/shiboken6/_git_shiboken_module_version.py",
+    "Lib/site-packages/shiboken6/py.typed",
+    "Lib/site-packages/shiboken6_generator/__init__.py",
+    "Lib/site-packages/shiboken6_generator/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/shiboken6_generator/__pycache__/_config.cpython-310.pyc",
+    "Lib/site-packages/shiboken6_generator/__pycache__/_git_shiboken_generator_version.cpython-310.pyc",
+    "Lib/site-packages/shiboken6_generator/_config.py",
+    "Lib/site-packages/shiboken6_generator/_git_shiboken_generator_version.py",
+    "Library/bin/android_deploy.py",
+    "Library/bin/deploy.py",
+    "Library/bin/deploy_lib/__init__.py",
+    "Library/bin/deploy_lib/android/__init__.py",
+    "Library/bin/deploy_lib/android/android_config.py",
+    "Library/bin/deploy_lib/android/android_helper.py",
+    "Library/bin/deploy_lib/android/android_utilities.py",
+    "Library/bin/deploy_lib/android/buildozer.py",
+    "Library/bin/deploy_lib/android/recipes/PySide6/__init__.tmpl.py",
+    "Library/bin/deploy_lib/android/recipes/shiboken6/__init__.tmpl.py",
+    "Library/bin/deploy_lib/commands.py",
+    "Library/bin/deploy_lib/config.py",
+    "Library/bin/deploy_lib/default.spec",
+    "Library/bin/deploy_lib/dependency_util.py",
+    "Library/bin/deploy_lib/deploy_util.py",
+    "Library/bin/deploy_lib/nuitka_helper.py",
+    "Library/bin/deploy_lib/pyside_icon.icns",
+    "Library/bin/deploy_lib/pyside_icon.ico",
+    "Library/bin/deploy_lib/pyside_icon.jpg",
+    "Library/bin/deploy_lib/python_helper.py",
+    "Library/bin/metaobjectdump.py",
+    "Library/bin/project.py",
+    "Library/bin/project_lib/__init__.py",
+    "Library/bin/project_lib/design_studio_project.py",
+    "Library/bin/project_lib/newproject.py",
+    "Library/bin/project_lib/project_data.py",
+    "Library/bin/project_lib/pyproject_json.py",
+    "Library/bin/project_lib/pyproject_parse_result.py",
+    "Library/bin/project_lib/pyproject_toml.py",
+    "Library/bin/project_lib/utils.py",
+    "Library/bin/pyside6.cp310-win_amd64.dll",
+    "Library/bin/pyside6qml.cp310-win_amd64.dll",
+    "Library/bin/qml.py",
+    "Library/bin/qtpy2cpp.py",
+    "Library/bin/qtpy2cpp_lib/astdump.py",
+    "Library/bin/qtpy2cpp_lib/formatter.py",
+    "Library/bin/qtpy2cpp_lib/nodedump.py",
+    "Library/bin/qtpy2cpp_lib/qt.py",
+    "Library/bin/qtpy2cpp_lib/tests/baseline/basic_test.cpp",
+    "Library/bin/qtpy2cpp_lib/tests/baseline/basic_test.py",
+    "Library/bin/qtpy2cpp_lib/tests/test_qtpy2cpp.py",
+    "Library/bin/qtpy2cpp_lib/tokenizer.py",
+    "Library/bin/qtpy2cpp_lib/visitor.py",
+    "Library/bin/requirements-android.txt",
+    "Library/bin/shiboken6.cp310-win_amd64.dll",
+    "Library/bin/shiboken6.exe",
+    "Library/bin/shiboken_tool.py",
+    "Library/include/PySide6/Qt3DAnimation/pyside6_qt3danimation_python.h",
+    "Library/include/PySide6/Qt3DCore/pyside6_qt3dcore_python.h",
+    "Library/include/PySide6/Qt3DExtras/pyside6_qt3dextras_python.h",
+    "Library/include/PySide6/Qt3DInput/pyside6_qt3dinput_python.h",
+    "Library/include/PySide6/Qt3DLogic/pyside6_qt3dlogic_python.h",
+    "Library/include/PySide6/Qt3DRender/pyside6_qt3drender_python.h",
+    "Library/include/PySide6/QtAxContainer/pyside6_qtaxcontainer_python.h",
+    "Library/include/PySide6/QtCharts/pyside6_qtcharts_python.h",
+    "Library/include/PySide6/QtConcurrent/pyside6_qtconcurrent_python.h",
+    "Library/include/PySide6/QtCore/pyside6_qtcore_python.h",
+    "Library/include/PySide6/QtCore/qiopipe.h",
+    "Library/include/PySide6/QtCore/qtcorehelper.h",
+    "Library/include/PySide6/QtDBus/pyside6_qtdbus_python.h",
+    "Library/include/PySide6/QtDBus/qtdbushelper.h",
+    "Library/include/PySide6/QtDataVisualization/pyside6_qtdatavisualization_python.h",
+    "Library/include/PySide6/QtDataVisualization/qtdatavisualization_helper.h",
+    "Library/include/PySide6/QtDesigner/pyside6_qtdesigner_python.h",
+    "Library/include/PySide6/QtDesigner/qpydesignerextensions.h",
+    "Library/include/PySide6/QtGraphs/pyside6_qtgraphs_python.h",
+    "Library/include/PySide6/QtGraphs/qtgraphs_helper.h",
+    "Library/include/PySide6/QtGraphsWidgets/pyside6_qtgraphswidgets_python.h",
+    "Library/include/PySide6/QtGui/pyside6_qtgui_python.h",
+    "Library/include/PySide6/QtGui/qpytextobject.h",
+    "Library/include/PySide6/QtGui/qtguihelper.h",
+    "Library/include/PySide6/QtHelp/pyside6_qthelp_python.h",
+    "Library/include/PySide6/QtMultimedia/pyside6_qtmultimedia_python.h",
+    "Library/include/PySide6/QtMultimediaWidgets/pyside6_qtmultimediawidgets_python.h",
+    "Library/include/PySide6/QtNetwork/pyside6_qtnetwork_python.h",
+    "Library/include/PySide6/QtOpenGL/pyside6_qtopengl_python.h",
+    "Library/include/PySide6/QtOpenGLWidgets/pyside6_qtopenglwidgets_python.h",
+    "Library/include/PySide6/QtPrintSupport/pyside6_qtprintsupport_python.h",
+    "Library/include/PySide6/QtQml/pyside6_qtqml_python.h",
+    "Library/include/PySide6/QtQuick/pyside6_qtquick_python.h",
+    "Library/include/PySide6/QtQuick3D/pyside6_qtquick3d_python.h",
+    "Library/include/PySide6/QtQuickControls2/pyside6_qtquickcontrols2_python.h",
+    "Library/include/PySide6/QtQuickTest/pyside6_qtquicktest_python.h",
+    "Library/include/PySide6/QtQuickWidgets/pyside6_qtquickwidgets_python.h",
+    "Library/include/PySide6/QtSpatialAudio/pyside6_qtspatialaudio_python.h",
+    "Library/include/PySide6/QtSql/pyside6_qtsql_python.h",
+    "Library/include/PySide6/QtSvg/pyside6_qtsvg_python.h",
+    "Library/include/PySide6/QtSvgWidgets/pyside6_qtsvgwidgets_python.h",
+    "Library/include/PySide6/QtTest/pyside6_qttest_python.h",
+    "Library/include/PySide6/QtUiTools/pyside6_qtuitools_python.h",
+    "Library/include/PySide6/QtWebChannel/pyside6_qtwebchannel_python.h",
+    "Library/include/PySide6/QtWebSockets/pyside6_qtwebsockets_python.h",
+    "Library/include/PySide6/QtWidgets/pyside6_qtwidgets_python.h",
+    "Library/include/PySide6/QtXml/pyside6_qtxml_python.h",
+    "Library/include/PySide6/class_property.h",
+    "Library/include/PySide6/dynamicqmetaobject.h",
+    "Library/include/PySide6/dynamicslot_p.h",
+    "Library/include/PySide6/feature_select.h",
+    "Library/include/PySide6/pyside.h",
+    "Library/include/PySide6/pyside6_global.h",
+    "Library/include/PySide6/pyside_numpy.h",
+    "Library/include/PySide6/pyside_p.h",
+    "Library/include/PySide6/pysideclassdecorator_p.h",
+    "Library/include/PySide6/pysideclassinfo.h",
+    "Library/include/PySide6/pysideclassinfo_p.h",
+    "Library/include/PySide6/pysidecleanup.h",
+    "Library/include/PySide6/pysideinit.h",
+    "Library/include/PySide6/pysidelogging_p.h",
+    "Library/include/PySide6/pysidemacros.h",
+    "Library/include/PySide6/pysidemetafunction.h",
+    "Library/include/PySide6/pysidemetafunction_p.h",
+    "Library/include/PySide6/pysidemetatype.h",
+    "Library/include/PySide6/pysideproperty.h",
+    "Library/include/PySide6/pysideproperty_p.h",
+    "Library/include/PySide6/pysideqapp.h",
+    "Library/include/PySide6/pysideqenum.h",
+    "Library/include/PySide6/pysideqhash.h",
+    "Library/include/PySide6/pysideqmetatype.h",
+    "Library/include/PySide6/pysideqml.h",
+    "Library/include/PySide6/pysideqmlattached.h",
+    "Library/include/PySide6/pysideqmlattached_p.h",
+    "Library/include/PySide6/pysideqmlextended_p.h",
+    "Library/include/PySide6/pysideqmlforeign_p.h",
+    "Library/include/PySide6/pysideqmllistproperty_p.h",
+    "Library/include/PySide6/pysideqmlmacros.h",
+    "Library/include/PySide6/pysideqmlmetacallerror_p.h",
+    "Library/include/PySide6/pysideqmlnamedelement_p.h",
+    "Library/include/PySide6/pysideqmlregistertype.h",
+    "Library/include/PySide6/pysideqmlregistertype_p.h",
+    "Library/include/PySide6/pysideqmltypeinfo_p.h",
+    "Library/include/PySide6/pysideqmluncreatable.h",
+    "Library/include/PySide6/pysideqobject.h",
+    "Library/include/PySide6/pysideqslotobject_p.h",
+    "Library/include/PySide6/pysidesignal.h",
+    "Library/include/PySide6/pysidesignal_p.h",
+    "Library/include/PySide6/pysideslot_p.h",
+    "Library/include/PySide6/pysidestaticstrings.h",
+    "Library/include/PySide6/pysideutils.h",
+    "Library/include/PySide6/pysideweakref.h",
+    "Library/include/PySide6/qobjectconnect.h",
+    "Library/include/PySide6/signalmanager.h",
+    "Library/include/shiboken6/autodecref.h",
+    "Library/include/shiboken6/basewrapper.h",
+    "Library/include/shiboken6/basewrapper_p.h",
+    "Library/include/shiboken6/bindingmanager.h",
+    "Library/include/shiboken6/bufferprocs_py37.h",
+    "Library/include/shiboken6/gilstate.h",
+    "Library/include/shiboken6/helper.h",
+    "Library/include/shiboken6/pep384ext.h",
+    "Library/include/shiboken6/pep384impl.h",
+    "Library/include/shiboken6/pyobjectholder.h",
+    "Library/include/shiboken6/sbkarrayconverter.h",
+    "Library/include/shiboken6/sbkbindingutils.h",
+    "Library/include/shiboken6/sbkcontainer.h",
+    "Library/include/shiboken6/sbkconverter.h",
+    "Library/include/shiboken6/sbkcppstring.h",
+    "Library/include/shiboken6/sbkcpptonumpy.h",
+    "Library/include/shiboken6/sbkenum.h",
+    "Library/include/shiboken6/sbkerrors.h",
+    "Library/include/shiboken6/sbkfeature_base.h",
+    "Library/include/shiboken6/sbkmodule.h",
+    "Library/include/shiboken6/sbknumpycheck.h",
+    "Library/include/shiboken6/sbknumpyview.h",
+    "Library/include/shiboken6/sbkpython.h",
+    "Library/include/shiboken6/sbksmartpointer.h",
+    "Library/include/shiboken6/sbkstaticstrings.h",
+    "Library/include/shiboken6/sbkstring.h",
+    "Library/include/shiboken6/sbktypefactory.h",
+    "Library/include/shiboken6/sbkversion.h",
+    "Library/include/shiboken6/sbkwindows.h",
+    "Library/include/shiboken6/shiboken.h",
+    "Library/include/shiboken6/shibokenbuffer.h",
+    "Library/include/shiboken6/shibokenmacros.h",
+    "Library/include/shiboken6/signature.h",
+    "Library/include/shiboken6/signature_p.h",
+    "Library/include/shiboken6/threadstatesaver.h",
+    "Library/include/shiboken6/voidptr.h",
+    "Library/lib/cmake/PySide6/PySide6Config.cmake",
+    "Library/lib/cmake/PySide6/PySide6Config.cp310-win_amd64.cmake",
+    "Library/lib/cmake/PySide6/PySide6ConfigVersion.cmake",
+    "Library/lib/cmake/PySide6/PySide6Targets-release.cmake",
+    "Library/lib/cmake/PySide6/PySide6Targets.cmake",
+    "Library/lib/cmake/PySide6Qml/PySide6QmlConfig.cmake",
+    "Library/lib/cmake/PySide6Qml/PySide6QmlConfig.cp310-win_amd64.cmake",
+    "Library/lib/cmake/PySide6Qml/PySide6QmlConfigVersion.cmake",
+    "Library/lib/cmake/PySide6Qml/PySide6QmlTargets-release.cmake",
+    "Library/lib/cmake/PySide6Qml/PySide6QmlTargets.cmake",
+    "Library/lib/cmake/Shiboken6/Shiboken6Config.cmake",
+    "Library/lib/cmake/Shiboken6/Shiboken6Config.cp310-win_amd64.cmake",
+    "Library/lib/cmake/Shiboken6/Shiboken6ConfigVersion.cmake",
+    "Library/lib/cmake/Shiboken6/Shiboken6Targets-release.cmake",
+    "Library/lib/cmake/Shiboken6/Shiboken6Targets.cmake",
+    "Library/lib/cmake/Shiboken6/ShibokenHelpers.cmake",
+    "Library/lib/cmake/Shiboken6Tools/Shiboken6ToolsConfig.cmake",
+    "Library/lib/cmake/Shiboken6Tools/Shiboken6ToolsConfigVersion.cmake",
+    "Library/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets-release.cmake",
+    "Library/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets.cmake",
+    "Library/lib/pkgconfig/pyside6.pc",
+    "Library/lib/pkgconfig/shiboken6.pc",
+    "Library/lib/pyside6.cp310-win_amd64.lib",
+    "Library/lib/pyside6qml.cp310-win_amd64.lib",
+    "Library/lib/qt6/plugins/designer/PySidePlugin.dll",
+    "Library/lib/shiboken6.cp310-win_amd64.lib",
+    "Library/share/PySide6/doc/qtcore.rst",
+    "Library/share/PySide6/doc/qtqml.rst",
+    "Library/share/PySide6/doc/qtquicktest.rst",
+    "Library/share/PySide6/doc/qtuitools.rst",
+    "Library/share/PySide6/glue/qtcharts.cpp",
+    "Library/share/PySide6/glue/qtcore.cpp",
+    "Library/share/PySide6/glue/qtdatavisualization.cpp",
+    "Library/share/PySide6/glue/qtdesigner.cpp",
+    "Library/share/PySide6/glue/qtgraphs.cpp",
+    "Library/share/PySide6/glue/qtgui.cpp",
+    "Library/share/PySide6/glue/qtmultimedia.cpp",
+    "Library/share/PySide6/glue/qtnetwork.cpp",
+    "Library/share/PySide6/glue/qtopengl.cpp",
+    "Library/share/PySide6/glue/qtprintsupport.cpp",
+    "Library/share/PySide6/glue/qtqml.cpp",
+    "Library/share/PySide6/glue/qtquick.cpp",
+    "Library/share/PySide6/glue/qtquick3d.cpp",
+    "Library/share/PySide6/glue/qtquicktest.cpp",
+    "Library/share/PySide6/glue/qtsql.cpp",
+    "Library/share/PySide6/glue/qttest.cpp",
+    "Library/share/PySide6/glue/qtuitools.cpp",
+    "Library/share/PySide6/glue/qtwidgets.cpp",
+    "Library/share/PySide6/glue/qtxml.cpp",
+    "Library/share/PySide6/typesystems/common.xml",
+    "Library/share/PySide6/typesystems/core_common.xml",
+    "Library/share/PySide6/typesystems/datavisualization_common.xml",
+    "Library/share/PySide6/typesystems/glue/plugins.h",
+    "Library/share/PySide6/typesystems/glue/qeasingcurve_glue.cpp",
+    "Library/share/PySide6/typesystems/glue/qeasingcurve_glue.h",
+    "Library/share/PySide6/typesystems/gui_common.xml",
+    "Library/share/PySide6/typesystems/typesystem_3danimation.xml",
+    "Library/share/PySide6/typesystems/typesystem_3dcore.xml",
+    "Library/share/PySide6/typesystems/typesystem_3dextras.xml",
+    "Library/share/PySide6/typesystems/typesystem_3dinput.xml",
+    "Library/share/PySide6/typesystems/typesystem_3dlogic.xml",
+    "Library/share/PySide6/typesystems/typesystem_3drender.xml",
+    "Library/share/PySide6/typesystems/typesystem_axcontainer.xml",
+    "Library/share/PySide6/typesystems/typesystem_charts.xml",
+    "Library/share/PySide6/typesystems/typesystem_concurrent.xml",
+    "Library/share/PySide6/typesystems/typesystem_core.xml",
+    "Library/share/PySide6/typesystems/typesystem_core_common.xml",
+    "Library/share/PySide6/typesystems/typesystem_core_win.xml",
+    "Library/share/PySide6/typesystems/typesystem_datavisualization.xml",
+    "Library/share/PySide6/typesystems/typesystem_dbus.xml",
+    "Library/share/PySide6/typesystems/typesystem_designer.xml",
+    "Library/share/PySide6/typesystems/typesystem_glgeti_v_includes.xml",
+    "Library/share/PySide6/typesystems/typesystem_glgeti_v_modifications.xml",
+    "Library/share/PySide6/typesystems/typesystem_glgetv_includes.xml",
+    "Library/share/PySide6/typesystems/typesystem_glgetv_modifications.xml",
+    "Library/share/PySide6/typesystems/typesystem_graphs.xml",
+    "Library/share/PySide6/typesystems/typesystem_graphswidgets.xml",
+    "Library/share/PySide6/typesystems/typesystem_gui.xml",
+    "Library/share/PySide6/typesystems/typesystem_gui_common.xml",
+    "Library/share/PySide6/typesystems/typesystem_gui_mac.xml",
+    "Library/share/PySide6/typesystems/typesystem_gui_rhi.xml",
+    "Library/share/PySide6/typesystems/typesystem_gui_win.xml",
+    "Library/share/PySide6/typesystems/typesystem_gui_x11.xml",
+    "Library/share/PySide6/typesystems/typesystem_help.xml",
+    "Library/share/PySide6/typesystems/typesystem_multimedia.xml",
+    "Library/share/PySide6/typesystems/typesystem_multimediawidgets.xml",
+    "Library/share/PySide6/typesystems/typesystem_network.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_0.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_0_compat.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_1.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_1_compat.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_2_compat.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_3_compat.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_4.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_4_compat.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications2_0.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications2_0_compat.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications2_1.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications3_0.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications3_3.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications3_3a.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_0.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_1.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_3.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_4.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_4_core.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_5.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_5_core.xml",
+    "Library/share/PySide6/typesystems/typesystem_opengl_modifications_va.xml",
+    "Library/share/PySide6/typesystems/typesystem_openglwidgets.xml",
+    "Library/share/PySide6/typesystems/typesystem_printsupport.xml",
+    "Library/share/PySide6/typesystems/typesystem_printsupport_common.xml",
+    "Library/share/PySide6/typesystems/typesystem_qml.xml",
+    "Library/share/PySide6/typesystems/typesystem_quick.xml",
+    "Library/share/PySide6/typesystems/typesystem_quick3d.xml",
+    "Library/share/PySide6/typesystems/typesystem_quickcontrols2.xml",
+    "Library/share/PySide6/typesystems/typesystem_quicktest.xml",
+    "Library/share/PySide6/typesystems/typesystem_quickwidgets.xml",
+    "Library/share/PySide6/typesystems/typesystem_spatialaudio.xml",
+    "Library/share/PySide6/typesystems/typesystem_sql.xml",
+    "Library/share/PySide6/typesystems/typesystem_svg.xml",
+    "Library/share/PySide6/typesystems/typesystem_svgwidgets.xml",
+    "Library/share/PySide6/typesystems/typesystem_test.xml",
+    "Library/share/PySide6/typesystems/typesystem_uitools.xml",
+    "Library/share/PySide6/typesystems/typesystem_webchannel.xml",
+    "Library/share/PySide6/typesystems/typesystem_websockets.xml",
+    "Library/share/PySide6/typesystems/typesystem_widgets.xml",
+    "Library/share/PySide6/typesystems/typesystem_widgets_common.xml",
+    "Library/share/PySide6/typesystems/typesystem_xml.xml",
+    "Library/share/PySide6/typesystems/widgets_common.xml",
+    "Scripts/pyside6-rcc-script.py",
+    "Scripts/pyside6-rcc.exe",
+    "Scripts/pyside6-uic-script.py",
+    "Scripts/pyside6-uic.exe"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/PySide6-6.9.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4b2d366d7da37b6dec09267d875ba9e2a75a750d9be84b274fc6b784ee9d13e1",
+        "size_in_bytes": 55,
+        "sha256_in_prefix": "4b2d366d7da37b6dec09267d875ba9e2a75a750d9be84b274fc6b784ee9d13e1"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/Qt3DAnimation.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "903c253fdf25f628035b3d6145f122e61c91731d7d7eb285268df498e82d779f",
+        "size_in_bytes": 311296,
+        "sha256_in_prefix": "903c253fdf25f628035b3d6145f122e61c91731d7d7eb285268df498e82d779f"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/Qt3DAnimation.pyi",
+        "path_type": "hardlink",
+        "sha256": "63e438e48d1f8afb4736547b245fd7ea653c305c85f06e40e195bdb549d0b751",
+        "size_in_bytes": 31586,
+        "sha256_in_prefix": "63e438e48d1f8afb4736547b245fd7ea653c305c85f06e40e195bdb549d0b751"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/Qt3DCore.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "3614bb0fdf2a2df576b7da167df93050405028c639de267e3459d541233ca9c4",
+        "size_in_bytes": 307712,
+        "sha256_in_prefix": "3614bb0fdf2a2df576b7da167df93050405028c639de267e3459d541233ca9c4"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/Qt3DCore.pyi",
+        "path_type": "hardlink",
+        "sha256": "ab9d7b6f2b16103f7ba5eac30c7e72b7cca7a070cbb6ad1d6d4906c130f1656e",
+        "size_in_bytes": 36343,
+        "sha256_in_prefix": "ab9d7b6f2b16103f7ba5eac30c7e72b7cca7a070cbb6ad1d6d4906c130f1656e"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/Qt3DExtras.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "80f090063639e7c7991c6e9c758e1c8f8672bfd20c580ebc9026c6941b56c8f5",
+        "size_in_bytes": 531456,
+        "sha256_in_prefix": "80f090063639e7c7991c6e9c758e1c8f8672bfd20c580ebc9026c6941b56c8f5"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/Qt3DExtras.pyi",
+        "path_type": "hardlink",
+        "sha256": "fa0c6838087a70e435f26ce1b5ca3f63aaabe81c0d57e7d49a09dd17cdd52165",
+        "size_in_bytes": 76444,
+        "sha256_in_prefix": "fa0c6838087a70e435f26ce1b5ca3f63aaabe81c0d57e7d49a09dd17cdd52165"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/Qt3DInput.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "d4b605ac880294140ef08e4e05d3439c8b2774f23a23db54394077eeebe1fdf5",
+        "size_in_bytes": 250880,
+        "sha256_in_prefix": "d4b605ac880294140ef08e4e05d3439c8b2774f23a23db54394077eeebe1fdf5"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/Qt3DInput.pyi",
+        "path_type": "hardlink",
+        "sha256": "dfa134a7f5e765cbabaaf6ee5bfec5fb1bcc4426bb5831d3f9476bbfe1f6fb04",
+        "size_in_bytes": 24401,
+        "sha256_in_prefix": "dfa134a7f5e765cbabaaf6ee5bfec5fb1bcc4426bb5831d3f9476bbfe1f6fb04"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/Qt3DLogic.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "6ca5f2476ae11ef66296b9b32c417c8aa2975001cd633edbe4d733167a8bf096",
+        "size_in_bytes": 82432,
+        "sha256_in_prefix": "6ca5f2476ae11ef66296b9b32c417c8aa2975001cd633edbe4d733167a8bf096"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/Qt3DLogic.pyi",
+        "path_type": "hardlink",
+        "sha256": "a1288188c4fcb744ad31b4d757f12ee894001f01d261748a6de5a1e6c50f03bc",
+        "size_in_bytes": 1069,
+        "sha256_in_prefix": "a1288188c4fcb744ad31b4d757f12ee894001f01d261748a6de5a1e6c50f03bc"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/Qt3DRender.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "34b1c3bb146b0f02d7ae940a53765842953f19827576f0ae744a05e875a84ad0",
+        "size_in_bytes": 1108992,
+        "sha256_in_prefix": "34b1c3bb146b0f02d7ae940a53765842953f19827576f0ae744a05e875a84ad0"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/Qt3DRender.pyi",
+        "path_type": "hardlink",
+        "sha256": "0dd79f7871d4052e5c8b758411304e74ad04e1409568fb8d5de5f9ec379a6d86",
+        "size_in_bytes": 152922,
+        "sha256_in_prefix": "0dd79f7871d4052e5c8b758411304e74ad04e1409568fb8d5de5f9ec379a6d86"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtAsyncio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8c989b9632080c060c6c21c21383eaee4fec698aa634c0a0f6bfaf095c1d562a",
+        "size_in_bytes": 3422,
+        "sha256_in_prefix": "8c989b9632080c060c6c21c21383eaee4fec698aa634c0a0f6bfaf095c1d562a"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtAsyncio/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "032aa00cb7f4e2a0b6c2412707594546cc6ef7eb50855baf4bfe7dcc30579297",
+        "size_in_bytes": 2682,
+        "sha256_in_prefix": "032aa00cb7f4e2a0b6c2412707594546cc6ef7eb50855baf4bfe7dcc30579297"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtAsyncio/__pycache__/events.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e9c90f0ec3ff939b777d40ea39c8e48a82b8b3c5d74624d11ae53a3dc2d36a0d",
+        "size_in_bytes": 27188,
+        "sha256_in_prefix": "e9c90f0ec3ff939b777d40ea39c8e48a82b8b3c5d74624d11ae53a3dc2d36a0d"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtAsyncio/__pycache__/futures.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "94b7cc585fedc9b0dd169557dac05b4679e0a7db212fa7319e0f67a7a160202f",
+        "size_in_bytes": 4475,
+        "sha256_in_prefix": "94b7cc585fedc9b0dd169557dac05b4679e0a7db212fa7319e0f67a7a160202f"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtAsyncio/__pycache__/tasks.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6baae2f4d553936b92796fce31dd97a85d24284b282245a4da5a309f540ae50e",
+        "size_in_bytes": 5898,
+        "sha256_in_prefix": "6baae2f4d553936b92796fce31dd97a85d24284b282245a4da5a309f540ae50e"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtAsyncio/events.py",
+        "path_type": "hardlink",
+        "sha256": "54a63bcfd0e5ce347355dc9cb6f108f876b0bed57f971832950d441ca1f4f4ce",
+        "size_in_bytes": 30356,
+        "sha256_in_prefix": "54a63bcfd0e5ce347355dc9cb6f108f876b0bed57f971832950d441ca1f4f4ce"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtAsyncio/futures.py",
+        "path_type": "hardlink",
+        "sha256": "4ae16c7be82e82bfcde3f3c9f73145a045d0a473f62e799428f654dd6b4dade5",
+        "size_in_bytes": 4322,
+        "sha256_in_prefix": "4ae16c7be82e82bfcde3f3c9f73145a045d0a473f62e799428f654dd6b4dade5"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtAsyncio/tasks.py",
+        "path_type": "hardlink",
+        "sha256": "0d9218522f5b09f0c4ab9dcdd7afef4fad77c560e9f624927f9588ba5152fec8",
+        "size_in_bytes": 9160,
+        "sha256_in_prefix": "0d9218522f5b09f0c4ab9dcdd7afef4fad77c560e9f624927f9588ba5152fec8"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtAxContainer.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "304c7814da9c1affa1dafd50790e2e345cbb7088309b116025c7fb4c57aae609",
+        "size_in_bytes": 610816,
+        "sha256_in_prefix": "304c7814da9c1affa1dafd50790e2e345cbb7088309b116025c7fb4c57aae609"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtAxContainer.pyi",
+        "path_type": "hardlink",
+        "sha256": "aa7437dfeee09b1689ed8dd3de1de85d302588b25173c5d134b9c07b99cd3ef2",
+        "size_in_bytes": 10566,
+        "sha256_in_prefix": "aa7437dfeee09b1689ed8dd3de1de85d302588b25173c5d134b9c07b99cd3ef2"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtCharts.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "f3438a1f53e513f331008f6ec2382b0052eca14e8404cde6ddaaf6e1255153a0",
+        "size_in_bytes": 785920,
+        "sha256_in_prefix": "f3438a1f53e513f331008f6ec2382b0052eca14e8404cde6ddaaf6e1255153a0"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtCharts.pyi",
+        "path_type": "hardlink",
+        "sha256": "f2ca588aebaf1d4055ca72c1a9f2708302f20bfec65b501184fff4e7f57523d5",
+        "size_in_bytes": 109509,
+        "sha256_in_prefix": "f2ca588aebaf1d4055ca72c1a9f2708302f20bfec65b501184fff4e7f57523d5"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtConcurrent.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "17dbcd55a7790f59afc56ff2a7bc234dc28206e22fe24a9881ec3049ff8eeecf",
+        "size_in_bytes": 95744,
+        "sha256_in_prefix": "17dbcd55a7790f59afc56ff2a7bc234dc28206e22fe24a9881ec3049ff8eeecf"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtConcurrent.pyi",
+        "path_type": "hardlink",
+        "sha256": "c940daada354f1fce719087f664b0ea4cb7996e9e47e2836cc1a771ef24fa1be",
+        "size_in_bytes": 3930,
+        "sha256_in_prefix": "c940daada354f1fce719087f664b0ea4cb7996e9e47e2836cc1a771ef24fa1be"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtCore.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "7fd999186efba953033b8723ac413b29ca05b56c38eb5df03dca7eed9561b44c",
+        "size_in_bytes": 3152384,
+        "sha256_in_prefix": "7fd999186efba953033b8723ac413b29ca05b56c38eb5df03dca7eed9561b44c"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtCore.pyi",
+        "path_type": "hardlink",
+        "sha256": "455dcc7a352cf4831a568cdd3ad583ca9dc5ca7f087034093a7d84b05edcf379",
+        "size_in_bytes": 573868,
+        "sha256_in_prefix": "455dcc7a352cf4831a568cdd3ad583ca9dc5ca7f087034093a7d84b05edcf379"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtDBus.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "c8bfdfc5a9e46d3e4a85ac197d07a1301d818d1d5ddc5901ebf18cc1f4762b03",
+        "size_in_bytes": 279040,
+        "sha256_in_prefix": "c8bfdfc5a9e46d3e4a85ac197d07a1301d818d1d5ddc5901ebf18cc1f4762b03"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtDBus.pyi",
+        "path_type": "hardlink",
+        "sha256": "3e842ff34d65848298c202cf9608d2eca5417dd4e0d8ea08aed6a92fd396d4ee",
+        "size_in_bytes": 35236,
+        "sha256_in_prefix": "3e842ff34d65848298c202cf9608d2eca5417dd4e0d8ea08aed6a92fd396d4ee"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtDataVisualization.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "c796d079f4b0ac10b9e95bbff9b437170c2b56df8c73c14891b8cecef7bada05",
+        "size_in_bytes": 637440,
+        "sha256_in_prefix": "c796d079f4b0ac10b9e95bbff9b437170c2b56df8c73c14891b8cecef7bada05"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtDataVisualization.pyi",
+        "path_type": "hardlink",
+        "sha256": "6ae62d5ce2ca35f1ea21d035855c5d245a9f0cc77925b2ad2a946851460ce1ff",
+        "size_in_bytes": 117031,
+        "sha256_in_prefix": "6ae62d5ce2ca35f1ea21d035855c5d245a9f0cc77925b2ad2a946851460ce1ff"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtDesigner.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "540af6859e78d0ecf6cabc750265011808d279545b97ce10f2e2fe91dc8438b2",
+        "size_in_bytes": 470528,
+        "sha256_in_prefix": "540af6859e78d0ecf6cabc750265011808d279545b97ce10f2e2fe91dc8438b2"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtDesigner.pyi",
+        "path_type": "hardlink",
+        "sha256": "16133c47409f82a3bca5dbd1e35936ac7ce2a531d73b2cd184b974b89eda8014",
+        "size_in_bytes": 30890,
+        "sha256_in_prefix": "16133c47409f82a3bca5dbd1e35936ac7ce2a531d73b2cd184b974b89eda8014"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtExampleIcons.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "a3f542e32976b67dfbf0ea6e99ed80f5edc1eca0066cfb4b303cd9662b6e9634",
+        "size_in_bytes": 232448,
+        "sha256_in_prefix": "a3f542e32976b67dfbf0ea6e99ed80f5edc1eca0066cfb4b303cd9662b6e9634"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtGraphs.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "c95cbd9a385d4f91fa96e5a1fd56d283733ede6b7ca016e11248a5fe08208463",
+        "size_in_bytes": 786432,
+        "sha256_in_prefix": "c95cbd9a385d4f91fa96e5a1fd56d283733ede6b7ca016e11248a5fe08208463"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtGraphs.pyi",
+        "path_type": "hardlink",
+        "sha256": "4f50c3c540ba1ed33519e8a2742adf21715e8a54fa7f36fb278b95b88401c9a0",
+        "size_in_bytes": 151789,
+        "sha256_in_prefix": "4f50c3c540ba1ed33519e8a2742adf21715e8a54fa7f36fb278b95b88401c9a0"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtGraphsWidgets.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "d3ec022ce2744f32fb248ca718f3917303522ce610b4e439bfabc335128491de",
+        "size_in_bytes": 157696,
+        "sha256_in_prefix": "d3ec022ce2744f32fb248ca718f3917303522ce610b4e439bfabc335128491de"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtGraphsWidgets.pyi",
+        "path_type": "hardlink",
+        "sha256": "c60b9d6ebebe5ecf68f62b52055b276735ba6820a50b7a01ae2ad675c17ce7da",
+        "size_in_bytes": 20395,
+        "sha256_in_prefix": "c60b9d6ebebe5ecf68f62b52055b276735ba6820a50b7a01ae2ad675c17ce7da"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtGui.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "cebf39a6ee9451be3eee569d1a13ef3f5f2b51c783f56d7d831f4bb647a80394",
+        "size_in_bytes": 3853824,
+        "sha256_in_prefix": "cebf39a6ee9451be3eee569d1a13ef3f5f2b51c783f56d7d831f4bb647a80394"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtGui.pyi",
+        "path_type": "hardlink",
+        "sha256": "f1cf1abf6dc4bde3ad4f14298ea8965d278e7d54801e6de6b8affc91df8153c8",
+        "size_in_bytes": 638608,
+        "sha256_in_prefix": "f1cf1abf6dc4bde3ad4f14298ea8965d278e7d54801e6de6b8affc91df8153c8"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtHelp.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "f2d9a14736d17759d32f0fff1fda6b010add1d227e9bcbb175e3c8c8a504d99b",
+        "size_in_bytes": 278016,
+        "sha256_in_prefix": "f2d9a14736d17759d32f0fff1fda6b010add1d227e9bcbb175e3c8c8a504d99b"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtHelp.pyi",
+        "path_type": "hardlink",
+        "sha256": "f52d3b6010ef52b42a2b862561a175c37670321218fd6ca169609dbd48668422",
+        "size_in_bytes": 16782,
+        "sha256_in_prefix": "f52d3b6010ef52b42a2b862561a175c37670321218fd6ca169609dbd48668422"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtMultimedia.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "c001208d246b93ac51f9b2b375752178fffcab6ed4aa868236eaada11422d4f9",
+        "size_in_bytes": 538112,
+        "sha256_in_prefix": "c001208d246b93ac51f9b2b375752178fffcab6ed4aa868236eaada11422d4f9"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtMultimedia.pyi",
+        "path_type": "hardlink",
+        "sha256": "ff84bdad6a38f42f24af34d64a18b3a3253643600c540fd237055aaea2af86c3",
+        "size_in_bytes": 87330,
+        "sha256_in_prefix": "ff84bdad6a38f42f24af34d64a18b3a3253643600c540fd237055aaea2af86c3"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtMultimediaWidgets.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "eedc9d6e84ed70c10b438acb710f18fcdf63931718dddba3b336e8d2eb975858",
+        "size_in_bytes": 125952,
+        "sha256_in_prefix": "eedc9d6e84ed70c10b438acb710f18fcdf63931718dddba3b336e8d2eb975858"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtMultimediaWidgets.pyi",
+        "path_type": "hardlink",
+        "sha256": "8e69fde23b1a5642a5307c185869d0ccea3312af499ae3a659008a29218d0cbb",
+        "size_in_bytes": 3441,
+        "sha256_in_prefix": "8e69fde23b1a5642a5307c185869d0ccea3312af499ae3a659008a29218d0cbb"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtNetwork.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "76b6ee64803c894493cdd4a800d8120a5a2e40f840353c1c3f100b4dad3fb049",
+        "size_in_bytes": 985600,
+        "sha256_in_prefix": "76b6ee64803c894493cdd4a800d8120a5a2e40f840353c1c3f100b4dad3fb049"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtNetwork.pyi",
+        "path_type": "hardlink",
+        "sha256": "df9d3ae4e3ed0c9eaa737bb013e95cbfad56ac61815b3bdea51f3bb27a162621",
+        "size_in_bytes": 153876,
+        "sha256_in_prefix": "df9d3ae4e3ed0c9eaa737bb013e95cbfad56ac61815b3bdea51f3bb27a162621"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtOpenGL.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "8eb103442f6de620b5128834b45b1ca8d320f058ada1f136dc3d97ce7c48abf3",
+        "size_in_bytes": 8719872,
+        "sha256_in_prefix": "8eb103442f6de620b5128834b45b1ca8d320f058ada1f136dc3d97ce7c48abf3"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtOpenGL.pyi",
+        "path_type": "hardlink",
+        "sha256": "d405f96ecb6b1a969325696dcb3e98310474c17a7a356a1869248226dcd13146",
+        "size_in_bytes": 1223122,
+        "sha256_in_prefix": "d405f96ecb6b1a969325696dcb3e98310474c17a7a356a1869248226dcd13146"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtOpenGLWidgets.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "3e020a9fc9e4eb63f29722b09d63db058a2fc12fb3730bece045c0ef93ff4265",
+        "size_in_bytes": 107520,
+        "sha256_in_prefix": "3e020a9fc9e4eb63f29722b09d63db058a2fc12fb3730bece045c0ef93ff4265"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtOpenGLWidgets.pyi",
+        "path_type": "hardlink",
+        "sha256": "d051c6ae8cb4ffa21e4f4d2e1d6c0885be9a19d9e1e87aec24b8223578beada0",
+        "size_in_bytes": 3407,
+        "sha256_in_prefix": "d051c6ae8cb4ffa21e4f4d2e1d6c0885be9a19d9e1e87aec24b8223578beada0"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtPrintSupport.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "2150bea8c414705a9baba87448d9120aa33d20377e8dcda65a320e86feed5436",
+        "size_in_bytes": 256512,
+        "sha256_in_prefix": "2150bea8c414705a9baba87448d9120aa33d20377e8dcda65a320e86feed5436"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtPrintSupport.pyi",
+        "path_type": "hardlink",
+        "sha256": "a2b5c3af8f077e41aca4a89ebe62bf7935e20e333fc063adebe72aef7b5b75a0",
+        "size_in_bytes": 18088,
+        "sha256_in_prefix": "a2b5c3af8f077e41aca4a89ebe62bf7935e20e333fc063adebe72aef7b5b75a0"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtQml.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "9c17cca29e11113aabed6e9f3589d34b5612b4db784fffe525fcb2e551311ac9",
+        "size_in_bytes": 455168,
+        "sha256_in_prefix": "9c17cca29e11113aabed6e9f3589d34b5612b4db784fffe525fcb2e551311ac9"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtQml.pyi",
+        "path_type": "hardlink",
+        "sha256": "9ce0b2271341d52e7376b1c1d5c1af0ab5f72c59195568102d0a7b2211fe63a5",
+        "size_in_bytes": 52890,
+        "sha256_in_prefix": "9ce0b2271341d52e7376b1c1d5c1af0ab5f72c59195568102d0a7b2211fe63a5"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtQuick.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "a7d75d62a25c78e2e4535f7384ec0d23f844f3b6c62d0bb750d5eba21d3ab9c3",
+        "size_in_bytes": 751104,
+        "sha256_in_prefix": "a7d75d62a25c78e2e4535f7384ec0d23f844f3b6c62d0bb750d5eba21d3ab9c3"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtQuick.pyi",
+        "path_type": "hardlink",
+        "sha256": "67e4d1cc3f87381afb2512ab2ca4b5505178c60951106ba8d90458b3e6e26bef",
+        "size_in_bytes": 90448,
+        "sha256_in_prefix": "67e4d1cc3f87381afb2512ab2ca4b5505178c60951106ba8d90458b3e6e26bef"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtQuick3D.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "5e343fb3a1ef8806646fe55e665710f6847fb724c2b4764b78b8a72aa3aca8b3",
+        "size_in_bytes": 163328,
+        "sha256_in_prefix": "5e343fb3a1ef8806646fe55e665710f6847fb724c2b4764b78b8a72aa3aca8b3"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtQuick3D.pyi",
+        "path_type": "hardlink",
+        "sha256": "bf03a19db5784d610637ecd0cec2c262b2dcf32e3d2cf7a0b11f967d3d84b5e7",
+        "size_in_bytes": 14478,
+        "sha256_in_prefix": "bf03a19db5784d610637ecd0cec2c262b2dcf32e3d2cf7a0b11f967d3d84b5e7"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtQuickControls2.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "fa3858ffbb9c2a9c7a45e812f04b6f75d4529912cfcd7dfcad6060d661907027",
+        "size_in_bytes": 79872,
+        "sha256_in_prefix": "fa3858ffbb9c2a9c7a45e812f04b6f75d4529912cfcd7dfcad6060d661907027"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtQuickControls2.pyi",
+        "path_type": "hardlink",
+        "sha256": "66457406e0aad93049cdabde0b7d3df6563ee3bb26bb11293204e01675c71470",
+        "size_in_bytes": 1451,
+        "sha256_in_prefix": "66457406e0aad93049cdabde0b7d3df6563ee3bb26bb11293204e01675c71470"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtQuickTest.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "400f2dc6b2ab8a393501e0c9fd03ce63fb8cfa0c7e827cbf6d0542934c8f6763",
+        "size_in_bytes": 56832,
+        "sha256_in_prefix": "400f2dc6b2ab8a393501e0c9fd03ce63fb8cfa0c7e827cbf6d0542934c8f6763"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtQuickTest.pyi",
+        "path_type": "hardlink",
+        "sha256": "b965e7ccd80a6b5c49409c906d3b517193ec00aa2f0d74c6983acdf8b22d5dcd",
+        "size_in_bytes": 755,
+        "sha256_in_prefix": "b965e7ccd80a6b5c49409c906d3b517193ec00aa2f0d74c6983acdf8b22d5dcd"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtQuickWidgets.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "163edbb3f7f196e2070650ae925f506520e638a7611d0c9b15e02284025468d3",
+        "size_in_bytes": 118272,
+        "sha256_in_prefix": "163edbb3f7f196e2070650ae925f506520e638a7611d0c9b15e02284025468d3"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtQuickWidgets.pyi",
+        "path_type": "hardlink",
+        "sha256": "1a9554b5311ecb736370d0424067dea1faa85ac6b6031bb333bf34e0ef7f60fa",
+        "size_in_bytes": 5654,
+        "sha256_in_prefix": "1a9554b5311ecb736370d0424067dea1faa85ac6b6031bb333bf34e0ef7f60fa"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtSpatialAudio.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "c19d0f7f6ac07659453d7efa07fbf11edfc32c713005b47a19b9fd1ad11b74ea",
+        "size_in_bytes": 130048,
+        "sha256_in_prefix": "c19d0f7f6ac07659453d7efa07fbf11edfc32c713005b47a19b9fd1ad11b74ea"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtSpatialAudio.pyi",
+        "path_type": "hardlink",
+        "sha256": "cbda173ec82b36a017520568496f973940a38f7c176e984cef978def34b3a420",
+        "size_in_bytes": 12765,
+        "sha256_in_prefix": "cbda173ec82b36a017520568496f973940a38f7c176e984cef978def34b3a420"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtSql.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "8b9a28fe0c831a86af65b5b80a254919d1222bcda9f68af022428cb01dae21c7",
+        "size_in_bytes": 404480,
+        "sha256_in_prefix": "8b9a28fe0c831a86af65b5b80a254919d1222bcda9f68af022428cb01dae21c7"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtSql.pyi",
+        "path_type": "hardlink",
+        "sha256": "49c59a2902ba23046828c0abba256f44944d2956953f29a470405e7d04e2b2fc",
+        "size_in_bytes": 35457,
+        "sha256_in_prefix": "49c59a2902ba23046828c0abba256f44944d2956953f29a470405e7d04e2b2fc"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtSvg.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "feb38641280d661eba503cc8aaa74d672954b2a3aa93a536818aafb6bf419cc0",
+        "size_in_bytes": 101888,
+        "sha256_in_prefix": "feb38641280d661eba503cc8aaa74d672954b2a3aa93a536818aafb6bf419cc0"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtSvg.pyi",
+        "path_type": "hardlink",
+        "sha256": "86e50ead5196e6323325e6a443e5f316444d442eb6412eaa28418dd6519c27f9",
+        "size_in_bytes": 6964,
+        "sha256_in_prefix": "86e50ead5196e6323325e6a443e5f316444d442eb6412eaa28418dd6519c27f9"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtSvgWidgets.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "16b6e943ceb7532619ae51c08a47024ea7f6f27de1ca2cae8c3665daf5fe8bf6",
+        "size_in_bytes": 124928,
+        "sha256_in_prefix": "16b6e943ceb7532619ae51c08a47024ea7f6f27de1ca2cae8c3665daf5fe8bf6"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtSvgWidgets.pyi",
+        "path_type": "hardlink",
+        "sha256": "35c4eacf3c24cf393bcb6bf420fbabbdeba0f0abe22161ef3b41de14b502c0af",
+        "size_in_bytes": 2673,
+        "sha256_in_prefix": "35c4eacf3c24cf393bcb6bf420fbabbdeba0f0abe22161ef3b41de14b502c0af"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtTest.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "a1e14f3966e4d952422e40eb9fc6237412ae4497caca8672f0133129e4e5a4c7",
+        "size_in_bytes": 169472,
+        "sha256_in_prefix": "a1e14f3966e4d952422e40eb9fc6237412ae4497caca8672f0133129e4e5a4c7"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtTest.pyi",
+        "path_type": "hardlink",
+        "sha256": "71543072a9c8f4b8155365bd2bcdbd0d0752584af3b079b53021d1c06313442b",
+        "size_in_bytes": 21244,
+        "sha256_in_prefix": "71543072a9c8f4b8155365bd2bcdbd0d0752584af3b079b53021d1c06313442b"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtUiTools.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "92f38e808bad43708aca1e50d2794fe5b729b9474175187bd8d2b9b4238684c7",
+        "size_in_bytes": 103936,
+        "sha256_in_prefix": "92f38e808bad43708aca1e50d2794fe5b729b9474175187bd8d2b9b4238684c7"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtUiTools.pyi",
+        "path_type": "hardlink",
+        "sha256": "7673c05ae464105ddbfd1f414a50d3906a8d3bc568ea71d4882401f4f2842fd5",
+        "size_in_bytes": 2438,
+        "sha256_in_prefix": "7673c05ae464105ddbfd1f414a50d3906a8d3bc568ea71d4882401f4f2842fd5"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtWebChannel.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "ee877a20060d0bacb1576c6b23bc4673cd326f0a5b49de285d596541cad22a2e",
+        "size_in_bytes": 79360,
+        "sha256_in_prefix": "ee877a20060d0bacb1576c6b23bc4673cd326f0a5b49de285d596541cad22a2e"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtWebChannel.pyi",
+        "path_type": "hardlink",
+        "sha256": "f2fd331a5c1da30153aa9615434d80504a1a2e6963a7967023ac01b910add246",
+        "size_in_bytes": 2034,
+        "sha256_in_prefix": "f2fd331a5c1da30153aa9615434d80504a1a2e6963a7967023ac01b910add246"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtWebSockets.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "ea72f26ae268915ef0c7d6d12b762e61d6d7b693e390e2931a0d72d37236153d",
+        "size_in_bytes": 126976,
+        "sha256_in_prefix": "ea72f26ae268915ef0c7d6d12b762e61d6d7b693e390e2931a0d72d37236153d"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtWebSockets.pyi",
+        "path_type": "hardlink",
+        "sha256": "51621ad74ac08287232af3ad1094b4f6fbde661988d399e71cd7d0cbc45ecf55",
+        "size_in_bytes": 13073,
+        "sha256_in_prefix": "51621ad74ac08287232af3ad1094b4f6fbde661988d399e71cd7d0cbc45ecf55"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtWidgets.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "ee70dc8d1eb35726d0670d5b233a04e22b59f2e9554e69093b69af9c6bab68cb",
+        "size_in_bytes": 4686336,
+        "sha256_in_prefix": "ee70dc8d1eb35726d0670d5b233a04e22b59f2e9554e69093b69af9c6bab68cb"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtWidgets.pyi",
+        "path_type": "hardlink",
+        "sha256": "a6806b8b43185e9d1c58667d3f79ffaad97fa79d2a55fa7ee71f26a76e9d5e3a",
+        "size_in_bytes": 609224,
+        "sha256_in_prefix": "a6806b8b43185e9d1c58667d3f79ffaad97fa79d2a55fa7ee71f26a76e9d5e3a"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtXml.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "9c4c3f59bd01eeacdfb2fb95f6a70f7aac38f9ebb769793ec3d01403db750f97",
+        "size_in_bytes": 195584,
+        "sha256_in_prefix": "9c4c3f59bd01eeacdfb2fb95f6a70f7aac38f9ebb769793ec3d01403db750f97"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/QtXml.pyi",
+        "path_type": "hardlink",
+        "sha256": "146e95f472bf25f50d0229839a474f25284c569fd2f1a3ae32d96f3ea7380702",
+        "size_in_bytes": 20429,
+        "sha256_in_prefix": "146e95f472bf25f50d0229839a474f25284c569fd2f1a3ae32d96f3ea7380702"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "32f3bd0ce173d6c8c416797cdaeb33f0746758f30b3d7695019b04c4d68ef91c",
+        "size_in_bytes": 6072,
+        "sha256_in_prefix": "32f3bd0ce173d6c8c416797cdaeb33f0746758f30b3d7695019b04c4d68ef91c"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "160fbaa412890fbde98521f4efef38b8f52665b6c7c6c52b0c1f5f82842cae6e",
+        "size_in_bytes": 3645,
+        "sha256_in_prefix": "160fbaa412890fbde98521f4efef38b8f52665b6c7c6c52b0c1f5f82842cae6e"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/__pycache__/_config.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5298f8a3a53a33f6001ba05bbb80ced9454bd96b5c47a3a0257b20e3ec140a0a",
+        "size_in_bytes": 1034,
+        "sha256_in_prefix": "5298f8a3a53a33f6001ba05bbb80ced9454bd96b5c47a3a0257b20e3ec140a0a"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/__pycache__/_git_pyside_version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2cd05e7a1b12a1e7703d50f0916f8d1b9fb919cf6f273da7a133dacc72fc7a02",
+        "size_in_bytes": 408,
+        "sha256_in_prefix": "2cd05e7a1b12a1e7703d50f0916f8d1b9fb919cf6f273da7a133dacc72fc7a02"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/_config.py",
+        "path_type": "hardlink",
+        "sha256": "9d85276f7576c82710c580a9af4872796711adc2500a2e8ad33d608ef144595a",
+        "size_in_bytes": 779,
+        "sha256_in_prefix": "9d85276f7576c82710c580a9af4872796711adc2500a2e8ad33d608ef144595a"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/_git_pyside_version.py",
+        "path_type": "hardlink",
+        "sha256": "a55025692219cbbf097e8001ddfbb96870c8c5b2d156c80c1282d737eb6dacf4",
+        "size_in_bytes": 712,
+        "sha256_in_prefix": "a55025692219cbbf097e8001ddfbb96870c8c5b2d156c80c1282d737eb6dacf4"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/scripts/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/scripts/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "386a76011634b0102a5c603fae4b9984547f6ee6d4c60fb6508f2c8d71de702e",
+        "size_in_bytes": 138,
+        "sha256_in_prefix": "386a76011634b0102a5c603fae4b9984547f6ee6d4c60fb6508f2c8d71de702e"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/scripts/__pycache__/pyside_tool.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e70b0bad760ab5885bc697540c50e5191c1235dc61d75826fa734525fac4ae09",
+        "size_in_bytes": 7798,
+        "sha256_in_prefix": "e70b0bad760ab5885bc697540c50e5191c1235dc61d75826fa734525fac4ae09"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/scripts/pyside_tool.py",
+        "path_type": "hardlink",
+        "sha256": "8665920af60c28c3d701d5cac517a6bad3ccb5055a7aaf0acf32876c86601bf6",
+        "size_in_bytes": 8251,
+        "sha256_in_prefix": "8665920af60c28c3d701d5cac517a6bad3ccb5055a7aaf0acf32876c86601bf6"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/support/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "544cd819bb55076c22ad952087d0dcef414dc64f6f09a4ac65ad1ee0216b5695",
+        "size_in_bytes": 223,
+        "sha256_in_prefix": "544cd819bb55076c22ad952087d0dcef414dc64f6f09a4ac65ad1ee0216b5695"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/support/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d9cf98ceacec4c369264b57a2cd252d342b1a2682645de34ea1a9bcb4e45417",
+        "size_in_bytes": 234,
+        "sha256_in_prefix": "0d9cf98ceacec4c369264b57a2cd252d342b1a2682645de34ea1a9bcb4e45417"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/support/__pycache__/deprecated.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed4580901631706afdde607ae69eb51fbbb270347a01190390bc261d8ca1329c",
+        "size_in_bytes": 188,
+        "sha256_in_prefix": "ed4580901631706afdde607ae69eb51fbbb270347a01190390bc261d8ca1329c"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/support/__pycache__/generate_pyi.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6311a578b1eb9333fcd975d9d36130334dd0bc60ba3881675faff5c6a7fb80f3",
+        "size_in_bytes": 2995,
+        "sha256_in_prefix": "6311a578b1eb9333fcd975d9d36130334dd0bc60ba3881675faff5c6a7fb80f3"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/support/deprecated.py",
+        "path_type": "hardlink",
+        "sha256": "95431e9fc9d51387f56f2b1a75f38be22794a4addcd7c416f09b515ac0c35506",
+        "size_in_bytes": 605,
+        "sha256_in_prefix": "95431e9fc9d51387f56f2b1a75f38be22794a4addcd7c416f09b515ac0c35506"
+      },
+      {
+        "_path": "Lib/site-packages/PySide6/support/generate_pyi.py",
+        "path_type": "hardlink",
+        "sha256": "46a9f593f19fbe389cf3e3863f24665641f89b7dca2a6ef719285787ec3c945c",
+        "size_in_bytes": 3794,
+        "sha256_in_prefix": "46a9f593f19fbe389cf3e3863f24665641f89b7dca2a6ef719285787ec3c945c"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6-6.9.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9c0386d617576c6af257e5e6858dc046c2062393adc0dfbcd3967474b5eb333c",
+        "size_in_bytes": 57,
+        "sha256_in_prefix": "9c0386d617576c6af257e5e6858dc046c2062393adc0dfbcd3967474b5eb333c"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6/Shiboken.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "60c422eb867b2b2da66875bd56602a314a2e9fbf7a7c66ee323196c9fa4708a7",
+        "size_in_bytes": 20480,
+        "sha256_in_prefix": "60c422eb867b2b2da66875bd56602a314a2e9fbf7a7c66ee323196c9fa4708a7"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6/Shiboken.pyi",
+        "path_type": "hardlink",
+        "sha256": "287285f85a0a41d3468e0f30babc4d273fcee564c4e9c65a5205c13995f98008",
+        "size_in_bytes": 1083,
+        "sha256_in_prefix": "287285f85a0a41d3468e0f30babc4d273fcee564c4e9c65a5205c13995f98008"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "47e1af55ef79eb25ba05d78621464cc7412c8803862f3694032258ca368ce523",
+        "size_in_bytes": 689,
+        "sha256_in_prefix": "47e1af55ef79eb25ba05d78621464cc7412c8803862f3694032258ca368ce523"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ff5eb97369f14fc48231faa7bf96362510bad5d36ae9007c2bc72c7ede42413",
+        "size_in_bytes": 598,
+        "sha256_in_prefix": "2ff5eb97369f14fc48231faa7bf96362510bad5d36ae9007c2bc72c7ede42413"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6/__pycache__/_config.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b3836e54ff8c1201c6d9f714bdc5d1b9ef7c8bd28921ca34c31e20b267b10088",
+        "size_in_bytes": 467,
+        "sha256_in_prefix": "b3836e54ff8c1201c6d9f714bdc5d1b9ef7c8bd28921ca34c31e20b267b10088"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6/__pycache__/_git_shiboken_module_version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "775ef5b76cbb8632236234da0d31d42d4c36074b150cba610b62b957f6178aa2",
+        "size_in_bytes": 419,
+        "sha256_in_prefix": "775ef5b76cbb8632236234da0d31d42d4c36074b150cba610b62b957f6178aa2"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6/_config.py",
+        "path_type": "hardlink",
+        "sha256": "00a6343871bf0f45907352b45d3b3f0a103163105176762946303797ab3dc687",
+        "size_in_bytes": 323,
+        "sha256_in_prefix": "00a6343871bf0f45907352b45d3b3f0a103163105176762946303797ab3dc687"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6/_git_shiboken_module_version.py",
+        "path_type": "hardlink",
+        "sha256": "a55025692219cbbf097e8001ddfbb96870c8c5b2d156c80c1282d737eb6dacf4",
+        "size_in_bytes": 712,
+        "sha256_in_prefix": "a55025692219cbbf097e8001ddfbb96870c8c5b2d156c80c1282d737eb6dacf4"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6/py.typed",
+        "path_type": "hardlink",
+        "sha256": "c39d141de78f9a4e8e4224b0c77dfaf12a540adbc562ceeb984af634a6911da5",
+        "size_in_bytes": 34,
+        "sha256_in_prefix": "c39d141de78f9a4e8e4224b0c77dfaf12a540adbc562ceeb984af634a6911da5"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6_generator/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "52f10dbed8cf68131df20e054057798099a3c64ef1808c88eb1587eb2994083c",
+        "size_in_bytes": 61,
+        "sha256_in_prefix": "52f10dbed8cf68131df20e054057798099a3c64ef1808c88eb1587eb2994083c"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6_generator/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a992c29bfd8263c192d4b60220df44129e7886f615a02f28f2945b083b3c4f09",
+        "size_in_bytes": 211,
+        "sha256_in_prefix": "a992c29bfd8263c192d4b60220df44129e7886f615a02f28f2945b083b3c4f09"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6_generator/__pycache__/_config.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1675ba531d8b3ef8a054d70935a05680897583b9fdc5217d714132919a49259d",
+        "size_in_bytes": 438,
+        "sha256_in_prefix": "1675ba531d8b3ef8a054d70935a05680897583b9fdc5217d714132919a49259d"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6_generator/__pycache__/_git_shiboken_generator_version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f9277c041d324872c41fce3b4f8d56e559fc3ebf0ce0499e736f40015da27016",
+        "size_in_bytes": 432,
+        "sha256_in_prefix": "f9277c041d324872c41fce3b4f8d56e559fc3ebf0ce0499e736f40015da27016"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6_generator/_config.py",
+        "path_type": "hardlink",
+        "sha256": "17a718db1a275dffdf2461a538b654f8b19e657fab84dfa3c7f0525dff80be5a",
+        "size_in_bytes": 285,
+        "sha256_in_prefix": "17a718db1a275dffdf2461a538b654f8b19e657fab84dfa3c7f0525dff80be5a"
+      },
+      {
+        "_path": "Lib/site-packages/shiboken6_generator/_git_shiboken_generator_version.py",
+        "path_type": "hardlink",
+        "sha256": "a55025692219cbbf097e8001ddfbb96870c8c5b2d156c80c1282d737eb6dacf4",
+        "size_in_bytes": 712,
+        "sha256_in_prefix": "a55025692219cbbf097e8001ddfbb96870c8c5b2d156c80c1282d737eb6dacf4"
+      },
+      {
+        "_path": "Library/bin/android_deploy.py",
+        "path_type": "hardlink",
+        "sha256": "2f0c61ea3ddf165b5db2b544dfd7877f124917ce6c4a9e1cd96736f65d9906fc",
+        "size_in_bytes": 9409,
+        "sha256_in_prefix": "2f0c61ea3ddf165b5db2b544dfd7877f124917ce6c4a9e1cd96736f65d9906fc"
+      },
+      {
+        "_path": "Library/bin/deploy.py",
+        "path_type": "hardlink",
+        "sha256": "8896ab5ef2eaeabbef045abbfdf4ccc22714f744f07c7465982546e51123dc84",
+        "size_in_bytes": 8859,
+        "sha256_in_prefix": "8896ab5ef2eaeabbef045abbfdf4ccc22714f744f07c7465982546e51123dc84"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7283ba907c6f1c8597bcb746beea457e5956020225223aa7b644073b34223e9e",
+        "size_in_bytes": 2910,
+        "sha256_in_prefix": "7283ba907c6f1c8597bcb746beea457e5956020225223aa7b644073b34223e9e"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/android/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "75e91284232c413aec135b978b1e0cfcc7c9d55288cb5dc275a08c7ab615047a",
+        "size_in_bytes": 849,
+        "sha256_in_prefix": "75e91284232c413aec135b978b1e0cfcc7c9d55288cb5dc275a08c7ab615047a"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/android/android_config.py",
+        "path_type": "hardlink",
+        "sha256": "542179f14b2ab35fda71ee5c18d3f7358eaa7ee68b757460b67ec3a0cd9d62b9",
+        "size_in_bytes": 19253,
+        "sha256_in_prefix": "542179f14b2ab35fda71ee5c18d3f7358eaa7ee68b757460b67ec3a0cd9d62b9"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/android/android_helper.py",
+        "path_type": "hardlink",
+        "sha256": "908684ffccc92d9bc7278a6c33ee8cb07e64214ba11dc62fbaac0bac76ee3d83",
+        "size_in_bytes": 5411,
+        "sha256_in_prefix": "908684ffccc92d9bc7278a6c33ee8cb07e64214ba11dc62fbaac0bac76ee3d83"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/android/android_utilities.py",
+        "path_type": "hardlink",
+        "sha256": "2144fe783f4e43180dee726e0dee8562c9e37f9cc7790705b18a00c9b8cd905f",
+        "size_in_bytes": 11771,
+        "sha256_in_prefix": "2144fe783f4e43180dee726e0dee8562c9e37f9cc7790705b18a00c9b8cd905f"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/android/buildozer.py",
+        "path_type": "hardlink",
+        "sha256": "17cbcf323e1d7fc7b3dd1180e03a7130dc9d99798b3b68e72f7f4730fbada33b",
+        "size_in_bytes": 6404,
+        "sha256_in_prefix": "17cbcf323e1d7fc7b3dd1180e03a7130dc9d99798b3b68e72f7f4730fbada33b"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/android/recipes/PySide6/__init__.tmpl.py",
+        "path_type": "hardlink",
+        "sha256": "92003df9aa43cf35cb4e62f86040c7f9693316ad3f29e2f39d3eb0152b8797b0",
+        "size_in_bytes": 2962,
+        "sha256_in_prefix": "92003df9aa43cf35cb4e62f86040c7f9693316ad3f29e2f39d3eb0152b8797b0"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/android/recipes/shiboken6/__init__.tmpl.py",
+        "path_type": "hardlink",
+        "sha256": "bdad8cad428be34a2143cb79ab27737376548810114afbf46787cd04d5426b11",
+        "size_in_bytes": 1173,
+        "sha256_in_prefix": "bdad8cad428be34a2143cb79ab27737376548810114afbf46787cd04d5426b11"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/commands.py",
+        "path_type": "hardlink",
+        "sha256": "c184c8699074f84edba68f0f2440ecb3cf34a1ba9d2f9db7926dbf6f9cf47d3a",
+        "size_in_bytes": 2086,
+        "sha256_in_prefix": "c184c8699074f84edba68f0f2440ecb3cf34a1ba9d2f9db7926dbf6f9cf47d3a"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/config.py",
+        "path_type": "hardlink",
+        "sha256": "c34b70803a3efa8177b50780d3da1de0cecd38c27ed73f0df3e30b59da8d4370",
+        "size_in_bytes": 20876,
+        "sha256_in_prefix": "c34b70803a3efa8177b50780d3da1de0cecd38c27ed73f0df3e30b59da8d4370"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/default.spec",
+        "path_type": "hardlink",
+        "sha256": "c1e35ad6a75ccea2c32e99fad56e4a5ee757297bc6d94a7d16b6bdf96a1dbbaf",
+        "size_in_bytes": 2233,
+        "sha256_in_prefix": "c1e35ad6a75ccea2c32e99fad56e4a5ee757297bc6d94a7d16b6bdf96a1dbbaf"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/dependency_util.py",
+        "path_type": "hardlink",
+        "sha256": "b0d1815b91a4e03482a2149b4503806fe1a277eff47d03c9420ed5d0ce6e7cef",
+        "size_in_bytes": 14237,
+        "sha256_in_prefix": "b0d1815b91a4e03482a2149b4503806fe1a277eff47d03c9420ed5d0ce6e7cef"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/deploy_util.py",
+        "path_type": "hardlink",
+        "sha256": "f44791a19231907b7b8775d9cc697da5d421829c858c14ca6f4d95d18844be43",
+        "size_in_bytes": 3945,
+        "sha256_in_prefix": "f44791a19231907b7b8775d9cc697da5d421829c858c14ca6f4d95d18844be43"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/nuitka_helper.py",
+        "path_type": "hardlink",
+        "sha256": "f5016d058d30a4c678242e5888473cd53abcd874648c7c2c9185ff5952800029",
+        "size_in_bytes": 8705,
+        "sha256_in_prefix": "f5016d058d30a4c678242e5888473cd53abcd874648c7c2c9185ff5952800029"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/pyside_icon.icns",
+        "path_type": "hardlink",
+        "sha256": "f78a57af88cbfea1b3b4f10836ffdbad882da0ce7c88fbb0d0bb6704047dd616",
+        "size_in_bytes": 47064,
+        "sha256_in_prefix": "f78a57af88cbfea1b3b4f10836ffdbad882da0ce7c88fbb0d0bb6704047dd616"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/pyside_icon.ico",
+        "path_type": "hardlink",
+        "sha256": "13086f8c95852e903b5edaf7619a96b64279c152443a2a2f547270cd085aa18b",
+        "size_in_bytes": 48446,
+        "sha256_in_prefix": "13086f8c95852e903b5edaf7619a96b64279c152443a2a2f547270cd085aa18b"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/pyside_icon.jpg",
+        "path_type": "hardlink",
+        "sha256": "22450b7fb937f873239488951953480656405f362a881b57eaf33737bd1385a0",
+        "size_in_bytes": 8157,
+        "sha256_in_prefix": "22450b7fb937f873239488951953480656405f362a881b57eaf33737bd1385a0"
+      },
+      {
+        "_path": "Library/bin/deploy_lib/python_helper.py",
+        "path_type": "hardlink",
+        "sha256": "4c4e1f2ffe480d9b6e32c8cf7c968a1749d5705d92d670319c6c02799155ac5b",
+        "size_in_bytes": 4898,
+        "sha256_in_prefix": "4c4e1f2ffe480d9b6e32c8cf7c968a1749d5705d92d670319c6c02799155ac5b"
+      },
+      {
+        "_path": "Library/bin/metaobjectdump.py",
+        "path_type": "hardlink",
+        "sha256": "1f4d5ea21765cb309878eeb4860fe81a6cced63b030140f23bfc60f2c0ff97ba",
+        "size_in_bytes": 16961,
+        "sha256_in_prefix": "1f4d5ea21765cb309878eeb4860fe81a6cced63b030140f23bfc60f2c0ff97ba"
+      },
+      {
+        "_path": "Library/bin/project.py",
+        "path_type": "hardlink",
+        "sha256": "20680e02c9a598d14f298359665455c5996f66849d69ff15d795dee97e06c02b",
+        "size_in_bytes": 14755,
+        "sha256_in_prefix": "20680e02c9a598d14f298359665455c5996f66849d69ff15d795dee97e06c02b"
+      },
+      {
+        "_path": "Library/bin/project_lib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4c3125ca7cf4ca015748d2799047656ff259581f4976bbcf03c3b10fd0f78835",
+        "size_in_bytes": 1786,
+        "sha256_in_prefix": "4c3125ca7cf4ca015748d2799047656ff259581f4976bbcf03c3b10fd0f78835"
+      },
+      {
+        "_path": "Library/bin/project_lib/design_studio_project.py",
+        "path_type": "hardlink",
+        "sha256": "e27a0bcdd7a9a4bdb7789b451d3dff863b74a21dd8907b1a23aed2474ef3a1a5",
+        "size_in_bytes": 2554,
+        "sha256_in_prefix": "e27a0bcdd7a9a4bdb7789b451d3dff863b74a21dd8907b1a23aed2474ef3a1a5"
+      },
+      {
+        "_path": "Library/bin/project_lib/newproject.py",
+        "path_type": "hardlink",
+        "sha256": "92f5c6d5a311042952829b0a20099ae62831e87be6766567f42908d5960b94de",
+        "size_in_bytes": 5597,
+        "sha256_in_prefix": "92f5c6d5a311042952829b0a20099ae62831e87be6766567f42908d5960b94de"
+      },
+      {
+        "_path": "Library/bin/project_lib/project_data.py",
+        "path_type": "hardlink",
+        "sha256": "3549251ae3f5f29ffcfe7e104a33848e3f69ebe48c8c9e63960594294afa4abd",
+        "size_in_bytes": 8175,
+        "sha256_in_prefix": "3549251ae3f5f29ffcfe7e104a33848e3f69ebe48c8c9e63960594294afa4abd"
+      },
+      {
+        "_path": "Library/bin/project_lib/pyproject_json.py",
+        "path_type": "hardlink",
+        "sha256": "f8df470c80abcdf4f8f2f7cd75cbd4f122ba833939c16031eb581d9655705eb5",
+        "size_in_bytes": 2030,
+        "sha256_in_prefix": "f8df470c80abcdf4f8f2f7cd75cbd4f122ba833939c16031eb581d9655705eb5"
+      },
+      {
+        "_path": "Library/bin/project_lib/pyproject_parse_result.py",
+        "path_type": "hardlink",
+        "sha256": "35d6f6d1e786f32d3f55e43453d5e49e5bed10433c0698ccd6aef6b636cf5f8a",
+        "size_in_bytes": 353,
+        "sha256_in_prefix": "35d6f6d1e786f32d3f55e43453d5e49e5bed10433c0698ccd6aef6b636cf5f8a"
+      },
+      {
+        "_path": "Library/bin/project_lib/pyproject_toml.py",
+        "path_type": "hardlink",
+        "sha256": "3f1ed045cba7e4285f29cd1f1a1bc2e1145d56599d047034e312e80dc083ce55",
+        "size_in_bytes": 8606,
+        "sha256_in_prefix": "3f1ed045cba7e4285f29cd1f1a1bc2e1145d56599d047034e312e80dc083ce55"
+      },
+      {
+        "_path": "Library/bin/project_lib/utils.py",
+        "path_type": "hardlink",
+        "sha256": "6e283c9900e51564d214c8d46485556d04fbd4ed157ec835abf640cc614c7ea4",
+        "size_in_bytes": 7456,
+        "sha256_in_prefix": "6e283c9900e51564d214c8d46485556d04fbd4ed157ec835abf640cc614c7ea4"
+      },
+      {
+        "_path": "Library/bin/pyside6.cp310-win_amd64.dll",
+        "path_type": "hardlink",
+        "sha256": "4d140b84ac1d1dd77ee4a29f7c838beeb3a1f8266cb6c24b9ff201a210427232",
+        "size_in_bytes": 236032,
+        "sha256_in_prefix": "4d140b84ac1d1dd77ee4a29f7c838beeb3a1f8266cb6c24b9ff201a210427232"
+      },
+      {
+        "_path": "Library/bin/pyside6qml.cp310-win_amd64.dll",
+        "path_type": "hardlink",
+        "sha256": "b06519f43018edef79ac52d6240362663a164e33621c21e07b0ac6c89a1ddb35",
+        "size_in_bytes": 78336,
+        "sha256_in_prefix": "b06519f43018edef79ac52d6240362663a164e33621c21e07b0ac6c89a1ddb35"
+      },
+      {
+        "_path": "Library/bin/qml.py",
+        "path_type": "hardlink",
+        "sha256": "f82db66cc66f99360bfca9bb934f7dbeb654bf54feeaacb7063f71c14aa33155",
+        "size_in_bytes": 8935,
+        "sha256_in_prefix": "f82db66cc66f99360bfca9bb934f7dbeb654bf54feeaacb7063f71c14aa33155"
+      },
+      {
+        "_path": "Library/bin/qtpy2cpp.py",
+        "path_type": "hardlink",
+        "sha256": "f2fbe9bd0739cc2c1aac74c38bb5d6b9ce0b38fe064729d5aeef3ea1810c27e3",
+        "size_in_bytes": 2523,
+        "sha256_in_prefix": "f2fbe9bd0739cc2c1aac74c38bb5d6b9ce0b38fe064729d5aeef3ea1810c27e3"
+      },
+      {
+        "_path": "Library/bin/qtpy2cpp_lib/astdump.py",
+        "path_type": "hardlink",
+        "sha256": "5f74cb6b5961b332cebadbf6f1d915793a2c347e865abbad6c980e3e2fd9d5b5",
+        "size_in_bytes": 3587,
+        "sha256_in_prefix": "5f74cb6b5961b332cebadbf6f1d915793a2c347e865abbad6c980e3e2fd9d5b5"
+      },
+      {
+        "_path": "Library/bin/qtpy2cpp_lib/formatter.py",
+        "path_type": "hardlink",
+        "sha256": "68af8622fdcde00dab912b3fabc609cb7a9f619b10c653a1fb4a0d9f5fc29f32",
+        "size_in_bytes": 9092,
+        "sha256_in_prefix": "68af8622fdcde00dab912b3fabc609cb7a9f619b10c653a1fb4a0d9f5fc29f32"
+      },
+      {
+        "_path": "Library/bin/qtpy2cpp_lib/nodedump.py",
+        "path_type": "hardlink",
+        "sha256": "1e6cc6368adb63bca0b90c2af447a074a72b2a84941592a7382a91741022ddbc",
+        "size_in_bytes": 1910,
+        "sha256_in_prefix": "1e6cc6368adb63bca0b90c2af447a074a72b2a84941592a7382a91741022ddbc"
+      },
+      {
+        "_path": "Library/bin/qtpy2cpp_lib/qt.py",
+        "path_type": "hardlink",
+        "sha256": "951d685a01a99ae5acfe796ccc56ce16d0a18b0a9f5dd25288cf4dfac7846c4c",
+        "size_in_bytes": 2746,
+        "sha256_in_prefix": "951d685a01a99ae5acfe796ccc56ce16d0a18b0a9f5dd25288cf4dfac7846c4c"
+      },
+      {
+        "_path": "Library/bin/qtpy2cpp_lib/tests/baseline/basic_test.cpp",
+        "path_type": "hardlink",
+        "sha256": "81047ca94af883d3f2b9243cd790bac04aad87d922cfa0f30963f5178ed893cc",
+        "size_in_bytes": 1417,
+        "sha256_in_prefix": "81047ca94af883d3f2b9243cd790bac04aad87d922cfa0f30963f5178ed893cc"
+      },
+      {
+        "_path": "Library/bin/qtpy2cpp_lib/tests/baseline/basic_test.py",
+        "path_type": "hardlink",
+        "sha256": "2ff61b92fcb49a1aa76a7a562b4ab0872328b0180be256d43a849027b7fb36e8",
+        "size_in_bytes": 1253,
+        "sha256_in_prefix": "2ff61b92fcb49a1aa76a7a562b4ab0872328b0180be256d43a849027b7fb36e8"
+      },
+      {
+        "_path": "Library/bin/qtpy2cpp_lib/tests/test_qtpy2cpp.py",
+        "path_type": "hardlink",
+        "sha256": "9d8911b17948d3bbbe76bec82eac2a2aeb5735e1b1aa1e4b975c56645655f14d",
+        "size_in_bytes": 1926,
+        "sha256_in_prefix": "9d8911b17948d3bbbe76bec82eac2a2aeb5735e1b1aa1e4b975c56645655f14d"
+      },
+      {
+        "_path": "Library/bin/qtpy2cpp_lib/tokenizer.py",
+        "path_type": "hardlink",
+        "sha256": "ae6919fb957fb2bb56446b14a463f9adb45ac9c1298a9d6eb3e359797ef23c8a",
+        "size_in_bytes": 1624,
+        "sha256_in_prefix": "ae6919fb957fb2bb56446b14a463f9adb45ac9c1298a9d6eb3e359797ef23c8a"
+      },
+      {
+        "_path": "Library/bin/qtpy2cpp_lib/visitor.py",
+        "path_type": "hardlink",
+        "sha256": "2edac15e7019f427f3956968b955886bf5c171dcbe0412b2d9d004adeab47bed",
+        "size_in_bytes": 15468,
+        "sha256_in_prefix": "2edac15e7019f427f3956968b955886bf5c171dcbe0412b2d9d004adeab47bed"
+      },
+      {
+        "_path": "Library/bin/requirements-android.txt",
+        "path_type": "hardlink",
+        "sha256": "4595e166537fdcaca599f1fdea1518188bb9e39c91ba5ff34fcc72d1e84b2e8a",
+        "size_in_bytes": 36,
+        "sha256_in_prefix": "4595e166537fdcaca599f1fdea1518188bb9e39c91ba5ff34fcc72d1e84b2e8a"
+      },
+      {
+        "_path": "Library/bin/shiboken6.cp310-win_amd64.dll",
+        "path_type": "hardlink",
+        "sha256": "c6f85c2c9aeda3442a16115c1e4eb75617fbe738fc2cf8f3885d841a7c48bb6a",
+        "size_in_bytes": 441344,
+        "sha256_in_prefix": "c6f85c2c9aeda3442a16115c1e4eb75617fbe738fc2cf8f3885d841a7c48bb6a"
+      },
+      {
+        "_path": "Library/bin/shiboken6.exe",
+        "path_type": "hardlink",
+        "sha256": "f2b032706f925580c54f5e463ad9da3e7b05ae6afa56fea48c7c8c15f0984410",
+        "size_in_bytes": 2398208,
+        "sha256_in_prefix": "f2b032706f925580c54f5e463ad9da3e7b05ae6afa56fea48c7c8c15f0984410"
+      },
+      {
+        "_path": "Library/bin/shiboken_tool.py",
+        "path_type": "hardlink",
+        "sha256": "b6d3e0ba45499600a0a22f454358a509770faf39093af03c62939805d0ddc4e1",
+        "size_in_bytes": 975,
+        "sha256_in_prefix": "b6d3e0ba45499600a0a22f454358a509770faf39093af03c62939805d0ddc4e1"
+      },
+      {
+        "_path": "Library/include/PySide6/Qt3DAnimation/pyside6_qt3danimation_python.h",
+        "path_type": "hardlink",
+        "sha256": "fff921fe50105036b16505f9133a598447fad3f7be9a946fecd108319132bd66",
+        "size_in_bytes": 17548,
+        "sha256_in_prefix": "fff921fe50105036b16505f9133a598447fad3f7be9a946fecd108319132bd66"
+      },
+      {
+        "_path": "Library/include/PySide6/Qt3DCore/pyside6_qt3dcore_python.h",
+        "path_type": "hardlink",
+        "sha256": "6eef01ac20bf4dc89577f4fe590dd13f68b99a3b72e5661501022f663d5fed45",
+        "size_in_bytes": 16264,
+        "sha256_in_prefix": "6eef01ac20bf4dc89577f4fe590dd13f68b99a3b72e5661501022f663d5fed45"
+      },
+      {
+        "_path": "Library/include/PySide6/Qt3DExtras/pyside6_qt3dextras_python.h",
+        "path_type": "hardlink",
+        "sha256": "ba6f06fd254d118d0c7bcac3705cacb5fe924a7e173cbfb44822a69ae96adfa6",
+        "size_in_bytes": 18497,
+        "sha256_in_prefix": "ba6f06fd254d118d0c7bcac3705cacb5fe924a7e173cbfb44822a69ae96adfa6"
+      },
+      {
+        "_path": "Library/include/PySide6/Qt3DInput/pyside6_qt3dinput_python.h",
+        "path_type": "hardlink",
+        "sha256": "27e14183eac200054c6225b0840a310cba3c16d69e1aa8406da61a57a75f6ebb",
+        "size_in_bytes": 13130,
+        "sha256_in_prefix": "27e14183eac200054c6225b0840a310cba3c16d69e1aa8406da61a57a75f6ebb"
+      },
+      {
+        "_path": "Library/include/PySide6/Qt3DLogic/pyside6_qt3dlogic_python.h",
+        "path_type": "hardlink",
+        "sha256": "7894c4ea37d07c2453af30d8bfa36bfa7981d094884ec82ba7f2ebdc0b64b4c1",
+        "size_in_bytes": 3493,
+        "sha256_in_prefix": "7894c4ea37d07c2453af30d8bfa36bfa7981d094884ec82ba7f2ebdc0b64b4c1"
+      },
+      {
+        "_path": "Library/include/PySide6/Qt3DRender/pyside6_qt3drender_python.h",
+        "path_type": "hardlink",
+        "sha256": "a0a306c1c4194828924e34512d0da4fba1ce1345bb29000d6715a9fddc0b2247",
+        "size_in_bytes": 68107,
+        "sha256_in_prefix": "a0a306c1c4194828924e34512d0da4fba1ce1345bb29000d6715a9fddc0b2247"
+      },
+      {
+        "_path": "Library/include/PySide6/QtAxContainer/pyside6_qtaxcontainer_python.h",
+        "path_type": "hardlink",
+        "sha256": "f83a6edbede74e65d60464a13e4ab4cb665bd36dc1b98ec984c0050186814483",
+        "size_in_bytes": 6442,
+        "sha256_in_prefix": "f83a6edbede74e65d60464a13e4ab4cb665bd36dc1b98ec984c0050186814483"
+      },
+      {
+        "_path": "Library/include/PySide6/QtCharts/pyside6_qtcharts_python.h",
+        "path_type": "hardlink",
+        "sha256": "2046915a6de85a8bfeb5a2eef789d98580d3276504e22a153e7d6c2a358a7c6e",
+        "size_in_bytes": 27312,
+        "sha256_in_prefix": "2046915a6de85a8bfeb5a2eef789d98580d3276504e22a153e7d6c2a358a7c6e"
+      },
+      {
+        "_path": "Library/include/PySide6/QtConcurrent/pyside6_qtconcurrent_python.h",
+        "path_type": "hardlink",
+        "sha256": "ae9ad73bd50db1f71956197aa7b530023ac1c05737aebb6b580047bafa66b49a",
+        "size_in_bytes": 6041,
+        "sha256_in_prefix": "ae9ad73bd50db1f71956197aa7b530023ac1c05737aebb6b580047bafa66b49a"
+      },
+      {
+        "_path": "Library/include/PySide6/QtCore/pyside6_qtcore_python.h",
+        "path_type": "hardlink",
+        "sha256": "53e9bf0c356b635522614bfa1ccfa04d04730302c2fce9da5d15dd221e248739",
+        "size_in_bytes": 153882,
+        "sha256_in_prefix": "53e9bf0c356b635522614bfa1ccfa04d04730302c2fce9da5d15dd221e248739"
+      },
+      {
+        "_path": "Library/include/PySide6/QtCore/qiopipe.h",
+        "path_type": "hardlink",
+        "sha256": "1bde00f955c195d92820d67ce881545ede87cf722c4e35f16e7a031470ddb311",
+        "size_in_bytes": 633,
+        "sha256_in_prefix": "1bde00f955c195d92820d67ce881545ede87cf722c4e35f16e7a031470ddb311"
+      },
+      {
+        "_path": "Library/include/PySide6/QtCore/qtcorehelper.h",
+        "path_type": "hardlink",
+        "sha256": "89573aa2e1f3cf0ee766608f233b5f20826e347c79afb56f743d5543f6f0b3d3",
+        "size_in_bytes": 4355,
+        "sha256_in_prefix": "89573aa2e1f3cf0ee766608f233b5f20826e347c79afb56f743d5543f6f0b3d3"
+      },
+      {
+        "_path": "Library/include/PySide6/QtDBus/pyside6_qtdbus_python.h",
+        "path_type": "hardlink",
+        "sha256": "ead7b3d0f0c93d7b24f81bf401d495b58c808493200169973d83964ada841e4e",
+        "size_in_bytes": 14570,
+        "sha256_in_prefix": "ead7b3d0f0c93d7b24f81bf401d495b58c808493200169973d83964ada841e4e"
+      },
+      {
+        "_path": "Library/include/PySide6/QtDBus/qtdbushelper.h",
+        "path_type": "hardlink",
+        "sha256": "362f9f95d7c39186697cf0f0b7b48a02179415dfd0617fb91ecd26c4f81b8cea",
+        "size_in_bytes": 1433,
+        "sha256_in_prefix": "362f9f95d7c39186697cf0f0b7b48a02179415dfd0617fb91ecd26c4f81b8cea"
+      },
+      {
+        "_path": "Library/include/PySide6/QtDataVisualization/pyside6_qtdatavisualization_python.h",
+        "path_type": "hardlink",
+        "sha256": "a1d64d5e6e0567a3ec4b140eeb0dbccf7b409a106e78e3efdadc424b0ac6f21c",
+        "size_in_bytes": 23613,
+        "sha256_in_prefix": "a1d64d5e6e0567a3ec4b140eeb0dbccf7b409a106e78e3efdadc424b0ac6f21c"
+      },
+      {
+        "_path": "Library/include/PySide6/QtDataVisualization/qtdatavisualization_helper.h",
+        "path_type": "hardlink",
+        "sha256": "29bc0437a4703b50d749d4ee78a6d984c1738d11a285213b085e422eb90b09c2",
+        "size_in_bytes": 584,
+        "sha256_in_prefix": "29bc0437a4703b50d749d4ee78a6d984c1738d11a285213b085e422eb90b09c2"
+      },
+      {
+        "_path": "Library/include/PySide6/QtDesigner/pyside6_qtdesigner_python.h",
+        "path_type": "hardlink",
+        "sha256": "b125e64e69e185e18af8896f74bf5c1c21d67375f81ee6ba1ec58c43ee69c30b",
+        "size_in_bytes": 17568,
+        "sha256_in_prefix": "b125e64e69e185e18af8896f74bf5c1c21d67375f81ee6ba1ec58c43ee69c30b"
+      },
+      {
+        "_path": "Library/include/PySide6/QtDesigner/qpydesignerextensions.h",
+        "path_type": "hardlink",
+        "sha256": "30a56b7b9d725c6fffb93effbcd877a0a8ea5042845443aa375b82ecc5140cdb",
+        "size_in_bytes": 2949,
+        "sha256_in_prefix": "30a56b7b9d725c6fffb93effbcd877a0a8ea5042845443aa375b82ecc5140cdb"
+      },
+      {
+        "_path": "Library/include/PySide6/QtGraphs/pyside6_qtgraphs_python.h",
+        "path_type": "hardlink",
+        "sha256": "212733091793e8171e38489a32bdbfadcacb82009da983a70b6c524b5d53ff2a",
+        "size_in_bytes": 29538,
+        "sha256_in_prefix": "212733091793e8171e38489a32bdbfadcacb82009da983a70b6c524b5d53ff2a"
+      },
+      {
+        "_path": "Library/include/PySide6/QtGraphs/qtgraphs_helper.h",
+        "path_type": "hardlink",
+        "sha256": "f5c1d4c701ef9a753c4394e9346d1e35a2865c7df28a6534c5cd308c2073e5fb",
+        "size_in_bytes": 516,
+        "sha256_in_prefix": "f5c1d4c701ef9a753c4394e9346d1e35a2865c7df28a6534c5cd308c2073e5fb"
+      },
+      {
+        "_path": "Library/include/PySide6/QtGraphsWidgets/pyside6_qtgraphswidgets_python.h",
+        "path_type": "hardlink",
+        "sha256": "1e4aaab40bae23eca7ac2c6111843ad2bb07474fc7fa607afa048c67c05127fd",
+        "size_in_bytes": 5268,
+        "sha256_in_prefix": "1e4aaab40bae23eca7ac2c6111843ad2bb07474fc7fa607afa048c67c05127fd"
+      },
+      {
+        "_path": "Library/include/PySide6/QtGui/pyside6_qtgui_python.h",
+        "path_type": "hardlink",
+        "sha256": "c13009e8cd7b11cefa949d73bad14b640dd88ddf0338b3b5274793a30e7733db",
+        "size_in_bytes": 146330,
+        "sha256_in_prefix": "c13009e8cd7b11cefa949d73bad14b640dd88ddf0338b3b5274793a30e7733db"
+      },
+      {
+        "_path": "Library/include/PySide6/QtGui/qpytextobject.h",
+        "path_type": "hardlink",
+        "sha256": "da5b7930b744ac43d08c6ea70758b882dc43002379e1bd267faaf2a4a87c83fb",
+        "size_in_bytes": 763,
+        "sha256_in_prefix": "da5b7930b744ac43d08c6ea70758b882dc43002379e1bd267faaf2a4a87c83fb"
+      },
+      {
+        "_path": "Library/include/PySide6/QtGui/qtguihelper.h",
+        "path_type": "hardlink",
+        "sha256": "0b7e14c67f88603a3bde30411bb5dc815119f72bf5260009db088f714b869dc5",
+        "size_in_bytes": 763,
+        "sha256_in_prefix": "0b7e14c67f88603a3bde30411bb5dc815119f72bf5260009db088f714b869dc5"
+      },
+      {
+        "_path": "Library/include/PySide6/QtHelp/pyside6_qthelp_python.h",
+        "path_type": "hardlink",
+        "sha256": "95a3c2d421836319d53af769517f4a2bb3f8753b623cedb4767ef2d5f0675142",
+        "size_in_bytes": 11247,
+        "sha256_in_prefix": "95a3c2d421836319d53af769517f4a2bb3f8753b623cedb4767ef2d5f0675142"
+      },
+      {
+        "_path": "Library/include/PySide6/QtMultimedia/pyside6_qtmultimedia_python.h",
+        "path_type": "hardlink",
+        "sha256": "ad4f51376b4bd1bbb89a0fa796f9d8d6f75acd1a624c74eb73b613277c27825b",
+        "size_in_bytes": 31802,
+        "sha256_in_prefix": "ad4f51376b4bd1bbb89a0fa796f9d8d6f75acd1a624c74eb73b613277c27825b"
+      },
+      {
+        "_path": "Library/include/PySide6/QtMultimediaWidgets/pyside6_qtmultimediawidgets_python.h",
+        "path_type": "hardlink",
+        "sha256": "936e5998c0508cd0031c401186f2cde34268b538df64bd7b0404e56a54afddde",
+        "size_in_bytes": 3185,
+        "sha256_in_prefix": "936e5998c0508cd0031c401186f2cde34268b538df64bd7b0404e56a54afddde"
+      },
+      {
+        "_path": "Library/include/PySide6/QtNetwork/pyside6_qtnetwork_python.h",
+        "path_type": "hardlink",
+        "sha256": "df8a298bb7e33a86f5985aa1f64fd7f6cd58c494f03931bf16ade9349b466981",
+        "size_in_bytes": 51790,
+        "sha256_in_prefix": "df8a298bb7e33a86f5985aa1f64fd7f6cd58c494f03931bf16ade9349b466981"
+      },
+      {
+        "_path": "Library/include/PySide6/QtOpenGL/pyside6_qtopengl_python.h",
+        "path_type": "hardlink",
+        "sha256": "2211404313262e3ab9cfdf18820c57a9467c5deda022692e2c6cbc953aafacb2",
+        "size_in_bytes": 31020,
+        "sha256_in_prefix": "2211404313262e3ab9cfdf18820c57a9467c5deda022692e2c6cbc953aafacb2"
+      },
+      {
+        "_path": "Library/include/PySide6/QtOpenGLWidgets/pyside6_qtopenglwidgets_python.h",
+        "path_type": "hardlink",
+        "sha256": "cf5c3bb7f778ffc3a9eeb413cae47c20ca9729c4745f1e01f507ebabdaa71d99",
+        "size_in_bytes": 3406,
+        "sha256_in_prefix": "cf5c3bb7f778ffc3a9eeb413cae47c20ca9729c4745f1e01f507ebabdaa71d99"
+      },
+      {
+        "_path": "Library/include/PySide6/QtPrintSupport/pyside6_qtprintsupport_python.h",
+        "path_type": "hardlink",
+        "sha256": "ef070900ba71f06c4d8525bf3597f7bab44feca22a86a27f2d82d6bcf623d3e9",
+        "size_in_bytes": 10865,
+        "sha256_in_prefix": "ef070900ba71f06c4d8525bf3597f7bab44feca22a86a27f2d82d6bcf623d3e9"
+      },
+      {
+        "_path": "Library/include/PySide6/QtQml/pyside6_qtqml_python.h",
+        "path_type": "hardlink",
+        "sha256": "099f84d96f8903a5a28aba757a40dff3df44c67ca5d92f9e2e50983b37c329e2",
+        "size_in_bytes": 20185,
+        "sha256_in_prefix": "099f84d96f8903a5a28aba757a40dff3df44c67ca5d92f9e2e50983b37c329e2"
+      },
+      {
+        "_path": "Library/include/PySide6/QtQuick/pyside6_qtquick_python.h",
+        "path_type": "hardlink",
+        "sha256": "c3ba482ed766e98cdc9c300788d935f73bfeef78e3f8f7a56f5676a15aa3360b",
+        "size_in_bytes": 41538,
+        "sha256_in_prefix": "c3ba482ed766e98cdc9c300788d935f73bfeef78e3f8f7a56f5676a15aa3360b"
+      },
+      {
+        "_path": "Library/include/PySide6/QtQuick3D/pyside6_qtquick3d_python.h",
+        "path_type": "hardlink",
+        "sha256": "2b8cf0cca9808de535b3ff5482785390dd959ed4d3dd8a6003560fa920cf031e",
+        "size_in_bytes": 7410,
+        "sha256_in_prefix": "2b8cf0cca9808de535b3ff5482785390dd959ed4d3dd8a6003560fa920cf031e"
+      },
+      {
+        "_path": "Library/include/PySide6/QtQuickControls2/pyside6_qtquickcontrols2_python.h",
+        "path_type": "hardlink",
+        "sha256": "34d1ccd85988d0b4e7b0121adeb26252bc41f015693752371a27069f702feada",
+        "size_in_bytes": 3466,
+        "sha256_in_prefix": "34d1ccd85988d0b4e7b0121adeb26252bc41f015693752371a27069f702feada"
+      },
+      {
+        "_path": "Library/include/PySide6/QtQuickTest/pyside6_qtquicktest_python.h",
+        "path_type": "hardlink",
+        "sha256": "98b5599dd910705a34bc60a102db42b4acaace706de21a1b364a2d1f2e8b6e03",
+        "size_in_bytes": 2171,
+        "sha256_in_prefix": "98b5599dd910705a34bc60a102db42b4acaace706de21a1b364a2d1f2e8b6e03"
+      },
+      {
+        "_path": "Library/include/PySide6/QtQuickWidgets/pyside6_qtquickwidgets_python.h",
+        "path_type": "hardlink",
+        "sha256": "5f8ed0bc072edfbc4a884fccb21b0c7ea58ed3486c0fc99803515a6a8667bf29",
+        "size_in_bytes": 3686,
+        "sha256_in_prefix": "5f8ed0bc072edfbc4a884fccb21b0c7ea58ed3486c0fc99803515a6a8667bf29"
+      },
+      {
+        "_path": "Library/include/PySide6/QtSpatialAudio/pyside6_qtspatialaudio_python.h",
+        "path_type": "hardlink",
+        "sha256": "3afdfff82fb4c8bf1e248e9360613513f964a27ce8bf836358c55f94172b0b52",
+        "size_in_bytes": 5923,
+        "sha256_in_prefix": "3afdfff82fb4c8bf1e248e9360613513f964a27ce8bf836358c55f94172b0b52"
+      },
+      {
+        "_path": "Library/include/PySide6/QtSql/pyside6_qtsql_python.h",
+        "path_type": "hardlink",
+        "sha256": "e6d44bb48d58849152204ab8dad6cb24b0fdea9fbb2c19f416e644746c58f777",
+        "size_in_bytes": 12754,
+        "sha256_in_prefix": "e6d44bb48d58849152204ab8dad6cb24b0fdea9fbb2c19f416e644746c58f777"
+      },
+      {
+        "_path": "Library/include/PySide6/QtSvg/pyside6_qtsvg_python.h",
+        "path_type": "hardlink",
+        "sha256": "60956919caf376bf6f91925e007f202e92bd40a6eeddb20049ac08f2e5db9776",
+        "size_in_bytes": 3977,
+        "sha256_in_prefix": "60956919caf376bf6f91925e007f202e92bd40a6eeddb20049ac08f2e5db9776"
+      },
+      {
+        "_path": "Library/include/PySide6/QtSvgWidgets/pyside6_qtsvgwidgets_python.h",
+        "path_type": "hardlink",
+        "sha256": "8b698b3930871da2a1909d971b7b21d3fd249ce9c70e3acb23ae217a7003265c",
+        "size_in_bytes": 3065,
+        "sha256_in_prefix": "8b698b3930871da2a1909d971b7b21d3fd249ce9c70e3acb23ae217a7003265c"
+      },
+      {
+        "_path": "Library/include/PySide6/QtTest/pyside6_qttest_python.h",
+        "path_type": "hardlink",
+        "sha256": "2980731fe3c633c9ba107dec96545baae5c306e06bc699915ac48a1a2fe01214",
+        "size_in_bytes": 5477,
+        "sha256_in_prefix": "2980731fe3c633c9ba107dec96545baae5c306e06bc699915ac48a1a2fe01214"
+      },
+      {
+        "_path": "Library/include/PySide6/QtUiTools/pyside6_qtuitools_python.h",
+        "path_type": "hardlink",
+        "sha256": "ce9d27a0d41ba7b61a433a3349dd742f9d81e1221804c149829ee993341f0edf",
+        "size_in_bytes": 2688,
+        "sha256_in_prefix": "ce9d27a0d41ba7b61a433a3349dd742f9d81e1221804c149829ee993341f0edf"
+      },
+      {
+        "_path": "Library/include/PySide6/QtWebChannel/pyside6_qtwebchannel_python.h",
+        "path_type": "hardlink",
+        "sha256": "c680b6f79554ac24bd40e3498d2f183e9ce2f3c7bd4ac2a6ef4808868c36cfb4",
+        "size_in_bytes": 3185,
+        "sha256_in_prefix": "c680b6f79554ac24bd40e3498d2f183e9ce2f3c7bd4ac2a6ef4808868c36cfb4"
+      },
+      {
+        "_path": "Library/include/PySide6/QtWebSockets/pyside6_qtwebsockets_python.h",
+        "path_type": "hardlink",
+        "sha256": "c62346e662b5b2de1b85565b5304f2d1cefa6b349eb3877b91b7c1b4ba84d161",
+        "size_in_bytes": 5524,
+        "sha256_in_prefix": "c62346e662b5b2de1b85565b5304f2d1cefa6b349eb3877b91b7c1b4ba84d161"
+      },
+      {
+        "_path": "Library/include/PySide6/QtWidgets/pyside6_qtwidgets_python.h",
+        "path_type": "hardlink",
+        "sha256": "a21332eab0ea3c94f59ebe182c7b7de2ecf1d29f06070345e70db9c3c1c7aa4c",
+        "size_in_bytes": 150496,
+        "sha256_in_prefix": "a21332eab0ea3c94f59ebe182c7b7de2ecf1d29f06070345e70db9c3c1c7aa4c"
+      },
+      {
+        "_path": "Library/include/PySide6/QtXml/pyside6_qtxml_python.h",
+        "path_type": "hardlink",
+        "sha256": "d5abb4c1df38bdd53ba0955eddd9a09551492cd589bda294810bd5fb7490f1da",
+        "size_in_bytes": 9280,
+        "sha256_in_prefix": "d5abb4c1df38bdd53ba0955eddd9a09551492cd589bda294810bd5fb7490f1da"
+      },
+      {
+        "_path": "Library/include/PySide6/class_property.h",
+        "path_type": "hardlink",
+        "sha256": "3edd0ef0d689fd3064740ef9b3f58a5d9bdd5aa812143025334fabe9702f3eff",
+        "size_in_bytes": 948,
+        "sha256_in_prefix": "3edd0ef0d689fd3064740ef9b3f58a5d9bdd5aa812143025334fabe9702f3eff"
+      },
+      {
+        "_path": "Library/include/PySide6/dynamicqmetaobject.h",
+        "path_type": "hardlink",
+        "sha256": "21a3f0d255f3797834ba7f2b528ffc3284ca45c56daa7ca6de17cef3a2ac5e7d",
+        "size_in_bytes": 1610,
+        "sha256_in_prefix": "21a3f0d255f3797834ba7f2b528ffc3284ca45c56daa7ca6de17cef3a2ac5e7d"
+      },
+      {
+        "_path": "Library/include/PySide6/dynamicslot_p.h",
+        "path_type": "hardlink",
+        "sha256": "5d8d6f5c5e9d2a9335129800500ea6ef485eabfdf879d06e3457eed1b98178bd",
+        "size_in_bytes": 1202,
+        "sha256_in_prefix": "5d8d6f5c5e9d2a9335129800500ea6ef485eabfdf879d06e3457eed1b98178bd"
+      },
+      {
+        "_path": "Library/include/PySide6/feature_select.h",
+        "path_type": "hardlink",
+        "sha256": "b93a3294632a089b53b0f45b4191ebbd531862eae0624a03b78f6268937bde0a",
+        "size_in_bytes": 472,
+        "sha256_in_prefix": "b93a3294632a089b53b0f45b4191ebbd531862eae0624a03b78f6268937bde0a"
+      },
+      {
+        "_path": "Library/include/PySide6/pyside.h",
+        "path_type": "hardlink",
+        "sha256": "521f7e168478633a386a3e8d0a654486e2f7a3ff7f3dd895fb94267652a8b0fc",
+        "size_in_bytes": 351,
+        "sha256_in_prefix": "521f7e168478633a386a3e8d0a654486e2f7a3ff7f3dd895fb94267652a8b0fc"
+      },
+      {
+        "_path": "Library/include/PySide6/pyside6_global.h",
+        "path_type": "hardlink",
+        "sha256": "b9246c8761d85962058156d1e8d2dbe71d805ba09f19d6a2dd41b8e4588ba15c",
+        "size_in_bytes": 434,
+        "sha256_in_prefix": "b9246c8761d85962058156d1e8d2dbe71d805ba09f19d6a2dd41b8e4588ba15c"
+      },
+      {
+        "_path": "Library/include/PySide6/pyside_numpy.h",
+        "path_type": "hardlink",
+        "sha256": "bac3d9549ca4d9d186d84967dac41df186d22b2cf1fa21006ccf4df222122774",
+        "size_in_bytes": 957,
+        "sha256_in_prefix": "bac3d9549ca4d9d186d84967dac41df186d22b2cf1fa21006ccf4df222122774"
+      },
+      {
+        "_path": "Library/include/PySide6/pyside_p.h",
+        "path_type": "hardlink",
+        "sha256": "e1d32917d2d1c18e587a2ef452df2af582eb21e4546ac627aff8ecb72a546003",
+        "size_in_bytes": 880,
+        "sha256_in_prefix": "e1d32917d2d1c18e587a2ef452df2af582eb21e4546ac627aff8ecb72a546003"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideclassdecorator_p.h",
+        "path_type": "hardlink",
+        "sha256": "57d78da4e02cc2a8ebe10333090429e892a9a1b096fbd413b823a361d4877141",
+        "size_in_bytes": 5326,
+        "sha256_in_prefix": "57d78da4e02cc2a8ebe10333090429e892a9a1b096fbd413b823a361d4877141"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideclassinfo.h",
+        "path_type": "hardlink",
+        "sha256": "2079611ee62d22c59c9f31216204661682193c4f32d2a08db14f9ab164362697",
+        "size_in_bytes": 801,
+        "sha256_in_prefix": "2079611ee62d22c59c9f31216204661682193c4f32d2a08db14f9ab164362697"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideclassinfo_p.h",
+        "path_type": "hardlink",
+        "sha256": "f58a21a43462ac04709a37a0988362b49f01729e2146aef8f2e889cf2408dcb0",
+        "size_in_bytes": 942,
+        "sha256_in_prefix": "f58a21a43462ac04709a37a0988362b49f01729e2146aef8f2e889cf2408dcb0"
+      },
+      {
+        "_path": "Library/include/PySide6/pysidecleanup.h",
+        "path_type": "hardlink",
+        "sha256": "ffbcbd93daa200461b740de934db099ceffb2d530612190fe39925733b8ad6e3",
+        "size_in_bytes": 484,
+        "sha256_in_prefix": "ffbcbd93daa200461b740de934db099ceffb2d530612190fe39925733b8ad6e3"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideinit.h",
+        "path_type": "hardlink",
+        "sha256": "28dbb4fd84c502dc751a000efa61f6328201efdf5b5f6cd854e16d9f470980f2",
+        "size_in_bytes": 771,
+        "sha256_in_prefix": "28dbb4fd84c502dc751a000efa61f6328201efdf5b5f6cd854e16d9f470980f2"
+      },
+      {
+        "_path": "Library/include/PySide6/pysidelogging_p.h",
+        "path_type": "hardlink",
+        "sha256": "e5fdeae73d9b9491b294e5b3e5157a6d3d5e86ecbecd8397acc87ef79cd0068f",
+        "size_in_bytes": 305,
+        "sha256_in_prefix": "e5fdeae73d9b9491b294e5b3e5157a6d3d5e86ecbecd8397acc87ef79cd0068f"
+      },
+      {
+        "_path": "Library/include/PySide6/pysidemacros.h",
+        "path_type": "hardlink",
+        "sha256": "3a319a8309ecf3df1a1d9a5bec4c5ac9b5f88a33ef88e2ef9857fe17f38cddd4",
+        "size_in_bytes": 436,
+        "sha256_in_prefix": "3a319a8309ecf3df1a1d9a5bec4c5ac9b5f88a33ef88e2ef9857fe17f38cddd4"
+      },
+      {
+        "_path": "Library/include/PySide6/pysidemetafunction.h",
+        "path_type": "hardlink",
+        "sha256": "3801fa038b056fb7337c22bcc9177fd0650d734b0335dc6d38a95f569b698580",
+        "size_in_bytes": 927,
+        "sha256_in_prefix": "3801fa038b056fb7337c22bcc9177fd0650d734b0335dc6d38a95f569b698580"
+      },
+      {
+        "_path": "Library/include/PySide6/pysidemetafunction_p.h",
+        "path_type": "hardlink",
+        "sha256": "1179231bfae8d4090d9672cb5b410e9838486a129d83c7ec7fc629a709ebc510",
+        "size_in_bytes": 580,
+        "sha256_in_prefix": "1179231bfae8d4090d9672cb5b410e9838486a129d83c7ec7fc629a709ebc510"
+      },
+      {
+        "_path": "Library/include/PySide6/pysidemetatype.h",
+        "path_type": "hardlink",
+        "sha256": "ab8a644d5e220ed5d818d2b9929d346bb64fc4c58e269024d0ae229ff4baa20d",
+        "size_in_bytes": 562,
+        "sha256_in_prefix": "ab8a644d5e220ed5d818d2b9929d346bb64fc4c58e269024d0ae229ff4baa20d"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideproperty.h",
+        "path_type": "hardlink",
+        "sha256": "3c280923212a815ce3190d3186496ca69d13b8a3aa0f3041106ec52eae312c96",
+        "size_in_bytes": 1957,
+        "sha256_in_prefix": "3c280923212a815ce3190d3186496ca69d13b8a3aa0f3041106ec52eae312c96"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideproperty_p.h",
+        "path_type": "hardlink",
+        "sha256": "616b8d7c0da0d3177c543f7b4d3f84ae5387bdf997ac374d8464508face4a835",
+        "size_in_bytes": 4552,
+        "sha256_in_prefix": "616b8d7c0da0d3177c543f7b4d3f84ae5387bdf997ac374d8464508face4a835"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqapp.h",
+        "path_type": "hardlink",
+        "sha256": "c021e2a164408d4d804087d9d49c4680cb25fb98a19c7d6bd5c8b60e2c3992b2",
+        "size_in_bytes": 438,
+        "sha256_in_prefix": "c021e2a164408d4d804087d9d49c4680cb25fb98a19c7d6bd5c8b60e2c3992b2"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqenum.h",
+        "path_type": "hardlink",
+        "sha256": "b3c70fd2d5f30885f538d09ec793b84b19ae1fd28c0b2779ccb352f5f02072e0",
+        "size_in_bytes": 549,
+        "sha256_in_prefix": "b3c70fd2d5f30885f538d09ec793b84b19ae1fd28c0b2779ccb352f5f02072e0"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqhash.h",
+        "path_type": "hardlink",
+        "sha256": "819dab3212560dcf97f8b8173f0a747b5017a3844a3095eb8b5ef49b3441cf81",
+        "size_in_bytes": 546,
+        "sha256_in_prefix": "819dab3212560dcf97f8b8173f0a747b5017a3844a3095eb8b5ef49b3441cf81"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqmetatype.h",
+        "path_type": "hardlink",
+        "sha256": "ad8ead94e04b0fb50adbecf845e178900cc22f7ddba4a9f29fae607a5662f9a9",
+        "size_in_bytes": 1067,
+        "sha256_in_prefix": "ad8ead94e04b0fb50adbecf845e178900cc22f7ddba4a9f29fae607a5662f9a9"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqml.h",
+        "path_type": "hardlink",
+        "sha256": "b16673d6548bbeff99f56c45382cc57281f09f63de0d3025ab56309fa51db18b",
+        "size_in_bytes": 358,
+        "sha256_in_prefix": "b16673d6548bbeff99f56c45382cc57281f09f63de0d3025ab56309fa51db18b"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqmlattached.h",
+        "path_type": "hardlink",
+        "sha256": "2d41f7b7e653cc331e4b96a16844446486bc39d7975c100182378c880e0ee0a9",
+        "size_in_bytes": 819,
+        "sha256_in_prefix": "2d41f7b7e653cc331e4b96a16844446486bc39d7975c100182378c880e0ee0a9"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqmlattached_p.h",
+        "path_type": "hardlink",
+        "sha256": "69489a9d0d241062723ec1f270560b79781bcfced640162659c6c038be27b6d9",
+        "size_in_bytes": 572,
+        "sha256_in_prefix": "69489a9d0d241062723ec1f270560b79781bcfced640162659c6c038be27b6d9"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqmlextended_p.h",
+        "path_type": "hardlink",
+        "sha256": "f2a65a3038fd5b8db7385fa601bddf5cc9108117f330397b8658f6a4db4419fd",
+        "size_in_bytes": 568,
+        "sha256_in_prefix": "f2a65a3038fd5b8db7385fa601bddf5cc9108117f330397b8658f6a4db4419fd"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqmlforeign_p.h",
+        "path_type": "hardlink",
+        "sha256": "189c4dab0f94d3ea3285339035fdda9c79ce9a647efa9fb7d3e1e2e27388ec82",
+        "size_in_bytes": 397,
+        "sha256_in_prefix": "189c4dab0f94d3ea3285339035fdda9c79ce9a647efa9fb7d3e1e2e27388ec82"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqmllistproperty_p.h",
+        "path_type": "hardlink",
+        "sha256": "174c0458ac8f69e99a89048d632b4392a393824e2cac3a2c9c409e1c9754b84a",
+        "size_in_bytes": 341,
+        "sha256_in_prefix": "174c0458ac8f69e99a89048d632b4392a393824e2cac3a2c9c409e1c9754b84a"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqmlmacros.h",
+        "path_type": "hardlink",
+        "sha256": "b99b9d7edf7f61a74562a559f1e3f68324a11c2f86d375f315aa411adce47f19",
+        "size_in_bytes": 466,
+        "sha256_in_prefix": "b99b9d7edf7f61a74562a559f1e3f68324a11c2f86d375f315aa411adce47f19"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqmlmetacallerror_p.h",
+        "path_type": "hardlink",
+        "sha256": "4a4c69c1b8bb95fb56003febc9b398e4b83deb51182ce249b89eba7198ce4208",
+        "size_in_bytes": 586,
+        "sha256_in_prefix": "4a4c69c1b8bb95fb56003febc9b398e4b83deb51182ce249b89eba7198ce4208"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqmlnamedelement_p.h",
+        "path_type": "hardlink",
+        "sha256": "7a682b1a7e21af948db14e10b166efee7660024198cfd9c9ee1071be8ef16358",
+        "size_in_bytes": 319,
+        "sha256_in_prefix": "7a682b1a7e21af948db14e10b166efee7660024198cfd9c9ee1071be8ef16358"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqmlregistertype.h",
+        "path_type": "hardlink",
+        "sha256": "869b43899a454e70ff82bad7f6a9151ac7cb3018d9d432dace35a88cb01133ac",
+        "size_in_bytes": 3609,
+        "sha256_in_prefix": "869b43899a454e70ff82bad7f6a9151ac7cb3018d9d432dace35a88cb01133ac"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqmlregistertype_p.h",
+        "path_type": "hardlink",
+        "sha256": "62b1f37351de97d2eb117c4f309d97b252cb6c608fb5e85345f61d7e95ff7c0a",
+        "size_in_bytes": 443,
+        "sha256_in_prefix": "62b1f37351de97d2eb117c4f309d97b252cb6c608fb5e85345f61d7e95ff7c0a"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqmltypeinfo_p.h",
+        "path_type": "hardlink",
+        "sha256": "db95f80b476d781dbafc2bd2c0a5b0e787b33b592218efe7b0bbc4893bd09540",
+        "size_in_bytes": 1433,
+        "sha256_in_prefix": "db95f80b476d781dbafc2bd2c0a5b0e787b33b592218efe7b0bbc4893bd09540"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqmluncreatable.h",
+        "path_type": "hardlink",
+        "sha256": "d79df80d06f40870b4dc0e5c0ca22a0534d5b04aaf5b1253a95cc5008c12533e",
+        "size_in_bytes": 798,
+        "sha256_in_prefix": "d79df80d06f40870b4dc0e5c0ca22a0534d5b04aaf5b1253a95cc5008c12533e"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqobject.h",
+        "path_type": "hardlink",
+        "sha256": "d4b5cc4d9aaf93fdd353881c84ea4d03d05818d35d750d1d267bb279f3b9e41d",
+        "size_in_bytes": 2844,
+        "sha256_in_prefix": "d4b5cc4d9aaf93fdd353881c84ea4d03d05818d35d750d1d267bb279f3b9e41d"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideqslotobject_p.h",
+        "path_type": "hardlink",
+        "sha256": "6fda9d25f5d1cc69ab0bb2e2977da31b82bfb13f2b6091e49a224f1a9158d48a",
+        "size_in_bytes": 991,
+        "sha256_in_prefix": "6fda9d25f5d1cc69ab0bb2e2977da31b82bfb13f2b6091e49a224f1a9158d48a"
+      },
+      {
+        "_path": "Library/include/PySide6/pysidesignal.h",
+        "path_type": "hardlink",
+        "sha256": "49f8dae462396cd68f861a32ed2fc721af6121c32f8f149a36a3b1b120ad819c",
+        "size_in_bytes": 4449,
+        "sha256_in_prefix": "49f8dae462396cd68f861a32ed2fc721af6121c32f8f149a36a3b1b120ad819c"
+      },
+      {
+        "_path": "Library/include/PySide6/pysidesignal_p.h",
+        "path_type": "hardlink",
+        "sha256": "367161d6c63ab5088506ecf400f4f4bc3f00b0bf7be053a10c85169cb30ebb90",
+        "size_in_bytes": 1722,
+        "sha256_in_prefix": "367161d6c63ab5088506ecf400f4f4bc3f00b0bf7be053a10c85169cb30ebb90"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideslot_p.h",
+        "path_type": "hardlink",
+        "sha256": "972a3ba408f7beecd17b1516bafcdea6dd6ddebb9c969a3ba71e18bb5f865cbd",
+        "size_in_bytes": 716,
+        "sha256_in_prefix": "972a3ba408f7beecd17b1516bafcdea6dd6ddebb9c969a3ba71e18bb5f865cbd"
+      },
+      {
+        "_path": "Library/include/PySide6/pysidestaticstrings.h",
+        "path_type": "hardlink",
+        "sha256": "6d63809def5a3d814492065ff66c5301135642a8866edeeec178d199c18d88f7",
+        "size_in_bytes": 1001,
+        "sha256_in_prefix": "6d63809def5a3d814492065ff66c5301135642a8866edeeec178d199c18d88f7"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideutils.h",
+        "path_type": "hardlink",
+        "sha256": "2fe1ab7d52fa80f74a9fc133b190e78ebdbd7a9d46cc80186c3626aad14d9404",
+        "size_in_bytes": 1979,
+        "sha256_in_prefix": "2fe1ab7d52fa80f74a9fc133b190e78ebdbd7a9d46cc80186c3626aad14d9404"
+      },
+      {
+        "_path": "Library/include/PySide6/pysideweakref.h",
+        "path_type": "hardlink",
+        "sha256": "73a0c12c28a9773e0e0affc02847ee0e8b963c29c3fd4acb06a5c67594943ac7",
+        "size_in_bytes": 476,
+        "sha256_in_prefix": "73a0c12c28a9773e0e0affc02847ee0e8b963c29c3fd4acb06a5c67594943ac7"
+      },
+      {
+        "_path": "Library/include/PySide6/qobjectconnect.h",
+        "path_type": "hardlink",
+        "sha256": "caa679b695b2de4e622c4bc725b0ab16edc70ca19599b95680e0d6314c7f0ab7",
+        "size_in_bytes": 1885,
+        "sha256_in_prefix": "caa679b695b2de4e622c4bc725b0ab16edc70ca19599b95680e0d6314c7f0ab7"
+      },
+      {
+        "_path": "Library/include/PySide6/signalmanager.h",
+        "path_type": "hardlink",
+        "sha256": "e9188ccd565876c22d293620e55f126e73a9e8b35d1dd8d96aa5563bdfc077b2",
+        "size_in_bytes": 3299,
+        "sha256_in_prefix": "e9188ccd565876c22d293620e55f126e73a9e8b35d1dd8d96aa5563bdfc077b2"
+      },
+      {
+        "_path": "Library/include/shiboken6/autodecref.h",
+        "path_type": "hardlink",
+        "sha256": "650de18c682f900decf288b36b50160471582f8d701151b95d5d3d731b221104",
+        "size_in_bytes": 2295,
+        "sha256_in_prefix": "650de18c682f900decf288b36b50160471582f8d701151b95d5d3d731b221104"
+      },
+      {
+        "_path": "Library/include/shiboken6/basewrapper.h",
+        "path_type": "hardlink",
+        "sha256": "26168335876cdd2bcb50ee9628bca385ec764e16ecaa6deb0a6ae3385a89cb69",
+        "size_in_bytes": 22670,
+        "sha256_in_prefix": "26168335876cdd2bcb50ee9628bca385ec764e16ecaa6deb0a6ae3385a89cb69"
+      },
+      {
+        "_path": "Library/include/shiboken6/basewrapper_p.h",
+        "path_type": "hardlink",
+        "sha256": "29845856478f3468304fa57c8651a12449fe112a3e7e67e076803e22cab248ae",
+        "size_in_bytes": 4871,
+        "sha256_in_prefix": "29845856478f3468304fa57c8651a12449fe112a3e7e67e076803e22cab248ae"
+      },
+      {
+        "_path": "Library/include/shiboken6/bindingmanager.h",
+        "path_type": "hardlink",
+        "sha256": "08205f238af470a00ba5c7b306b1648b1b1dc08cc9e621a23d4920cd55256740",
+        "size_in_bytes": 3240,
+        "sha256_in_prefix": "08205f238af470a00ba5c7b306b1648b1b1dc08cc9e621a23d4920cd55256740"
+      },
+      {
+        "_path": "Library/include/shiboken6/bufferprocs_py37.h",
+        "path_type": "hardlink",
+        "sha256": "786fd4cf270ba15c18b49c7a976ecf994c0f18a856394fda0c22e99f87e4b2a8",
+        "size_in_bytes": 4443,
+        "sha256_in_prefix": "786fd4cf270ba15c18b49c7a976ecf994c0f18a856394fda0c22e99f87e4b2a8"
+      },
+      {
+        "_path": "Library/include/shiboken6/gilstate.h",
+        "path_type": "hardlink",
+        "sha256": "4bb65312c289ad18c18f9469df31cd8533eddb4d8d0290e542000f55cd7679cd",
+        "size_in_bytes": 712,
+        "sha256_in_prefix": "4bb65312c289ad18c18f9469df31cd8533eddb4d8d0290e542000f55cd7679cd"
+      },
+      {
+        "_path": "Library/include/shiboken6/helper.h",
+        "path_type": "hardlink",
+        "sha256": "5abcd93281719f83e1703d311378b856e51622ee280369cce985d9aaeea60b45",
+        "size_in_bytes": 3846,
+        "sha256_in_prefix": "5abcd93281719f83e1703d311378b856e51622ee280369cce985d9aaeea60b45"
+      },
+      {
+        "_path": "Library/include/shiboken6/pep384ext.h",
+        "path_type": "hardlink",
+        "sha256": "76ae9fb2a4459c6c4b7d178dc9569bfb6748564f6af32932ac34e60b3db40125",
+        "size_in_bytes": 2798,
+        "sha256_in_prefix": "76ae9fb2a4459c6c4b7d178dc9569bfb6748564f6af32932ac34e60b3db40125"
+      },
+      {
+        "_path": "Library/include/shiboken6/pep384impl.h",
+        "path_type": "hardlink",
+        "sha256": "c599668fcca853555988ff8ad2bca501e631118d446b0e56560055892384d3d5",
+        "size_in_bytes": 17079,
+        "sha256_in_prefix": "c599668fcca853555988ff8ad2bca501e631118d446b0e56560055892384d3d5"
+      },
+      {
+        "_path": "Library/include/shiboken6/pyobjectholder.h",
+        "path_type": "hardlink",
+        "sha256": "8ab36e040b2a0e8f9c82383feaf11a80d291d589803fec4d54e99f2616b4433a",
+        "size_in_bytes": 2417,
+        "sha256_in_prefix": "8ab36e040b2a0e8f9c82383feaf11a80d291d589803fec4d54e99f2616b4433a"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkarrayconverter.h",
+        "path_type": "hardlink",
+        "sha256": "ba97184b0ae6141affb0de6382a42003043ccff483ef4c3f7851cb217bc008ea",
+        "size_in_bytes": 3667,
+        "sha256_in_prefix": "ba97184b0ae6141affb0de6382a42003043ccff483ef4c3f7851cb217bc008ea"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkbindingutils.h",
+        "path_type": "hardlink",
+        "sha256": "a0ec492bff8d9e40f4e661d04486e959b4fb687849c1b364d68fa95adad655b3",
+        "size_in_bytes": 1512,
+        "sha256_in_prefix": "a0ec492bff8d9e40f4e661d04486e959b4fb687849c1b364d68fa95adad655b3"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkcontainer.h",
+        "path_type": "hardlink",
+        "sha256": "dfa6062e432aa71e21557a50442d01410cbe1945c29f89a6fece88abb5b5a97b",
+        "size_in_bytes": 8405,
+        "sha256_in_prefix": "dfa6062e432aa71e21557a50442d01410cbe1945c29f89a6fece88abb5b5a97b"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkconverter.h",
+        "path_type": "hardlink",
+        "sha256": "0d3de2128cbda9e3eed1c66ada934c5aed35ab6d44616b5c89bb39aa2eb2daff",
+        "size_in_bytes": 21678,
+        "sha256_in_prefix": "0d3de2128cbda9e3eed1c66ada934c5aed35ab6d44616b5c89bb39aa2eb2daff"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkcppstring.h",
+        "path_type": "hardlink",
+        "sha256": "5ad4eed13850d4d53f9f4c2b5b5d678feff8ac80a036272bc474e73645829672",
+        "size_in_bytes": 738,
+        "sha256_in_prefix": "5ad4eed13850d4d53f9f4c2b5b5d678feff8ac80a036272bc474e73645829672"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkcpptonumpy.h",
+        "path_type": "hardlink",
+        "sha256": "50df7cb4e4b0c7cca641d8f0c80448c7a498313986aed6cccef23b60f3f7e27d",
+        "size_in_bytes": 1208,
+        "sha256_in_prefix": "50df7cb4e4b0c7cca641d8f0c80448c7a498313986aed6cccef23b60f3f7e27d"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkenum.h",
+        "path_type": "hardlink",
+        "sha256": "aa34516396a7b091bf250da370607d00297f179ae1b3930a29b85b36930cac02",
+        "size_in_bytes": 4589,
+        "sha256_in_prefix": "aa34516396a7b091bf250da370607d00297f179ae1b3930a29b85b36930cac02"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkerrors.h",
+        "path_type": "hardlink",
+        "sha256": "090213171cb69183e895dad92635e92346ea28038f7633230174c7a9e4930b85",
+        "size_in_bytes": 3199,
+        "sha256_in_prefix": "090213171cb69183e895dad92635e92346ea28038f7633230174c7a9e4930b85"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkfeature_base.h",
+        "path_type": "hardlink",
+        "sha256": "4de86f543c005e24da11e0e604dc863a63b95da03d6f9e5c206dd9a9c76942c5",
+        "size_in_bytes": 660,
+        "sha256_in_prefix": "4de86f543c005e24da11e0e604dc863a63b95da03d6f9e5c206dd9a9c76942c5"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkmodule.h",
+        "path_type": "hardlink",
+        "sha256": "5d84037cd5f89b562e58e3851915d7dd32e1d0cb1821bbd848f360b74fc470b6",
+        "size_in_bytes": 3432,
+        "sha256_in_prefix": "5d84037cd5f89b562e58e3851915d7dd32e1d0cb1821bbd848f360b74fc470b6"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbknumpycheck.h",
+        "path_type": "hardlink",
+        "sha256": "53cae3dd4b6335929a3ffb3dc9a32fd3986a193ea75f0fbc276342fb9dc1ec35",
+        "size_in_bytes": 871,
+        "sha256_in_prefix": "53cae3dd4b6335929a3ffb3dc9a32fd3986a193ea75f0fbc276342fb9dc1ec35"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbknumpyview.h",
+        "path_type": "hardlink",
+        "sha256": "8986b1c9e76a78767f9625934612d8d7393468456e14dc26906452e4f61e974f",
+        "size_in_bytes": 1310,
+        "sha256_in_prefix": "8986b1c9e76a78767f9625934612d8d7393468456e14dc26906452e4f61e974f"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkpython.h",
+        "path_type": "hardlink",
+        "sha256": "e169a66eaef28e2640134fb4c433e59ae1370436a5608f37c8c65c1e44b08ab0",
+        "size_in_bytes": 1519,
+        "sha256_in_prefix": "e169a66eaef28e2640134fb4c433e59ae1370436a5608f37c8c65c1e44b08ab0"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbksmartpointer.h",
+        "path_type": "hardlink",
+        "sha256": "48f143fbbfbcefe644cbf35a172859511067b226734e91c6167809af06a653e1",
+        "size_in_bytes": 505,
+        "sha256_in_prefix": "48f143fbbfbcefe644cbf35a172859511067b226734e91c6167809af06a653e1"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkstaticstrings.h",
+        "path_type": "hardlink",
+        "sha256": "9f5fbf4dba1a9d8ef2bc8c736c3164bd5fdd8bf64ef7372567f2a1779aa2661c",
+        "size_in_bytes": 1770,
+        "sha256_in_prefix": "9f5fbf4dba1a9d8ef2bc8c736c3164bd5fdd8bf64ef7372567f2a1779aa2661c"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkstring.h",
+        "path_type": "hardlink",
+        "sha256": "3e9f84d57cee42534efc2b3136e7bfb2908cdceceb5d1082a0b99105c415ab37",
+        "size_in_bytes": 1627,
+        "sha256_in_prefix": "3e9f84d57cee42534efc2b3136e7bfb2908cdceceb5d1082a0b99105c415ab37"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbktypefactory.h",
+        "path_type": "hardlink",
+        "sha256": "4fea9e0fe396385a1f1d07b5bba6d49ef80ff6832f197736a19758f55b5604a3",
+        "size_in_bytes": 1122,
+        "sha256_in_prefix": "4fea9e0fe396385a1f1d07b5bba6d49ef80ff6832f197736a19758f55b5604a3"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkversion.h",
+        "path_type": "hardlink",
+        "sha256": "ef3560d5e80992b080f22d010828faff4677b1f0f19b4ee33c2865cec198c635",
+        "size_in_bytes": 505,
+        "sha256_in_prefix": "ef3560d5e80992b080f22d010828faff4677b1f0f19b4ee33c2865cec198c635"
+      },
+      {
+        "_path": "Library/include/shiboken6/sbkwindows.h",
+        "path_type": "hardlink",
+        "sha256": "14e37535119feef7f4c4b50f19ddcd5f1d9cfc4d23be7f3560f72d5b63af8e72",
+        "size_in_bytes": 376,
+        "sha256_in_prefix": "14e37535119feef7f4c4b50f19ddcd5f1d9cfc4d23be7f3560f72d5b63af8e72"
+      },
+      {
+        "_path": "Library/include/shiboken6/shiboken.h",
+        "path_type": "hardlink",
+        "sha256": "6c1a8963263554889910860d38199254ed11cc5884bc4971f2ff3cd3f6f6863b",
+        "size_in_bytes": 719,
+        "sha256_in_prefix": "6c1a8963263554889910860d38199254ed11cc5884bc4971f2ff3cd3f6f6863b"
+      },
+      {
+        "_path": "Library/include/shiboken6/shibokenbuffer.h",
+        "path_type": "hardlink",
+        "sha256": "9ba2324219737717161321f7fcc89260e04c4012c7372f1c4a26658fa53bf4f0",
+        "size_in_bytes": 1599,
+        "sha256_in_prefix": "9ba2324219737717161321f7fcc89260e04c4012c7372f1c4a26658fa53bf4f0"
+      },
+      {
+        "_path": "Library/include/shiboken6/shibokenmacros.h",
+        "path_type": "hardlink",
+        "sha256": "237b903e4f764f9da1a28a5a08ad646e213e0dc1527bf2ae63af72d4391e367c",
+        "size_in_bytes": 714,
+        "sha256_in_prefix": "237b903e4f764f9da1a28a5a08ad646e213e0dc1527bf2ae63af72d4391e367c"
+      },
+      {
+        "_path": "Library/include/shiboken6/signature.h",
+        "path_type": "hardlink",
+        "sha256": "737b158e9d2eda8f6dfd5c8d2ce00dbc53ecdd59a9fa63433bddc88e773f10bd",
+        "size_in_bytes": 791,
+        "sha256_in_prefix": "737b158e9d2eda8f6dfd5c8d2ce00dbc53ecdd59a9fa63433bddc88e773f10bd"
+      },
+      {
+        "_path": "Library/include/shiboken6/signature_p.h",
+        "path_type": "hardlink",
+        "sha256": "07b490d4807f21a005df193bd286e3429efd037bbb51f5f0f865bdfe8868c322",
+        "size_in_bytes": 2652,
+        "sha256_in_prefix": "07b490d4807f21a005df193bd286e3429efd037bbb51f5f0f865bdfe8868c322"
+      },
+      {
+        "_path": "Library/include/shiboken6/threadstatesaver.h",
+        "path_type": "hardlink",
+        "sha256": "c1f7f25ffd88ccdd29cce988f50c5e985fb05c566e7f3108361af5ced8fd23a5",
+        "size_in_bytes": 761,
+        "sha256_in_prefix": "c1f7f25ffd88ccdd29cce988f50c5e985fb05c566e7f3108361af5ced8fd23a5"
+      },
+      {
+        "_path": "Library/include/shiboken6/voidptr.h",
+        "path_type": "hardlink",
+        "sha256": "042c49e60dbe043aa0988daa8545be9f6325073f28da81afc76a6792655beda6",
+        "size_in_bytes": 781,
+        "sha256_in_prefix": "042c49e60dbe043aa0988daa8545be9f6325073f28da81afc76a6792655beda6"
+      },
+      {
+        "_path": "Library/lib/cmake/PySide6/PySide6Config.cmake",
+        "path_type": "hardlink",
+        "sha256": "e4131f219fb6a64af780621e81c1f21037861435a6d4fd4181cf4416c43dbdab",
+        "size_in_bytes": 244,
+        "sha256_in_prefix": "e4131f219fb6a64af780621e81c1f21037861435a6d4fd4181cf4416c43dbdab"
+      },
+      {
+        "_path": "Library/lib/cmake/PySide6/PySide6Config.cp310-win_amd64.cmake",
+        "prefix_placeholder": "D:/bld/pyside6_1756672687466/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "16c9c2376e8139ccbe8e34fab5de2e8e83ee038cf071ef687ac0b1698d662974",
+        "size_in_bytes": 1693,
+        "sha256_in_prefix": "b02f382dc53ad9f9aca1a2b5f6cba6d0f4da431db31282c4af9025634ecb7b5d"
+      },
+      {
+        "_path": "Library/lib/cmake/PySide6/PySide6ConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "754ad010c79ea3e0bf28ee1b2bac355df0aa5a4913dd965cbcbbdf65b202c2c2",
+        "size_in_bytes": 488,
+        "sha256_in_prefix": "754ad010c79ea3e0bf28ee1b2bac355df0aa5a4913dd965cbcbbdf65b202c2c2"
+      },
+      {
+        "_path": "Library/lib/cmake/PySide6/PySide6Targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "4641c2bf17482c28deaf3a401af832b14e79a6b5800394e33738297e8867aca1",
+        "size_in_bytes": 1064,
+        "sha256_in_prefix": "4641c2bf17482c28deaf3a401af832b14e79a6b5800394e33738297e8867aca1"
+      },
+      {
+        "_path": "Library/lib/cmake/PySide6/PySide6Targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "9dc6363f292da08f214a09ba27f75807cbe8df954636e9e5cbce2b27e4758d2c",
+        "size_in_bytes": 4239,
+        "sha256_in_prefix": "9dc6363f292da08f214a09ba27f75807cbe8df954636e9e5cbce2b27e4758d2c"
+      },
+      {
+        "_path": "Library/lib/cmake/PySide6Qml/PySide6QmlConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "626342c18e0d482e50bddbe0b8a503c57dc13f446135f14a510235cc49dae2ce",
+        "size_in_bytes": 250,
+        "sha256_in_prefix": "626342c18e0d482e50bddbe0b8a503c57dc13f446135f14a510235cc49dae2ce"
+      },
+      {
+        "_path": "Library/lib/cmake/PySide6Qml/PySide6QmlConfig.cp310-win_amd64.cmake",
+        "path_type": "hardlink",
+        "sha256": "63360bf20f07972fcc9074692d5b2473604e3cd81ebda8bb341dffb599daa1e4",
+        "size_in_bytes": 1171,
+        "sha256_in_prefix": "63360bf20f07972fcc9074692d5b2473604e3cd81ebda8bb341dffb599daa1e4"
+      },
+      {
+        "_path": "Library/lib/cmake/PySide6Qml/PySide6QmlConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "754ad010c79ea3e0bf28ee1b2bac355df0aa5a4913dd965cbcbbdf65b202c2c2",
+        "size_in_bytes": 488,
+        "sha256_in_prefix": "754ad010c79ea3e0bf28ee1b2bac355df0aa5a4913dd965cbcbbdf65b202c2c2"
+      },
+      {
+        "_path": "Library/lib/cmake/PySide6Qml/PySide6QmlTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "7f066bda49491db5aeb71085e58d487405d5dd58d9ac829844b84076a7bbb7db",
+        "size_in_bytes": 1132,
+        "sha256_in_prefix": "7f066bda49491db5aeb71085e58d487405d5dd58d9ac829844b84076a7bbb7db"
+      },
+      {
+        "_path": "Library/lib/cmake/PySide6Qml/PySide6QmlTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "dbb821aa478d28c0a264265f00d8bdbba823982631236f89524db7a6c694ac6a",
+        "size_in_bytes": 4269,
+        "sha256_in_prefix": "dbb821aa478d28c0a264265f00d8bdbba823982631236f89524db7a6c694ac6a"
+      },
+      {
+        "_path": "Library/lib/cmake/Shiboken6/Shiboken6Config.cmake",
+        "path_type": "hardlink",
+        "sha256": "78562f8d422a1be3d11677206316d2b1a0ee893d50d05f8f064c3e039d230d75",
+        "size_in_bytes": 250,
+        "sha256_in_prefix": "78562f8d422a1be3d11677206316d2b1a0ee893d50d05f8f064c3e039d230d75"
+      },
+      {
+        "_path": "Library/lib/cmake/Shiboken6/Shiboken6Config.cp310-win_amd64.cmake",
+        "prefix_placeholder": "D:/bld/pyside6_1756672687466/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "98386c664fb11a83a5035b61eea7b23dcbabcb3aa23bf4855d2a4aeaf7a3d734",
+        "size_in_bytes": 2881,
+        "sha256_in_prefix": "eed85acb1c6e7a6ace48c01b70f34b2980c355d80b385cb074ad2f6e44a470c8"
+      },
+      {
+        "_path": "Library/lib/cmake/Shiboken6/Shiboken6ConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "754ad010c79ea3e0bf28ee1b2bac355df0aa5a4913dd965cbcbbdf65b202c2c2",
+        "size_in_bytes": 488,
+        "sha256_in_prefix": "754ad010c79ea3e0bf28ee1b2bac355df0aa5a4913dd965cbcbbdf65b202c2c2"
+      },
+      {
+        "_path": "Library/lib/cmake/Shiboken6/Shiboken6Targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "fc9133a736928bc6956090945a2f3e24952c76ed9e540fbaa5a5dd7f03ed0294",
+        "size_in_bytes": 1022,
+        "sha256_in_prefix": "fc9133a736928bc6956090945a2f3e24952c76ed9e540fbaa5a5dd7f03ed0294"
+      },
+      {
+        "_path": "Library/lib/cmake/Shiboken6/Shiboken6Targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "afd0429178425335b2069cd71902a9d739fa6a3e3eee9ee3d5c8b58c4d48be85",
+        "size_in_bytes": 4309,
+        "sha256_in_prefix": "afd0429178425335b2069cd71902a9d739fa6a3e3eee9ee3d5c8b58c4d48be85"
+      },
+      {
+        "_path": "Library/lib/cmake/Shiboken6/ShibokenHelpers.cmake",
+        "path_type": "hardlink",
+        "sha256": "dc82f2f3653d13328b65c5c77c87ce715e3135e080224686ab9639bb50b0411e",
+        "size_in_bytes": 38554,
+        "sha256_in_prefix": "dc82f2f3653d13328b65c5c77c87ce715e3135e080224686ab9639bb50b0411e"
+      },
+      {
+        "_path": "Library/lib/cmake/Shiboken6Tools/Shiboken6ToolsConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "7ec534ae164653a61e96e2f271c62a81a9d930a8757c1f2a6645b8405b6cd613",
+        "size_in_bytes": 1070,
+        "sha256_in_prefix": "7ec534ae164653a61e96e2f271c62a81a9d930a8757c1f2a6645b8405b6cd613"
+      },
+      {
+        "_path": "Library/lib/cmake/Shiboken6Tools/Shiboken6ToolsConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "c54128e5dcd3d984c2f3f3d540035c693e030d47d092540bbe861e453c2bf092",
+        "size_in_bytes": 1434,
+        "sha256_in_prefix": "c54128e5dcd3d984c2f3f3d540035c693e030d47d092540bbe861e453c2bf092"
+      },
+      {
+        "_path": "Library/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "7d1120435064ea72ea34e924a25c89dcc4323d53241415335c89a36022fc5fa4",
+        "size_in_bytes": 845,
+        "sha256_in_prefix": "7d1120435064ea72ea34e924a25c89dcc4323d53241415335c89a36022fc5fa4"
+      },
+      {
+        "_path": "Library/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets.cmake",
+        "prefix_placeholder": "D:/bld/pyside6_1756672687466/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "7ebc086ccfcc2a6d695268dc3230f5fa46e94c2291fe5245e818d071296ecfcc",
+        "size_in_bytes": 4352,
+        "sha256_in_prefix": "1de0f79509c6a486b57c08c60feda96255c01bbd501e66b643dec74ac47ecb74"
+      },
+      {
+        "_path": "Library/lib/pkgconfig/pyside6.pc",
+        "prefix_placeholder": "D:/bld/pyside6_1756672687466/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "4d4c0da386fa14694728ef89cb5d96b4cf838954a2a66835db9582fa9dcced05",
+        "size_in_bytes": 614,
+        "sha256_in_prefix": "8df0628415d9aa9bfedc2b99ea3ea817ebfbde4f05170014ecfce34e99cadd78"
+      },
+      {
+        "_path": "Library/lib/pkgconfig/shiboken6.pc",
+        "prefix_placeholder": "D:/bld/pyside6_1756672687466/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "0d9b6d803ad6ac3108e7b9d1a7db30559d555635e260251c51557090abc7dfeb",
+        "size_in_bytes": 613,
+        "sha256_in_prefix": "9e28b7ac03ba2f02d7922f40218c942a8f1c5c699efba3f7e56c8086dd0461bd"
+      },
+      {
+        "_path": "Library/lib/pyside6.cp310-win_amd64.lib",
+        "path_type": "hardlink",
+        "sha256": "65488ed03c01087b716fbb38af535b92f67870928037b6bdebb90b2b8c387b2d",
+        "size_in_bytes": 67938,
+        "sha256_in_prefix": "65488ed03c01087b716fbb38af535b92f67870928037b6bdebb90b2b8c387b2d"
+      },
+      {
+        "_path": "Library/lib/pyside6qml.cp310-win_amd64.lib",
+        "path_type": "hardlink",
+        "sha256": "f67a81b4e7ac6c1af51855577ef1bcd4862e6e71269f76a971215f652caee649",
+        "size_in_bytes": 6702,
+        "sha256_in_prefix": "f67a81b4e7ac6c1af51855577ef1bcd4862e6e71269f76a971215f652caee649"
+      },
+      {
+        "_path": "Library/lib/qt6/plugins/designer/PySidePlugin.dll",
+        "path_type": "hardlink",
+        "sha256": "c63703a213d6f422932597a1995d436c93b1ce54b817f8efe24d1943702a2036",
+        "size_in_bytes": 33792,
+        "sha256_in_prefix": "c63703a213d6f422932597a1995d436c93b1ce54b817f8efe24d1943702a2036"
+      },
+      {
+        "_path": "Library/lib/shiboken6.cp310-win_amd64.lib",
+        "path_type": "hardlink",
+        "sha256": "5893e089656c675ed81f083fb1082cec09e82169047b58dd4a2b4f03b497d430",
+        "size_in_bytes": 168112,
+        "sha256_in_prefix": "5893e089656c675ed81f083fb1082cec09e82169047b58dd4a2b4f03b497d430"
+      },
+      {
+        "_path": "Library/share/PySide6/doc/qtcore.rst",
+        "path_type": "hardlink",
+        "sha256": "cda9e4d11bf47feb02e3f878b698bce283eddf95a4eaae28f423888a3852503c",
+        "size_in_bytes": 4460,
+        "sha256_in_prefix": "cda9e4d11bf47feb02e3f878b698bce283eddf95a4eaae28f423888a3852503c"
+      },
+      {
+        "_path": "Library/share/PySide6/doc/qtqml.rst",
+        "path_type": "hardlink",
+        "sha256": "a2e28f2c4cb2bca153d5dab64de8bfc915f829156ba65e59cf0a0cbea5e9a34f",
+        "size_in_bytes": 7118,
+        "sha256_in_prefix": "a2e28f2c4cb2bca153d5dab64de8bfc915f829156ba65e59cf0a0cbea5e9a34f"
+      },
+      {
+        "_path": "Library/share/PySide6/doc/qtquicktest.rst",
+        "path_type": "hardlink",
+        "sha256": "d0a31e05e4bf498350fc41c18ffc709ec17adb5ee15fad7f164a853d546d8095",
+        "size_in_bytes": 2037,
+        "sha256_in_prefix": "d0a31e05e4bf498350fc41c18ffc709ec17adb5ee15fad7f164a853d546d8095"
+      },
+      {
+        "_path": "Library/share/PySide6/doc/qtuitools.rst",
+        "path_type": "hardlink",
+        "sha256": "f8a107051ad4994611ac567761a8cd67a4ec428a3f089f2d17cfc293198610fc",
+        "size_in_bytes": 2536,
+        "sha256_in_prefix": "f8a107051ad4994611ac567761a8cd67a4ec428a3f089f2d17cfc293198610fc"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtcharts.cpp",
+        "path_type": "hardlink",
+        "sha256": "fee4105a7061fdba8373b5a4676c56f8a6def9252dec5136057dad6f44a9777c",
+        "size_in_bytes": 634,
+        "sha256_in_prefix": "fee4105a7061fdba8373b5a4676c56f8a6def9252dec5136057dad6f44a9777c"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtcore.cpp",
+        "path_type": "hardlink",
+        "sha256": "c75c1fae8d61da259fa8fe47d1bda8bfdfa0f91a85b4cdd0f630189ee6146eee",
+        "size_in_bytes": 77471,
+        "sha256_in_prefix": "c75c1fae8d61da259fa8fe47d1bda8bfdfa0f91a85b4cdd0f630189ee6146eee"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtdatavisualization.cpp",
+        "path_type": "hardlink",
+        "sha256": "b761b797fef3ba3865488d4963263a280b702bf130f7012d728ffac9af108ca8",
+        "size_in_bytes": 2927,
+        "sha256_in_prefix": "b761b797fef3ba3865488d4963263a280b702bf130f7012d728ffac9af108ca8"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtdesigner.cpp",
+        "path_type": "hardlink",
+        "sha256": "823545c818f6c2ae1a4c7a5da5433dabc62ad7fed2cc42914a135db079f6094f",
+        "size_in_bytes": 333,
+        "sha256_in_prefix": "823545c818f6c2ae1a4c7a5da5433dabc62ad7fed2cc42914a135db079f6094f"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtgraphs.cpp",
+        "path_type": "hardlink",
+        "sha256": "ffe4efad7085e73f03a5e983749fa368914c1ef642479f3afd53dcb98c84c454",
+        "size_in_bytes": 366,
+        "sha256_in_prefix": "ffe4efad7085e73f03a5e983749fa368914c1ef642479f3afd53dcb98c84c454"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtgui.cpp",
+        "path_type": "hardlink",
+        "sha256": "9adb9be2866abc7358023d412b9ef87641b44df2ae3ef0d716853df73184df48",
+        "size_in_bytes": 37264,
+        "sha256_in_prefix": "9adb9be2866abc7358023d412b9ef87641b44df2ae3ef0d716853df73184df48"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtmultimedia.cpp",
+        "path_type": "hardlink",
+        "sha256": "ef60727fcc6f89b95114bacf477eb9ecbb88de79540d202cdcc7f3150cb42b17",
+        "size_in_bytes": 1111,
+        "sha256_in_prefix": "ef60727fcc6f89b95114bacf477eb9ecbb88de79540d202cdcc7f3150cb42b17"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtnetwork.cpp",
+        "path_type": "hardlink",
+        "sha256": "ab209784f07f98663a219a67927f43acb751d3e9541e74c061b829496c32b55c",
+        "size_in_bytes": 4073,
+        "sha256_in_prefix": "ab209784f07f98663a219a67927f43acb751d3e9541e74c061b829496c32b55c"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtopengl.cpp",
+        "path_type": "hardlink",
+        "sha256": "f19e866ca43844719c992ddef23e4a86c183c86171f689a2bae3b6e51117c41a",
+        "size_in_bytes": 4497,
+        "sha256_in_prefix": "f19e866ca43844719c992ddef23e4a86c183c86171f689a2bae3b6e51117c41a"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtprintsupport.cpp",
+        "path_type": "hardlink",
+        "sha256": "bb0bb287be94b4fe52d7898ce99a2ef273dc7e48f7ee38ff98c394f9e9181841",
+        "size_in_bytes": 610,
+        "sha256_in_prefix": "bb0bb287be94b4fe52d7898ce99a2ef273dc7e48f7ee38ff98c394f9e9181841"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtqml.cpp",
+        "path_type": "hardlink",
+        "sha256": "aaa5a3a3722bd9b1fc1d366a36c98ce6771dff9f58462d82b3cf7f072b4a05a2",
+        "size_in_bytes": 3175,
+        "sha256_in_prefix": "aaa5a3a3722bd9b1fc1d366a36c98ce6771dff9f58462d82b3cf7f072b4a05a2"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtquick.cpp",
+        "path_type": "hardlink",
+        "sha256": "ddba192c857cbad7b800451e3a54bf9199c954c0d179f0e9f886557f97662331",
+        "size_in_bytes": 974,
+        "sha256_in_prefix": "ddba192c857cbad7b800451e3a54bf9199c954c0d179f0e9f886557f97662331"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtquick3d.cpp",
+        "path_type": "hardlink",
+        "sha256": "fa1b3e2f604ff29491ab6e8fd9d57f591fb99df26d100676dbce6eb88b9ddba7",
+        "size_in_bytes": 963,
+        "sha256_in_prefix": "fa1b3e2f604ff29491ab6e8fd9d57f591fb99df26d100676dbce6eb88b9ddba7"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtquicktest.cpp",
+        "path_type": "hardlink",
+        "sha256": "1fbd5b513d6b99b783f8b3064a6d2ed2be591255640def121b789b0bbe46f60d",
+        "size_in_bytes": 1814,
+        "sha256_in_prefix": "1fbd5b513d6b99b783f8b3064a6d2ed2be591255640def121b789b0bbe46f60d"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtsql.cpp",
+        "path_type": "hardlink",
+        "sha256": "c4f75c9b2f7414fae5bbc271672cb9f55d2b35f07b727a4f46c9ec85aac307c0",
+        "size_in_bytes": 1751,
+        "sha256_in_prefix": "c4f75c9b2f7414fae5bbc271672cb9f55d2b35f07b727a4f46c9ec85aac307c0"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qttest.cpp",
+        "path_type": "hardlink",
+        "sha256": "137a1374030b9b5c224aa9a3db606b6fb857072ca6c8b69680dc7e50c5214556",
+        "size_in_bytes": 1384,
+        "sha256_in_prefix": "137a1374030b9b5c224aa9a3db606b6fb857072ca6c8b69680dc7e50c5214556"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtuitools.cpp",
+        "path_type": "hardlink",
+        "sha256": "76c5e5d0cc6aa7a1fb38474cb1123c8eb79cbd278865646f7ede27e2624724bc",
+        "size_in_bytes": 7121,
+        "sha256_in_prefix": "76c5e5d0cc6aa7a1fb38474cb1123c8eb79cbd278865646f7ede27e2624724bc"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtwidgets.cpp",
+        "path_type": "hardlink",
+        "sha256": "568edb2cd1b2a98d700035e9b34badeead9735a5efa4b9c495b2193c88fcf784",
+        "size_in_bytes": 29497,
+        "sha256_in_prefix": "568edb2cd1b2a98d700035e9b34badeead9735a5efa4b9c495b2193c88fcf784"
+      },
+      {
+        "_path": "Library/share/PySide6/glue/qtxml.cpp",
+        "path_type": "hardlink",
+        "sha256": "8c6c4fccaf1d958f321f4db58fa542d3b62b050954b2d7a05b5b51900f16e867",
+        "size_in_bytes": 714,
+        "sha256_in_prefix": "8c6c4fccaf1d958f321f4db58fa542d3b62b050954b2d7a05b5b51900f16e867"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/common.xml",
+        "path_type": "hardlink",
+        "sha256": "050d4d0b4dfc0165bc751233a02f40c10116d4e0896f793a80da322106a03735",
+        "size_in_bytes": 1782,
+        "sha256_in_prefix": "050d4d0b4dfc0165bc751233a02f40c10116d4e0896f793a80da322106a03735"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/core_common.xml",
+        "path_type": "hardlink",
+        "sha256": "1f9a1cd0674d2fc6c06658450eb91ce7062d3bdfba5cd92037ab9124997df39e",
+        "size_in_bytes": 8082,
+        "sha256_in_prefix": "1f9a1cd0674d2fc6c06658450eb91ce7062d3bdfba5cd92037ab9124997df39e"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/datavisualization_common.xml",
+        "path_type": "hardlink",
+        "sha256": "a902604087d8b21c5f429c19322abedbe45cfb829a9fdbb170c4cc5bed571d11",
+        "size_in_bytes": 1689,
+        "sha256_in_prefix": "a902604087d8b21c5f429c19322abedbe45cfb829a9fdbb170c4cc5bed571d11"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/glue/plugins.h",
+        "path_type": "hardlink",
+        "sha256": "f09b16abade82598c50711b618c5a286efd8eaaf5ed1a1a7e1d997f3d80b8e48",
+        "size_in_bytes": 772,
+        "sha256_in_prefix": "f09b16abade82598c50711b618c5a286efd8eaaf5ed1a1a7e1d997f3d80b8e48"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/glue/qeasingcurve_glue.cpp",
+        "path_type": "hardlink",
+        "sha256": "a728c9dcdfd23670e650670e49e0b217cafeb5f77a078677fe89e1b912d49bc4",
+        "size_in_bytes": 3178,
+        "sha256_in_prefix": "a728c9dcdfd23670e650670e49e0b217cafeb5f77a078677fe89e1b912d49bc4"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/glue/qeasingcurve_glue.h",
+        "path_type": "hardlink",
+        "sha256": "e09a797c0b23124ed1589fbd0e56d27d7b2a042b0aa6a42f8e8ac7a3b0d964a0",
+        "size_in_bytes": 828,
+        "sha256_in_prefix": "e09a797c0b23124ed1589fbd0e56d27d7b2a042b0aa6a42f8e8ac7a3b0d964a0"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/gui_common.xml",
+        "path_type": "hardlink",
+        "sha256": "63871e8528851a686d4de32c7e4704846330e5f74cb82fdae9fc271e6fe1302c",
+        "size_in_bytes": 2968,
+        "sha256_in_prefix": "63871e8528851a686d4de32c7e4704846330e5f74cb82fdae9fc271e6fe1302c"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_3danimation.xml",
+        "path_type": "hardlink",
+        "sha256": "7bb40d3c171483de2541655fc0662623ab1a4b9a9205cf8ed7ac76547e4010a9",
+        "size_in_bytes": 2752,
+        "sha256_in_prefix": "7bb40d3c171483de2541655fc0662623ab1a4b9a9205cf8ed7ac76547e4010a9"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_3dcore.xml",
+        "path_type": "hardlink",
+        "sha256": "6adb740cf1bcc1bb65bb1787d9e007346fed2e9139a38704d3f839de01965dd6",
+        "size_in_bytes": 3699,
+        "sha256_in_prefix": "6adb740cf1bcc1bb65bb1787d9e007346fed2e9139a38704d3f839de01965dd6"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_3dextras.xml",
+        "path_type": "hardlink",
+        "sha256": "f742e3964021ebdbb4c53d0b8875ac50e38d4e28c79f27dcd61d652f389daa59",
+        "size_in_bytes": 2761,
+        "sha256_in_prefix": "f742e3964021ebdbb4c53d0b8875ac50e38d4e28c79f27dcd61d652f389daa59"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_3dinput.xml",
+        "path_type": "hardlink",
+        "sha256": "dc35807831a3e69f7c6628b4d422fc471d21e72f6409a6a2f6cf788978aada08",
+        "size_in_bytes": 2723,
+        "sha256_in_prefix": "dc35807831a3e69f7c6628b4d422fc471d21e72f6409a6a2f6cf788978aada08"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_3dlogic.xml",
+        "path_type": "hardlink",
+        "sha256": "a82704285e552273a6560a05ce1ce04b3c309957989f79be6bd13ca7dfa426ce",
+        "size_in_bytes": 599,
+        "sha256_in_prefix": "a82704285e552273a6560a05ce1ce04b3c309957989f79be6bd13ca7dfa426ce"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_3drender.xml",
+        "path_type": "hardlink",
+        "sha256": "aeae85e61a4b78475b0fbfe59f46e227d24c43085a46757f9fb454c7f6d668c2",
+        "size_in_bytes": 10484,
+        "sha256_in_prefix": "aeae85e61a4b78475b0fbfe59f46e227d24c43085a46757f9fb454c7f6d668c2"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_axcontainer.xml",
+        "path_type": "hardlink",
+        "sha256": "c9ae05b0e355a0b4d37800ddde9fd2e8076c3a9ef4d3ce9a4236d4d772b03d7c",
+        "size_in_bytes": 1986,
+        "sha256_in_prefix": "c9ae05b0e355a0b4d37800ddde9fd2e8076c3a9ef4d3ce9a4236d4d772b03d7c"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_charts.xml",
+        "path_type": "hardlink",
+        "sha256": "e7e8e45f99ec930b41d31a6fdc33393e1badda492fc4933a33b59c54204c6aaf",
+        "size_in_bytes": 10831,
+        "sha256_in_prefix": "e7e8e45f99ec930b41d31a6fdc33393e1badda492fc4933a33b59c54204c6aaf"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_concurrent.xml",
+        "path_type": "hardlink",
+        "sha256": "c9c7c9a0af7b4bf0e276d776c08b58a7abae748b524615c90aebbe603c332582",
+        "size_in_bytes": 1660,
+        "sha256_in_prefix": "c9c7c9a0af7b4bf0e276d776c08b58a7abae748b524615c90aebbe603c332582"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_core.xml",
+        "path_type": "hardlink",
+        "sha256": "f1404121167eb9a9dd59df00a31ebcc7171de17d396072641c0fabf946250bfc",
+        "size_in_bytes": 495,
+        "sha256_in_prefix": "f1404121167eb9a9dd59df00a31ebcc7171de17d396072641c0fabf946250bfc"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_core_common.xml",
+        "path_type": "hardlink",
+        "sha256": "59af184454b67eeb21dbccf149f304e5c53bac379010eee8329524733a599be1",
+        "size_in_bytes": 189552,
+        "sha256_in_prefix": "59af184454b67eeb21dbccf149f304e5c53bac379010eee8329524733a599be1"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_core_win.xml",
+        "path_type": "hardlink",
+        "sha256": "abd220809b9436207c492f74832c0216d5d7f8247bea89d1046652d2d55debf3",
+        "size_in_bytes": 1259,
+        "sha256_in_prefix": "abd220809b9436207c492f74832c0216d5d7f8247bea89d1046652d2d55debf3"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_datavisualization.xml",
+        "path_type": "hardlink",
+        "sha256": "17be9d22213c1cdb5eecfebdb9dfc3438a3ec9438dfa270cda66cb389d51a012",
+        "size_in_bytes": 21785,
+        "sha256_in_prefix": "17be9d22213c1cdb5eecfebdb9dfc3438a3ec9438dfa270cda66cb389d51a012"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_dbus.xml",
+        "path_type": "hardlink",
+        "sha256": "e6166000f13fab5c8d56bca9067a954ed06b826f5cffec129d6509384a47b244",
+        "size_in_bytes": 6954,
+        "sha256_in_prefix": "e6166000f13fab5c8d56bca9067a954ed06b826f5cffec129d6509384a47b244"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_designer.xml",
+        "path_type": "hardlink",
+        "sha256": "7934767527ee9cbc1a2c34472254f8413014e5f22a08db6998ac67835b209323",
+        "size_in_bytes": 4814,
+        "sha256_in_prefix": "7934767527ee9cbc1a2c34472254f8413014e5f22a08db6998ac67835b209323"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_glgeti_v_includes.xml",
+        "path_type": "hardlink",
+        "sha256": "4634b214aae3296c606fdc6f6cb3c2671c54970962fcff1d951b62af2d4a27bd",
+        "size_in_bytes": 121,
+        "sha256_in_prefix": "4634b214aae3296c606fdc6f6cb3c2671c54970962fcff1d951b62af2d4a27bd"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_glgeti_v_modifications.xml",
+        "path_type": "hardlink",
+        "sha256": "87ed119bface4360534d0126b90d7cdcde72905ef2bdc645e8f18e1157208883",
+        "size_in_bytes": 907,
+        "sha256_in_prefix": "87ed119bface4360534d0126b90d7cdcde72905ef2bdc645e8f18e1157208883"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_glgetv_includes.xml",
+        "path_type": "hardlink",
+        "sha256": "e59ab0e8bf2eecb17a4c9f224cecef27fb47b0b58f532217a31f948b54b96c3f",
+        "size_in_bytes": 287,
+        "sha256_in_prefix": "e59ab0e8bf2eecb17a4c9f224cecef27fb47b0b58f532217a31f948b54b96c3f"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_glgetv_modifications.xml",
+        "path_type": "hardlink",
+        "sha256": "5a5038922aebb5b0d2ef3a3f9874ee58c104b6fe4bf661963859a648d0bd1eec",
+        "size_in_bytes": 1748,
+        "sha256_in_prefix": "5a5038922aebb5b0d2ef3a3f9874ee58c104b6fe4bf661963859a648d0bd1eec"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_graphs.xml",
+        "path_type": "hardlink",
+        "sha256": "656a0093ee3fe521fefd120dd62778370ecbf8db86bc8379032b4c80d67f1ec9",
+        "size_in_bytes": 8546,
+        "sha256_in_prefix": "656a0093ee3fe521fefd120dd62778370ecbf8db86bc8379032b4c80d67f1ec9"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_graphswidgets.xml",
+        "path_type": "hardlink",
+        "sha256": "10d711868178dbc9a8d21766395485d359375e6f92ec337745381383a21fe978",
+        "size_in_bytes": 4834,
+        "sha256_in_prefix": "10d711868178dbc9a8d21766395485d359375e6f92ec337745381383a21fe978"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_gui.xml",
+        "path_type": "hardlink",
+        "sha256": "f00e6aaada475b49d901dcba67a7e823f0328be71fc50f83576e1efedba1dfd6",
+        "size_in_bytes": 838,
+        "sha256_in_prefix": "f00e6aaada475b49d901dcba67a7e823f0328be71fc50f83576e1efedba1dfd6"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_gui_common.xml",
+        "path_type": "hardlink",
+        "sha256": "2b0fc1f037ef6b534ddc5e426a655a031f5db83117300ec50a8dc137e51940f8",
+        "size_in_bytes": 158257,
+        "sha256_in_prefix": "2b0fc1f037ef6b534ddc5e426a655a031f5db83117300ec50a8dc137e51940f8"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_gui_mac.xml",
+        "path_type": "hardlink",
+        "sha256": "3ef585a3a156def287081e10867614ec93d386e7489f1b57dbe57aa17a326cbd",
+        "size_in_bytes": 236,
+        "sha256_in_prefix": "3ef585a3a156def287081e10867614ec93d386e7489f1b57dbe57aa17a326cbd"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_gui_rhi.xml",
+        "path_type": "hardlink",
+        "sha256": "de08316bd6f9d3be99ebb00c6fef4b61fe5bda5e6978d02ae60a57ba11f2b4da",
+        "size_in_bytes": 9022,
+        "sha256_in_prefix": "de08316bd6f9d3be99ebb00c6fef4b61fe5bda5e6978d02ae60a57ba11f2b4da"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_gui_win.xml",
+        "path_type": "hardlink",
+        "sha256": "5ca8ab6874e30b5abb949f48d30b8c65274c5e256348cdc1ee9ae0cf0c2cbe0a",
+        "size_in_bytes": 1986,
+        "sha256_in_prefix": "5ca8ab6874e30b5abb949f48d30b8c65274c5e256348cdc1ee9ae0cf0c2cbe0a"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_gui_x11.xml",
+        "path_type": "hardlink",
+        "sha256": "708364af4bc36cd301e41146ef894488ba1541af974944b4a7b4b23c385471c5",
+        "size_in_bytes": 331,
+        "sha256_in_prefix": "708364af4bc36cd301e41146ef894488ba1541af974944b4a7b4b23c385471c5"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_help.xml",
+        "path_type": "hardlink",
+        "sha256": "5f7a34a6a9fc258fadad2904fc591e30e3b4159e70cbf8f56785e1dabb52a44a",
+        "size_in_bytes": 1852,
+        "sha256_in_prefix": "5f7a34a6a9fc258fadad2904fc591e30e3b4159e70cbf8f56785e1dabb52a44a"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_multimedia.xml",
+        "path_type": "hardlink",
+        "sha256": "2f7c12f4f6cf7258317c80b7bb92284d09098873fdd2157e87e6cc096e33bff4",
+        "size_in_bytes": 7440,
+        "sha256_in_prefix": "2f7c12f4f6cf7258317c80b7bb92284d09098873fdd2157e87e6cc096e33bff4"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_multimediawidgets.xml",
+        "path_type": "hardlink",
+        "sha256": "858c85e2bfe19cc55d1143d513baabc68134f9b17f37b4c7519a2f46c6c41768",
+        "size_in_bytes": 726,
+        "sha256_in_prefix": "858c85e2bfe19cc55d1143d513baabc68134f9b17f37b4c7519a2f46c6c41768"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_network.xml",
+        "path_type": "hardlink",
+        "sha256": "c29daf920efce1dd44c2daffe1c6329f47a116d7c77a4c16f8af277134b30906",
+        "size_in_bytes": 26741,
+        "sha256_in_prefix": "c29daf920efce1dd44c2daffe1c6329f47a116d7c77a4c16f8af277134b30906"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl.xml",
+        "path_type": "hardlink",
+        "sha256": "116491dfde157a0f2ed720bf4a0a579bc73e21e5188a5ddfcf3d46b2302e46a3",
+        "size_in_bytes": 34638,
+        "sha256_in_prefix": "116491dfde157a0f2ed720bf4a0a579bc73e21e5188a5ddfcf3d46b2302e46a3"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_0.xml",
+        "path_type": "hardlink",
+        "sha256": "988df8e10eff1470e37ad338803b7af3a71ed6f7a86d0c7e77cfdaccbd5387f9",
+        "size_in_bytes": 582,
+        "sha256_in_prefix": "988df8e10eff1470e37ad338803b7af3a71ed6f7a86d0c7e77cfdaccbd5387f9"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_0_compat.xml",
+        "path_type": "hardlink",
+        "sha256": "36ac8b6ba319ac18d3c44ce8cacefb6c0af2524d2b561221de3388cf9a665a17",
+        "size_in_bytes": 3006,
+        "sha256_in_prefix": "36ac8b6ba319ac18d3c44ce8cacefb6c0af2524d2b561221de3388cf9a665a17"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_1.xml",
+        "path_type": "hardlink",
+        "sha256": "896fa50de4413b3e6533849ab570dffa106aaf91cd5d313b96ba5c0452efdfcd",
+        "size_in_bytes": 335,
+        "sha256_in_prefix": "896fa50de4413b3e6533849ab570dffa106aaf91cd5d313b96ba5c0452efdfcd"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_1_compat.xml",
+        "path_type": "hardlink",
+        "sha256": "4d6743ace39f02b51449ece0dac565bf37a01853cdd7b80dae212149230152b5",
+        "size_in_bytes": 480,
+        "sha256_in_prefix": "4d6743ace39f02b51449ece0dac565bf37a01853cdd7b80dae212149230152b5"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_2_compat.xml",
+        "path_type": "hardlink",
+        "sha256": "a750ec89318c3344c05c8b5f472451d7a4501418fde9e3e56568217a663755d0",
+        "size_in_bytes": 444,
+        "sha256_in_prefix": "a750ec89318c3344c05c8b5f472451d7a4501418fde9e3e56568217a663755d0"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_3_compat.xml",
+        "path_type": "hardlink",
+        "sha256": "b8ca290d19b69af47433d1959a1abeb4d017d75b22c9b732f10e0c93c9ec1d7f",
+        "size_in_bytes": 446,
+        "sha256_in_prefix": "b8ca290d19b69af47433d1959a1abeb4d017d75b22c9b732f10e0c93c9ec1d7f"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_4.xml",
+        "path_type": "hardlink",
+        "sha256": "3226da5e9d95c7e4403dbf2dd56e3e82f8e029a34ff4428bd795e95310b3e554",
+        "size_in_bytes": 488,
+        "sha256_in_prefix": "3226da5e9d95c7e4403dbf2dd56e3e82f8e029a34ff4428bd795e95310b3e554"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications1_4_compat.xml",
+        "path_type": "hardlink",
+        "sha256": "89aca0d6e3a090fa4ada1c35a6f0da493c84885891c07dfb046fcac7ef0c1f9a",
+        "size_in_bytes": 572,
+        "sha256_in_prefix": "89aca0d6e3a090fa4ada1c35a6f0da493c84885891c07dfb046fcac7ef0c1f9a"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications2_0.xml",
+        "path_type": "hardlink",
+        "sha256": "74df0bde588efe7461f05ab836a577573dee6c266724031e4b83a5cd3c0f5f5f",
+        "size_in_bytes": 557,
+        "sha256_in_prefix": "74df0bde588efe7461f05ab836a577573dee6c266724031e4b83a5cd3c0f5f5f"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications2_0_compat.xml",
+        "path_type": "hardlink",
+        "sha256": "b6af6abcc1c15eec7ce4250b172c03e87260acc24126f0075c2e307f8136eaeb",
+        "size_in_bytes": 42,
+        "sha256_in_prefix": "b6af6abcc1c15eec7ce4250b172c03e87260acc24126f0075c2e307f8136eaeb"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications2_1.xml",
+        "path_type": "hardlink",
+        "sha256": "d436ddee8963b1be9b73cb742e3a1454cac56847ab1664c883403c881c6edeb1",
+        "size_in_bytes": 300,
+        "sha256_in_prefix": "d436ddee8963b1be9b73cb742e3a1454cac56847ab1664c883403c881c6edeb1"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications3_0.xml",
+        "path_type": "hardlink",
+        "sha256": "d97b23d1784c2e68398e619e54eeae440305c1d08ad3881d975b358a83162e97",
+        "size_in_bytes": 425,
+        "sha256_in_prefix": "d97b23d1784c2e68398e619e54eeae440305c1d08ad3881d975b358a83162e97"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications3_3.xml",
+        "path_type": "hardlink",
+        "sha256": "022486fc854b8033a3f0b6e70de26db11997bb1f1a70f813236a32b317b15bfc",
+        "size_in_bytes": 439,
+        "sha256_in_prefix": "022486fc854b8033a3f0b6e70de26db11997bb1f1a70f813236a32b317b15bfc"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications3_3a.xml",
+        "path_type": "hardlink",
+        "sha256": "05e8ce71b19392bde20733f3c2a4acf3e6502b38464c3701911f6e6fc0167db7",
+        "size_in_bytes": 888,
+        "sha256_in_prefix": "05e8ce71b19392bde20733f3c2a4acf3e6502b38464c3701911f6e6fc0167db7"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_0.xml",
+        "path_type": "hardlink",
+        "sha256": "ef046dad125e510a5c555e178debc570a4dbca0871e188be39af95da1855c50e",
+        "size_in_bytes": 432,
+        "sha256_in_prefix": "ef046dad125e510a5c555e178debc570a4dbca0871e188be39af95da1855c50e"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_1.xml",
+        "path_type": "hardlink",
+        "sha256": "05982a92a566cab5e5321fd868852b1eec2145b5172c33581ffd19fde317b39f",
+        "size_in_bytes": 1955,
+        "sha256_in_prefix": "05982a92a566cab5e5321fd868852b1eec2145b5172c33581ffd19fde317b39f"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_3.xml",
+        "path_type": "hardlink",
+        "sha256": "03cd48b3524f4ec7a5e2af9117f543ed8e17d85b879eb191db70a8335d0ee41c",
+        "size_in_bytes": 303,
+        "sha256_in_prefix": "03cd48b3524f4ec7a5e2af9117f543ed8e17d85b879eb191db70a8335d0ee41c"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_4.xml",
+        "path_type": "hardlink",
+        "sha256": "71796d989bd5ed0358b8450b067e5e220ccb6b417e6b825dc604f05a690a2045",
+        "size_in_bytes": 1074,
+        "sha256_in_prefix": "71796d989bd5ed0358b8450b067e5e220ccb6b417e6b825dc604f05a690a2045"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_4_core.xml",
+        "path_type": "hardlink",
+        "sha256": "2e8e903a2816f589a8cb63e04076d7b72373c7ce96fbdfb379f684174b382de9",
+        "size_in_bytes": 295,
+        "sha256_in_prefix": "2e8e903a2816f589a8cb63e04076d7b72373c7ce96fbdfb379f684174b382de9"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_5.xml",
+        "path_type": "hardlink",
+        "sha256": "e5d7f119a1dc2b3438f70af7c0cb10f2050d499820807f116fa720003f59d2a0",
+        "size_in_bytes": 1074,
+        "sha256_in_prefix": "e5d7f119a1dc2b3438f70af7c0cb10f2050d499820807f116fa720003f59d2a0"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications4_5_core.xml",
+        "path_type": "hardlink",
+        "sha256": "fb9f787ef97fabe8d7f57e49f5f602e085b1e6c76958d51b3597ae0122d95e8a",
+        "size_in_bytes": 170,
+        "sha256_in_prefix": "fb9f787ef97fabe8d7f57e49f5f602e085b1e6c76958d51b3597ae0122d95e8a"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_opengl_modifications_va.xml",
+        "path_type": "hardlink",
+        "sha256": "0be22ef32ce48da9e02b3f762a245c1f06b3da2678f2f00666f9f1da8c52898d",
+        "size_in_bytes": 307,
+        "sha256_in_prefix": "0be22ef32ce48da9e02b3f762a245c1f06b3da2678f2f00666f9f1da8c52898d"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_openglwidgets.xml",
+        "path_type": "hardlink",
+        "sha256": "0cb2136831a3dc14d8aa3e7e99e4526f0f134f90d76c232d8cb493c13d7fd110",
+        "size_in_bytes": 720,
+        "sha256_in_prefix": "0cb2136831a3dc14d8aa3e7e99e4526f0f134f90d76c232d8cb493c13d7fd110"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_printsupport.xml",
+        "path_type": "hardlink",
+        "sha256": "741da6e8dc8f1373616eccf80eb2cfd721752cdf296c7f713709b0009e62d7d0",
+        "size_in_bytes": 474,
+        "sha256_in_prefix": "741da6e8dc8f1373616eccf80eb2cfd721752cdf296c7f713709b0009e62d7d0"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_printsupport_common.xml",
+        "path_type": "hardlink",
+        "sha256": "00785940cafab6b95ec8ef7174334efed7fdf6db871bb642bb892e1847dee2d9",
+        "size_in_bytes": 2597,
+        "sha256_in_prefix": "00785940cafab6b95ec8ef7174334efed7fdf6db871bb642bb892e1847dee2d9"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_qml.xml",
+        "path_type": "hardlink",
+        "sha256": "f2d837a50dc596c93b15402b130c1b6224d421e35ee361007b8c861a050da4a7",
+        "size_in_bytes": 19024,
+        "sha256_in_prefix": "f2d837a50dc596c93b15402b130c1b6224d421e35ee361007b8c861a050da4a7"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_quick.xml",
+        "path_type": "hardlink",
+        "sha256": "ac0ec04e172f1a35909ced4e3c0295928557b62cbc75cf6e1699a75acd230c42",
+        "size_in_bytes": 11501,
+        "sha256_in_prefix": "ac0ec04e172f1a35909ced4e3c0295928557b62cbc75cf6e1699a75acd230c42"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_quick3d.xml",
+        "path_type": "hardlink",
+        "sha256": "074e3b4dd029480dc26a95c9a9e2423d3835d444e8a50b60d72c75271b009695",
+        "size_in_bytes": 1991,
+        "sha256_in_prefix": "074e3b4dd029480dc26a95c9a9e2423d3835d444e8a50b60d72c75271b009695"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_quickcontrols2.xml",
+        "path_type": "hardlink",
+        "sha256": "ee63a4df4695b67e789f98089cce78b20a42261c63662b13d5b820907fdbd5cf",
+        "size_in_bytes": 551,
+        "sha256_in_prefix": "ee63a4df4695b67e789f98089cce78b20a42261c63662b13d5b820907fdbd5cf"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_quicktest.xml",
+        "path_type": "hardlink",
+        "sha256": "1649c746385a175cdbf6d6219a20c7d7622fd084e0e52761b36392709f53976c",
+        "size_in_bytes": 1770,
+        "sha256_in_prefix": "1649c746385a175cdbf6d6219a20c7d7622fd084e0e52761b36392709f53976c"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_quickwidgets.xml",
+        "path_type": "hardlink",
+        "sha256": "25cf469cb44539d3e6e42f947a4f2c85bcbff25ba92e468bf885d7f86a2f16ab",
+        "size_in_bytes": 838,
+        "sha256_in_prefix": "25cf469cb44539d3e6e42f947a4f2c85bcbff25ba92e468bf885d7f86a2f16ab"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_spatialaudio.xml",
+        "path_type": "hardlink",
+        "sha256": "9594e9e3428a4f6078d41f726c5b250f872745c0e94f89aebec0e2f3d108a975",
+        "size_in_bytes": 1167,
+        "sha256_in_prefix": "9594e9e3428a4f6078d41f726c5b250f872745c0e94f89aebec0e2f3d108a975"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_sql.xml",
+        "path_type": "hardlink",
+        "sha256": "7d905a497e419cd26f0c177998df435f85b5732363deb6deef7752f0318b30bd",
+        "size_in_bytes": 8334,
+        "sha256_in_prefix": "7d905a497e419cd26f0c177998df435f85b5732363deb6deef7752f0318b30bd"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_svg.xml",
+        "path_type": "hardlink",
+        "sha256": "ec2e519343ed56f83e830b7b416f8be8aaba80429f6a754c5b998665f7913dea",
+        "size_in_bytes": 1059,
+        "sha256_in_prefix": "ec2e519343ed56f83e830b7b416f8be8aaba80429f6a754c5b998665f7913dea"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_svgwidgets.xml",
+        "path_type": "hardlink",
+        "sha256": "cee3a20926f5248cc30c3f1a996332673203aa84a9e4bc7b89b4f66a26f7e418",
+        "size_in_bytes": 1014,
+        "sha256_in_prefix": "cee3a20926f5248cc30c3f1a996332673203aa84a9e4bc7b89b4f66a26f7e418"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_test.xml",
+        "path_type": "hardlink",
+        "sha256": "62e9a138d8b2b41087d56c9bcb9daa5afdb325dc0f06e47e26fa1439fc293d86",
+        "size_in_bytes": 6253,
+        "sha256_in_prefix": "62e9a138d8b2b41087d56c9bcb9daa5afdb325dc0f06e47e26fa1439fc293d86"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_uitools.xml",
+        "path_type": "hardlink",
+        "sha256": "0415414c6e05e37a9f4564be77778aa248dddac9b6b03745e13f6f8510244d16",
+        "size_in_bytes": 4048,
+        "sha256_in_prefix": "0415414c6e05e37a9f4564be77778aa248dddac9b6b03745e13f6f8510244d16"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_webchannel.xml",
+        "path_type": "hardlink",
+        "sha256": "326dcf01613772c57cfcedf87df0c9db4ae1602a25e8d407db284802c3d80bf5",
+        "size_in_bytes": 951,
+        "sha256_in_prefix": "326dcf01613772c57cfcedf87df0c9db4ae1602a25e8d407db284802c3d80bf5"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_websockets.xml",
+        "path_type": "hardlink",
+        "sha256": "44f81bf46d69d74ca43b5a112f75edc608197e6725343aa1d422314881ab22cf",
+        "size_in_bytes": 1142,
+        "sha256_in_prefix": "44f81bf46d69d74ca43b5a112f75edc608197e6725343aa1d422314881ab22cf"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_widgets.xml",
+        "path_type": "hardlink",
+        "sha256": "90e2d6dce7e5b13ae3d4ca4fda0d2bb8b4359561b63c0802af0a560f63fb3004",
+        "size_in_bytes": 460,
+        "sha256_in_prefix": "90e2d6dce7e5b13ae3d4ca4fda0d2bb8b4359561b63c0802af0a560f63fb3004"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_widgets_common.xml",
+        "path_type": "hardlink",
+        "sha256": "3cde361e4a8ec5d6a2f9d6e448291a8b782a2d075921f261369dc0835a9a172b",
+        "size_in_bytes": 155674,
+        "sha256_in_prefix": "3cde361e4a8ec5d6a2f9d6e448291a8b782a2d075921f261369dc0835a9a172b"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/typesystem_xml.xml",
+        "path_type": "hardlink",
+        "sha256": "90db27caa43b4e703dc64a900d55e89e713c3e6e53b387ce6071f7282d52c8d2",
+        "size_in_bytes": 8038,
+        "sha256_in_prefix": "90db27caa43b4e703dc64a900d55e89e713c3e6e53b387ce6071f7282d52c8d2"
+      },
+      {
+        "_path": "Library/share/PySide6/typesystems/widgets_common.xml",
+        "path_type": "hardlink",
+        "sha256": "6068c58f132ba03af93a546c5d3f2412ad82f421ac8616723dcabdd0083cd5f2",
+        "size_in_bytes": 1255,
+        "sha256_in_prefix": "6068c58f132ba03af93a546c5d3f2412ad82f421ac8616723dcabdd0083cd5f2"
+      },
+      {
+        "_path": "Scripts/pyside6-rcc-script.py",
+        "path_type": "hardlink",
+        "sha256": "40fe3920b8c2399336107ec10ee4b390d2cc566b14e62a33240b24112c1c9603",
+        "size_in_bytes": 219,
+        "sha256_in_prefix": "40fe3920b8c2399336107ec10ee4b390d2cc566b14e62a33240b24112c1c9603"
+      },
+      {
+        "_path": "Scripts/pyside6-rcc.exe",
+        "path_type": "hardlink",
+        "sha256": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+        "size_in_bytes": 54032,
+        "sha256_in_prefix": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059"
+      },
+      {
+        "_path": "Scripts/pyside6-uic-script.py",
+        "path_type": "hardlink",
+        "sha256": "2fb76a7e1b3bfe5d48f1b0c7f3d49fe96f9eac24be37e65e8d48b5a1ba4804bb",
+        "size_in_bytes": 219,
+        "sha256_in_prefix": "2fb76a7e1b3bfe5d48f1b0c7f3d49fe96f9eac24be37e65e8d48b5a1ba4804bb"
+      },
+      {
+        "_path": "Scripts/pyside6-uic.exe",
+        "path_type": "hardlink",
+        "sha256": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+        "size_in_bytes": 54032,
+        "sha256_in_prefix": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\pyside6-6.9.2-py310h2d19612_1",
+    "type": 1
+  }
+}

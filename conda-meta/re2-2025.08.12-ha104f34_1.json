@@ -1,0 +1,115 @@
+{
+  "name": "re2",
+  "version": "2025.08.12",
+  "build": "ha104f34_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "win-64",
+  "fn": "re2-2025.08.12-ha104f34_1.conda",
+  "md5": "e8c86798a0f7b4b61f9e652c0d0a37ae",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/re2-2025.08.12-ha104f34_1.conda",
+  "sha256": "fc1d5995526797872c14c32f7d295e80d80083858650c57a352f76c6f78d0af5",
+  "depends": [
+    "libre2-11 2025.08.12 h0eb2380_1"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1757448079000,
+  "size": 217364,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\re2-2025.08.12-ha104f34_1.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\re2-2025.08.12-ha104f34_1",
+  "files": [
+    "Library/include/re2/filtered_re2.h",
+    "Library/include/re2/re2.h",
+    "Library/include/re2/set.h",
+    "Library/include/re2/stringpiece.h",
+    "Library/lib/cmake/re2/re2Config.cmake",
+    "Library/lib/cmake/re2/re2ConfigVersion.cmake",
+    "Library/lib/cmake/re2/re2Targets-release.cmake",
+    "Library/lib/cmake/re2/re2Targets.cmake",
+    "Library/lib/pkgconfig/re2.pc",
+    "Library/lib/re2.lib"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/include/re2/filtered_re2.h",
+        "path_type": "hardlink",
+        "sha256": "1ea210499ecb637cd0c8ebc5f20d0c3be02697e4aa0f614ebc831812709227f5",
+        "size_in_bytes": 4281,
+        "sha256_in_prefix": "1ea210499ecb637cd0c8ebc5f20d0c3be02697e4aa0f614ebc831812709227f5"
+      },
+      {
+        "_path": "Library/include/re2/re2.h",
+        "path_type": "hardlink",
+        "sha256": "59f4d4b5318fcb6acf0c90f17d17e71903a87ec25d75fcf5d13e738beb29490f",
+        "size_in_bytes": 42153,
+        "sha256_in_prefix": "59f4d4b5318fcb6acf0c90f17d17e71903a87ec25d75fcf5d13e738beb29490f"
+      },
+      {
+        "_path": "Library/include/re2/set.h",
+        "path_type": "hardlink",
+        "sha256": "d862a0e44570aad753ab7b68ec1c3e34a95075aaf95e50b208b26b894cefd903",
+        "size_in_bytes": 2693,
+        "sha256_in_prefix": "d862a0e44570aad753ab7b68ec1c3e34a95075aaf95e50b208b26b894cefd903"
+      },
+      {
+        "_path": "Library/include/re2/stringpiece.h",
+        "path_type": "hardlink",
+        "sha256": "59c1438095decbdab33a6140f6b358634e3dc31c36408ba9ce3b382ab3fb6c5a",
+        "size_in_bytes": 504,
+        "sha256_in_prefix": "59c1438095decbdab33a6140f6b358634e3dc31c36408ba9ce3b382ab3fb6c5a"
+      },
+      {
+        "_path": "Library/lib/cmake/re2/re2Config.cmake",
+        "path_type": "hardlink",
+        "sha256": "de86ada5b77e664e51443c74c9cc3d6214f45ea367606c4a810e735f95072cb3",
+        "size_in_bytes": 1432,
+        "sha256_in_prefix": "de86ada5b77e664e51443c74c9cc3d6214f45ea367606c4a810e735f95072cb3"
+      },
+      {
+        "_path": "Library/lib/cmake/re2/re2ConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "d50c63f6a3a9ee2669faa93bdefb262f1186c395b747c3b48007a14c63e8a215",
+        "size_in_bytes": 2830,
+        "sha256_in_prefix": "d50c63f6a3a9ee2669faa93bdefb262f1186c395b747c3b48007a14c63e8a215"
+      },
+      {
+        "_path": "Library/lib/cmake/re2/re2Targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "d8003bfbba3ca328dd553cb0777d3e9774b3cbb73d02e55f583bffa4a2b47a3b",
+        "size_in_bytes": 864,
+        "sha256_in_prefix": "d8003bfbba3ca328dd553cb0777d3e9774b3cbb73d02e55f583bffa4a2b47a3b"
+      },
+      {
+        "_path": "Library/lib/cmake/re2/re2Targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "6a2620de5a448b5635af4260494ce7a49bef475338acce72ffe0bc19d7648a03",
+        "size_in_bytes": 4515,
+        "sha256_in_prefix": "6a2620de5a448b5635af4260494ce7a49bef475338acce72ffe0bc19d7648a03"
+      },
+      {
+        "_path": "Library/lib/pkgconfig/re2.pc",
+        "prefix_placeholder": "D:/bld/re2-split_1757447313133/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "33f33c44312687bbf370f90766726275a2c49e31883b6423fff13a9179131dd0",
+        "size_in_bytes": 539,
+        "sha256_in_prefix": "c74aab1ea39260e3690ef11d932e6ccaad2ba2a2b9bdc90ff99319222a19af30"
+      },
+      {
+        "_path": "Library/lib/re2.lib",
+        "path_type": "hardlink",
+        "sha256": "c0ee1d3683c235a5dcb8758bbd21e60c0b704163b0a8d9a980d3e69648f1602b",
+        "size_in_bytes": 4041054,
+        "sha256_in_prefix": "c0ee1d3683c235a5dcb8758bbd21e60c0b704163b0a8d9a980d3e69648f1602b"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\re2-2025.08.12-ha104f34_1",
+    "type": 1
+  }
+}

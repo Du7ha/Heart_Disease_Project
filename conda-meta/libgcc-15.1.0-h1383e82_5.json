@@ -1,0 +1,86 @@
+{
+  "name": "libgcc",
+  "version": "15.1.0",
+  "build": "h1383e82_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "win-64",
+  "fn": "libgcc-15.1.0-h1383e82_5.conda",
+  "md5": "c84381a01ede0e28d632fdbeea2debb2",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libgcc-15.1.0-h1383e82_5.conda",
+  "sha256": "9b997baa85ba495c04e1b30f097b80420c02dcaca6441c4bf2c6bb4b2c5d2114",
+  "depends": [
+    "_openmp_mutex >=4.5",
+    "libwinpthread >=12.0.0.r4.gg4f2fc60ca"
+  ],
+  "constrains": [
+    "libgomp 15.1.0 h1383e82_5",
+    "msys2-conda-epoch <0.0a0",
+    "libgcc-ng ==15.1.0 *_5"
+  ],
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "timestamp": 1757042801000,
+  "size": 668284,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\libgcc-15.1.0-h1383e82_5.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\libgcc-15.1.0-h1383e82_5",
+  "files": [
+    "Library/bin/libatomic-1.dll",
+    "Library/bin/libgcc_s_seh-1.dll",
+    "Library/bin/libquadmath-0.dll",
+    "Library/share/info/libgomp.info",
+    "Library/share/info/libquadmath.info",
+    "Library/share/licenses/gcc-libs/RUNTIME.LIBRARY.EXCEPTION"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/libatomic-1.dll",
+        "path_type": "hardlink",
+        "sha256": "10b71bc5d671e13b4f05698e473b061a5a2c3604b886445325cfc15823a4e729",
+        "size_in_bytes": 276197,
+        "sha256_in_prefix": "10b71bc5d671e13b4f05698e473b061a5a2c3604b886445325cfc15823a4e729"
+      },
+      {
+        "_path": "Library/bin/libgcc_s_seh-1.dll",
+        "path_type": "hardlink",
+        "sha256": "fa14c8e829c6b54d8e677839de2f299e778c241d3a71f891bba99b317a7cb496",
+        "size_in_bytes": 820266,
+        "sha256_in_prefix": "fa14c8e829c6b54d8e677839de2f299e778c241d3a71f891bba99b317a7cb496"
+      },
+      {
+        "_path": "Library/bin/libquadmath-0.dll",
+        "path_type": "hardlink",
+        "sha256": "7953caa8ca80fdfb1a0b788038578aa8f0a0bafacaf527bdd2f130fb7230abb9",
+        "size_in_bytes": 1048135,
+        "sha256_in_prefix": "7953caa8ca80fdfb1a0b788038578aa8f0a0bafacaf527bdd2f130fb7230abb9"
+      },
+      {
+        "_path": "Library/share/info/libgomp.info",
+        "path_type": "hardlink",
+        "sha256": "d2140e0a89d6a666bd6b4e05c65c3883e4ba17dc45e5749f4d03f30cdd09dc5d",
+        "size_in_bytes": 357380,
+        "sha256_in_prefix": "d2140e0a89d6a666bd6b4e05c65c3883e4ba17dc45e5749f4d03f30cdd09dc5d"
+      },
+      {
+        "_path": "Library/share/info/libquadmath.info",
+        "path_type": "hardlink",
+        "sha256": "ddc394f4a32ffa6c408402292097f38f963c01a09c4adabc3bad4a3e5c2ffbe8",
+        "size_in_bytes": 36642,
+        "sha256_in_prefix": "ddc394f4a32ffa6c408402292097f38f963c01a09c4adabc3bad4a3e5c2ffbe8"
+      },
+      {
+        "_path": "Library/share/licenses/gcc-libs/RUNTIME.LIBRARY.EXCEPTION",
+        "path_type": "hardlink",
+        "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "size_in_bytes": 3324,
+        "sha256_in_prefix": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\libgcc-15.1.0-h1383e82_5",
+    "type": 1
+  }
+}

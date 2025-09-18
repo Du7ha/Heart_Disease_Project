@@ -1,0 +1,97 @@
+{
+  "name": "libarrow-compute",
+  "version": "21.0.0",
+  "build": "h2db994a_3_cpu",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "win-64",
+  "fn": "libarrow-compute-21.0.0-h2db994a_3_cpu.conda",
+  "md5": "8a4a2abc05b6335e588ca85074c3a605",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libarrow-compute-21.0.0-h2db994a_3_cpu.conda",
+  "sha256": "edfebfe4d29ae99ade760ddf0df912b701d0d2af4aef6dfd8961629eeee9f540",
+  "depends": [
+    "libarrow 21.0.0 hb0fdb7d_3_cpu",
+    "libre2-11 >=2025.8.12",
+    "libutf8proc >=2.11.0,<2.12.0a0",
+    "re2",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1757792427000,
+  "size": 1767343,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\libarrow-compute-21.0.0-h2db994a_3_cpu.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\libarrow-compute-21.0.0-h2db994a_3_cpu",
+  "files": [
+    "Library/bin/arrow_compute.dll",
+    "Library/lib/arrow_compute.lib",
+    "Library/lib/cmake/ArrowCompute/ArrowComputeConfig.cmake",
+    "Library/lib/cmake/ArrowCompute/ArrowComputeConfigVersion.cmake",
+    "Library/lib/cmake/ArrowCompute/ArrowComputeTargets-release.cmake",
+    "Library/lib/cmake/ArrowCompute/ArrowComputeTargets.cmake",
+    "Library/lib/pkgconfig/arrow-compute.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/arrow_compute.dll",
+        "path_type": "hardlink",
+        "sha256": "c5e9e91f55b25b9e684ffb40de6688fd33da067c2d86c8d162efbc5558e63e27",
+        "size_in_bytes": 9623040,
+        "sha256_in_prefix": "c5e9e91f55b25b9e684ffb40de6688fd33da067c2d86c8d162efbc5558e63e27"
+      },
+      {
+        "_path": "Library/lib/arrow_compute.lib",
+        "path_type": "hardlink",
+        "sha256": "d448ffd3d1f2935ad8200dd2ec3942c2429da01baa7bf94f52c0d738d3969b88",
+        "size_in_bytes": 170946,
+        "sha256_in_prefix": "d448ffd3d1f2935ad8200dd2ec3942c2429da01baa7bf94f52c0d738d3969b88"
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowCompute/ArrowComputeConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "31aba536fc7e1c2c13a6732a8a62d93ee780b3278dc805b15b98a5bac9decab0",
+        "size_in_bytes": 2403,
+        "sha256_in_prefix": "31aba536fc7e1c2c13a6732a8a62d93ee780b3278dc805b15b98a5bac9decab0"
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowCompute/ArrowComputeConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "2615c61906248bb0814e668e0d1c50fd7b428683774777f8d7df49ef0b926788",
+        "size_in_bytes": 2830,
+        "sha256_in_prefix": "2615c61906248bb0814e668e0d1c50fd7b428683774777f8d7df49ef0b926788"
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowCompute/ArrowComputeTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "981bcf85d9e7fdd731f3293364595d284f7f2479c8d2008c5ed2c1c790fdf9ca",
+        "size_in_bytes": 1090,
+        "sha256_in_prefix": "981bcf85d9e7fdd731f3293364595d284f7f2479c8d2008c5ed2c1c790fdf9ca"
+      },
+      {
+        "_path": "Library/lib/cmake/ArrowCompute/ArrowComputeTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "d3bc22c3b89abf0a0707b87408f5dbefdcaaeed11cf19544f647bbd3a88919d0",
+        "size_in_bytes": 4362,
+        "sha256_in_prefix": "d3bc22c3b89abf0a0707b87408f5dbefdcaaeed11cf19544f647bbd3a88919d0"
+      },
+      {
+        "_path": "Library/lib/pkgconfig/arrow-compute.pc",
+        "prefix_placeholder": "C:/bld/apache-arrow_1757786675044/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "95dd416033278b854c556a083a90f4e8231c75e0c8b76f55c981de7644ec3b8d",
+        "size_in_bytes": 1091,
+        "sha256_in_prefix": "9ddb769f65881811fbcbfc99501b76d6a5228247c8f883a135c3333c9b37cad6"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\libarrow-compute-21.0.0-h2db994a_3_cpu",
+    "type": 1
+  }
+}

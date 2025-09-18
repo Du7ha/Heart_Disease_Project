@@ -1,0 +1,61 @@
+{
+  "name": "libbrotlicommon",
+  "version": "1.1.0",
+  "build": "hfd05255_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "win-64",
+  "fn": "libbrotlicommon-1.1.0-hfd05255_4.conda",
+  "md5": "58aec7a295039d8614175eae3a4f8778",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libbrotlicommon-1.1.0-hfd05255_4.conda",
+  "sha256": "65d0aaf1176761291987f37c8481be132060cc3dbe44b1550797bc27d1a0c920",
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1756599708000,
+  "size": 71243,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\libbrotlicommon-1.1.0-hfd05255_4.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\libbrotlicommon-1.1.0-hfd05255_4",
+  "files": [
+    "Library/bin/brotlicommon.dll",
+    "Library/lib/brotlicommon.lib",
+    "Library/lib/pkgconfig/libbrotlicommon.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/brotlicommon.dll",
+        "path_type": "hardlink",
+        "sha256": "87026a9c0554f1623b873ba123c05a940be9a944331d5b77d4614e65519585a6",
+        "size_in_bytes": 137728,
+        "sha256_in_prefix": "87026a9c0554f1623b873ba123c05a940be9a944331d5b77d4614e65519585a6"
+      },
+      {
+        "_path": "Library/lib/brotlicommon.lib",
+        "path_type": "hardlink",
+        "sha256": "93e8acec3de52572ef1218d8a92ec1fc8b8eecb3c90bc60cddabf79443e42ce6",
+        "size_in_bytes": 4410,
+        "sha256_in_prefix": "93e8acec3de52572ef1218d8a92ec1fc8b8eecb3c90bc60cddabf79443e42ce6"
+      },
+      {
+        "_path": "Library/lib/pkgconfig/libbrotlicommon.pc",
+        "prefix_placeholder": "D:/bld/brotli-split_1756599174049/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "cf0ef701cc7a83ba18abb7353ab81d867cc301e6af567db75912b14f69135b21",
+        "size_in_bytes": 357,
+        "sha256_in_prefix": "55bf61353d2e2ec3e90f14a3c0289cc5713a64a5f255bcd024e8541c3b476303"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\libbrotlicommon-1.1.0-hfd05255_4",
+    "type": 1
+  }
+}

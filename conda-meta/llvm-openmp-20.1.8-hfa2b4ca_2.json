@@ -1,0 +1,118 @@
+{
+  "name": "llvm-openmp",
+  "version": "20.1.8",
+  "build": "hfa2b4ca_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "win-64",
+  "fn": "llvm-openmp-20.1.8-hfa2b4ca_2.conda",
+  "md5": "2dc2edf349464c8b83a576175fc2ad42",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/llvm-openmp-20.1.8-hfa2b4ca_2.conda",
+  "sha256": "8970b7f9057a1c2c18bfd743c6f5ce73b86197d7724423de4fa3d03911d5874b",
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [
+    "intel-openmp <0.0a0",
+    "openmp 20.1.8|20.1.8.*"
+  ],
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "timestamp": 1756145011000,
+  "size": 344490,
+  "requested_spec": "None",
+  "package_tarball_full_path": "C:\\Users\\moham\\miniconda3\\pkgs\\llvm-openmp-20.1.8-hfa2b4ca_2.conda",
+  "extracted_package_dir": "C:\\Users\\moham\\miniconda3\\pkgs\\llvm-openmp-20.1.8-hfa2b4ca_2",
+  "files": [
+    "Library/bin/libiomp5md.dll",
+    "Library/bin/libomp.dll",
+    "Library/include/omp.h",
+    "Library/include/omp_lib.h",
+    "Library/include/ompx.h",
+    "Library/lib/clang/18/include/omp.h",
+    "Library/lib/clang/19/include/omp.h",
+    "Library/lib/clang/20/include/omp.h",
+    "Library/lib/libiomp5md.lib",
+    "Library/lib/libomp.lib"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/libiomp5md.dll",
+        "path_type": "hardlink",
+        "sha256": "3963dae3b840d9bf340d1e9fadedee293eff347175a82dd9be1bb072a1876d9a",
+        "size_in_bytes": 152576,
+        "sha256_in_prefix": "3963dae3b840d9bf340d1e9fadedee293eff347175a82dd9be1bb072a1876d9a"
+      },
+      {
+        "_path": "Library/bin/libomp.dll",
+        "path_type": "hardlink",
+        "sha256": "1b04f3f18894d5cf23d57e501c8d39855d8037ba39c2ca9d45eb60046b2c5631",
+        "size_in_bytes": 664576,
+        "sha256_in_prefix": "1b04f3f18894d5cf23d57e501c8d39855d8037ba39c2ca9d45eb60046b2c5631"
+      },
+      {
+        "_path": "Library/include/omp.h",
+        "path_type": "hardlink",
+        "sha256": "098fc2aa433072427dc68d8c289ca14fc871142e615e0064614419bb9bc15905",
+        "size_in_bytes": 24444,
+        "sha256_in_prefix": "098fc2aa433072427dc68d8c289ca14fc871142e615e0064614419bb9bc15905"
+      },
+      {
+        "_path": "Library/include/omp_lib.h",
+        "path_type": "hardlink",
+        "sha256": "a479e3da7e359f9613a600375d1c90f8d8d9250d5219dccc42756518bfd1564f",
+        "size_in_bytes": 50102,
+        "sha256_in_prefix": "a479e3da7e359f9613a600375d1c90f8d8d9250d5219dccc42756518bfd1564f"
+      },
+      {
+        "_path": "Library/include/ompx.h",
+        "path_type": "hardlink",
+        "sha256": "c2cec2e583b8cba2d12b5876bf515aed568315d1e6ee243fb12e0f27193b9a18",
+        "size_in_bytes": 7791,
+        "sha256_in_prefix": "c2cec2e583b8cba2d12b5876bf515aed568315d1e6ee243fb12e0f27193b9a18"
+      },
+      {
+        "_path": "Library/lib/clang/18/include/omp.h",
+        "path_type": "hardlink",
+        "sha256": "098fc2aa433072427dc68d8c289ca14fc871142e615e0064614419bb9bc15905",
+        "size_in_bytes": 24444,
+        "sha256_in_prefix": "098fc2aa433072427dc68d8c289ca14fc871142e615e0064614419bb9bc15905"
+      },
+      {
+        "_path": "Library/lib/clang/19/include/omp.h",
+        "path_type": "hardlink",
+        "sha256": "098fc2aa433072427dc68d8c289ca14fc871142e615e0064614419bb9bc15905",
+        "size_in_bytes": 24444,
+        "sha256_in_prefix": "098fc2aa433072427dc68d8c289ca14fc871142e615e0064614419bb9bc15905"
+      },
+      {
+        "_path": "Library/lib/clang/20/include/omp.h",
+        "path_type": "hardlink",
+        "sha256": "098fc2aa433072427dc68d8c289ca14fc871142e615e0064614419bb9bc15905",
+        "size_in_bytes": 24444,
+        "sha256_in_prefix": "098fc2aa433072427dc68d8c289ca14fc871142e615e0064614419bb9bc15905"
+      },
+      {
+        "_path": "Library/lib/libiomp5md.lib",
+        "path_type": "hardlink",
+        "sha256": "7fc644ff5c7ff8cc5ab69c1301371a1fb6f3c7a6bef25b82155c609527de956c",
+        "size_in_bytes": 182330,
+        "sha256_in_prefix": "7fc644ff5c7ff8cc5ab69c1301371a1fb6f3c7a6bef25b82155c609527de956c"
+      },
+      {
+        "_path": "Library/lib/libomp.lib",
+        "path_type": "hardlink",
+        "sha256": "7fc644ff5c7ff8cc5ab69c1301371a1fb6f3c7a6bef25b82155c609527de956c",
+        "size_in_bytes": 182330,
+        "sha256_in_prefix": "7fc644ff5c7ff8cc5ab69c1301371a1fb6f3c7a6bef25b82155c609527de956c"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\moham\\miniconda3\\pkgs\\llvm-openmp-20.1.8-hfa2b4ca_2",
+    "type": 1
+  }
+}
